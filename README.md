@@ -44,17 +44,17 @@ The six team dashboards on [ejimenezperformance.github.io/mlb-2026](https://ejim
 |---|---|---|
 | Record, runs, one-run games, OAA | 60 / 60 | 100% |
 | Run value by pitch type | 129 / 129 | 100% |
-| Offense vs. MLB (values and ranks) | 157 / 162 | 97% |
-| Run prevention (values and ranks) | 124 / 142 | 87% |
-| Times through the order | 45 / 51 | 88% |
-| First and second half | 21 / 24 | 88% |
-| Run bridge (within 1.5 runs) | 31 / 72 | 43% |
-| **Total** | **567 / 640** | **89%** |
+| Offense vs. MLB (values and ranks) | 159 / 162 | 98% |
+| Run prevention (values and ranks) | 130 / 142 | 92% |
+| Times through the order | 47 / 51 | 92% |
+| First and second half | 23 / 24 | 96% |
+| Run bridge (within 1.5 runs) | 37 / 72 | 51% |
+| **Total** | **585 / 640** | **91%** |
 
-"Matched" means equal at the precision published (one unit of rounding). Run bridge **totals** match exactly in all 18 cases; 68 of 72 bridge steps are within 3 runs.
+"Matched" means equal at the precision published (one unit of rounding). Run bridge **totals** match exactly in all 18 cases; 69 of 72 bridge steps are within 3 runs.
 
 **Why the rest differ (documented, not hidden):**
-1. **The Mets dashboard was built first, with slightly different definitions** than the other five: fastball velocity included cutters, hard-hit rate used all balls in play, framing was not centered on the league average, and "third time through" included later times. This repo uses the definitions of the five later dashboards. Without the Mets, 490 of 544 numbers match (90%).
+1. **The Mets dashboard was built first, with slightly different definitions** than the other five (fastball velocity included cutters, hard-hit rate used all balls in play, framing was not centered on the league average, and "third time through" included later times). On Oct 27, 2026 it was updated to this repo's definitions; it now matches on 95 of 96 numbers. No conclusion changed: the 2027 projection stays at 82–84 wins.
 2. **Baserunning** could not be reproduced with one definition for all six teams. This repo uses all runners by team, relative to the league average. The difference moves into "Sequencing, other," so offense totals do not change.
 3. **Ties in ranks:** where teams are tied, ranks can differ by one place.
 4. **Pitching split-half correlation:** the batting value reproduces (odd vs. even games, r = 0.33); the pitching value does not (0.60 here vs. 0.53 published).
@@ -102,7 +102,7 @@ python charts.py
 
 ## Corrections log
 
-None yet. Any correction will be listed here with the date and the files affected.
+- **2026-10-27:** Mets dashboard (`ejimenezperformance.github.io/mets-2026`) updated to this repo's definitions: starter fastball 93.1 → 94.0 mph, reliever fastball 92.9 → 94.0 mph (rank 28 → 25), framing +7.6 → +7.3 runs, hard-hit 41.7% → 41.8%, first-half wOBA .297 → .301, Manaea third time through .421 → .406, and the run bridge (fielding −12.5 → −13.8, baserunning −0.9 → −3.1). The 2027 projection did not change.
 
 ---
 
@@ -130,10 +130,10 @@ None yet. Any correction will be listed here with the date and the files affecte
 
 ### Validación
 
-**567 de 640 cifras publicadas (89%) se reproducen** a la precisión publicada: 100% del récord, carreras y OAA, 100% del run value por pitcheo y 97% de la ofensiva. Los totales del puente de carreras coinciden exacto en los 18 casos.
+**585 de 640 cifras publicadas (91%) se reproducen** a la precisión publicada: 100% del récord, carreras y OAA, 100% del run value por pitcheo y 98% de la ofensiva. Los totales del puente de carreras coinciden exacto en los 18 casos.
 
 Por qué difiere el resto (documentado, no escondido):
-1. **El dashboard de los Mets se hizo primero, con definiciones un poco distintas** a los otros cinco (la recta incluía el cutter, el hard-hit usaba todas las pelotas en juego, el framing no estaba centrado en el promedio y "tercera vez" incluía las siguientes). Este repo usa las definiciones de los cinco más recientes. Sin los Mets coinciden 490 de 544 (90%).
+1. **El dashboard de los Mets se hizo primero, con definiciones un poco distintas** a los otros cinco (la recta incluía el cutter, el hard-hit usaba todas las pelotas en juego, el framing no estaba centrado en el promedio y "tercera vez" incluía las siguientes). El 27 de octubre de 2026 se actualizó a las definiciones de este repo; ahora coincide en 95 de 96 cifras. Ninguna conclusión cambió: la proyección 2027 sigue en 82–84 victorias.
 2. **Corrido de bases:** no se pudo reproducir con una sola definición para los seis equipos. La diferencia pasa a "Sequencing, other", así que el total ofensivo no cambia.
 3. **Empates en rankings:** pueden variar en un puesto.
 4. **Split-half de pitcheo:** el de bateo se reproduce (r = 0.33); el de pitcheo no (0.60 aquí vs 0.53 publicado).

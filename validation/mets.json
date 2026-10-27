@@ -2,25 +2,25 @@
  "bridge": [
   {
    "step": "Contact quality (xwOBA)",
-   "runs": 29.9,
+   "runs": 29.8,
    "kind": "part",
    "group": "Offense"
   },
   {
    "step": "Results below contact",
-   "runs": -59.6,
+   "runs": -60.3,
    "kind": "part",
    "group": "Offense"
   },
   {
    "step": "Baserunning",
-   "runs": -0.9,
+   "runs": -3.1,
    "kind": "part",
    "group": "Offense"
   },
   {
    "step": "Sequencing, other",
-   "runs": 3.9,
+   "runs": 7.0,
    "kind": "part",
    "group": "Offense"
   },
@@ -38,13 +38,13 @@
   },
   {
    "step": "Relief pitching (xwOBA)",
-   "runs": 22.9,
+   "runs": 23.1,
    "kind": "part",
    "group": "Run prevention"
   },
   {
    "step": "Fielding (Savant)",
-   "runs": -12.5,
+   "runs": -13.8,
    "kind": "part",
    "group": "Run prevention"
   },
@@ -56,7 +56,7 @@
   },
   {
    "step": "Results allowed vs. contact, other",
-   "runs": -30.9,
+   "runs": -29.8,
    "kind": "part",
    "group": "Run prevention"
   },
@@ -631,8 +631,8 @@
   },
   {
    "metric": "Hard-hit % (95+ mph)",
-   "mets": 41.7,
-   "mlb": 38.6,
+   "mets": 41.8,
+   "mlb": 38.7,
    "rank": 2,
    "fmt": "pct"
   },
@@ -660,7 +660,7 @@
   {
    "metric": "OBP",
    "mets": 0.31,
-   "mlb": 0.318,
+   "mlb": 0.319,
    "rank": 27,
    "fmt": "rate"
   },
@@ -837,7 +837,7 @@
    "pos": "SP/RP",
    "headline": "The costliest pitch on the team",
    "strengths": "BB% 6.7% (79th)",
-   "weaknesses": "Sweeper +13.7 runs on 752 pitches, worst single pitch on staff; barrels 10.9% (5th pct), FB 90.2 mph (6th); TTO xwOBA .280 / .337 / .421",
+   "weaknesses": "Sweeper +13.7 runs on 752 pitches, worst single pitch on staff; barrels 10.9% (5th pct), FB 90.2 mph (6th); TTO xwOBA .280 / .336 / .406",
    "plan": "Cut sweeper usage from 30% and rebuild its shape, or multi-inning relief; faces a lineup twice at most. Target: sweeper at MLB-average run value"
   },
   {
@@ -1021,9 +1021,9 @@
   },
   {
    "area": "Starters: fastball velocity (mph)",
-   "mets": 93.1,
-   "mlb": 93.6,
-   "rank": 20,
+   "mets": 94.0,
+   "mlb": 94.3,
+   "rank": 18,
    "fmt": "num1"
   },
   {
@@ -1042,16 +1042,16 @@
   },
   {
    "area": "Relievers: fastball velocity (mph)",
-   "mets": 92.9,
-   "mlb": 94.2,
-   "rank": 28,
+   "mets": 94.0,
+   "mlb": 94.8,
+   "rank": 25,
    "fmt": "num1"
   },
   {
    "area": "Catcher framing (runs)",
-   "mets": 7.6,
+   "mets": 7.3,
    "mlb": 0,
-   "rank": 2,
+   "rank": 3,
    "fmt": "signed1"
   }
  ],
@@ -1094,7 +1094,7 @@
   },
   {
    "cause": "Infield defense",
-   "cost": "-12.5 fielding runs; most of the run-prevention gap",
+   "cost": "-13.8 fielding runs; most of the run-prevention gap",
    "repeats": "Yes",
    "evidence": "Pitching-side results vs. contact repeat (r = 0.53); OAA -26 vs. LHH",
    "action": "Main roster and development priority"
@@ -1744,29 +1744,29 @@
  "halves": [
   {
    "half": "First half",
-   "woba": 0.297,
-   "xwoba": 0.322,
-   "gap": -0.025
+   "woba": 0.301,
+   "xwoba": 0.323,
+   "gap": -0.022
   },
   {
    "half": "Second half",
-   "woba": 0.324,
-   "xwoba": 0.32,
-   "gap": 0.004
+   "woba": 0.323,
+   "xwoba": 0.317,
+   "gap": 0.005
   }
  ],
  "tto": [
   {
    "pitcher": "Sean Manaea",
    "first": 0.28,
-   "second": 0.337,
-   "third": 0.421
+   "second": 0.336,
+   "third": 0.406
   },
   {
    "pitcher": "Nolan McLean",
-   "first": 0.289,
-   "second": 0.286,
-   "third": 0.313
+   "first": 0.288,
+   "second": 0.285,
+   "third": 0.319
   }
  ],
  "roster": [
@@ -1970,7 +1970,7 @@
   },
   {
    "metric": "contact_gap_runs",
-   "value": -59.6
+   "value": -60.3
   },
   {
    "metric": "sim_88_no",
