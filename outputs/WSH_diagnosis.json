@@ -1,0 +1,351 @@
+{
+ "team": "WSH",
+ "name": "Nationals",
+ "runs_per_woba_point": 0.7811,
+ "kpis": {
+  "wins": 77,
+  "losses": 85,
+  "runs_scored": 821,
+  "runs_allowed": 815,
+  "run_diff": 6,
+  "rd_wins": 82,
+  "one_run_w": 18,
+  "one_run_l": 22,
+  "oaa": -22,
+  "oaa_rank": 24
+ },
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "team": 88.3838,
+   "mlb": 88.0329,
+   "rank": 11
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "team": 39.261,
+   "mlb": 38.7164,
+   "rank": 14
+  },
+  {
+   "metric": "Barrel %",
+   "team": 8.8677,
+   "mlb": 7.7043,
+   "rank": 4
+  },
+  {
+   "metric": "xwOBA",
+   "team": 0.323,
+   "mlb": 0.3142,
+   "rank": 3
+  },
+  {
+   "metric": "wOBA",
+   "team": 0.3245,
+   "mlb": 0.3161,
+   "rank": 4
+  },
+  {
+   "metric": "OBP",
+   "team": 0.3206,
+   "mlb": 0.3185,
+   "rank": 8
+  },
+  {
+   "metric": "BB %",
+   "team": 8.9588,
+   "mlb": 8.8861,
+   "rank": 14
+  },
+  {
+   "metric": "K %",
+   "team": 21.7918,
+   "mlb": 22.1377,
+   "rank": 14
+  },
+  {
+   "metric": "Chase %",
+   "team": 31.0654,
+   "mlb": 30.4677,
+   "rank": 19
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.3307,
+   "xwoba": 0.3301,
+   "gap": 0.0006
+  },
+  {
+   "half": "Second half",
+   "woba": 0.3151,
+   "xwoba": 0.3123,
+   "gap": 0.0028
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "team": -22,
+   "rank": 24
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "team": -11,
+   "rank": 21
+  },
+  {
+   "area": "OAA vs. right-handed hitters",
+   "team": -11,
+   "rank": 23
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "team": -21,
+   "rank": 30
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "team": 0.332,
+   "mlb": 0.3176,
+   "rank": 26
+  },
+  {
+   "area": "Starters: walk rate",
+   "team": 8.644,
+   "mlb": 8.2625,
+   "rank": 20
+  },
+  {
+   "area": "Starters: K-BB %",
+   "team": 13.2629,
+   "mlb": 13.6484,
+   "rank": 15
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "team": 93.2741,
+   "mlb": 94.343,
+   "rank": 25
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "team": 0.3364,
+   "mlb": 0.3097,
+   "rank": 30
+  },
+  {
+   "area": "Relievers: walk rate",
+   "team": 10.5897,
+   "mlb": 9.6992,
+   "rank": 23
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "team": 8.5211,
+   "mlb": 12.7343,
+   "rank": 28
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "team": 94.01,
+   "mlb": 94.8125,
+   "rank": 24
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "team": 6.4684,
+   "rank": 4
+  }
+ ],
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": 42.3315,
+   "group": "Offense"
+  },
+  {
+   "step": "Results vs contact",
+   "runs": -1.9933,
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": 14.0892,
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": 40.9393,
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": 95.3667,
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": -33.8899,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": -66.5986,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": -8.7667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": 6.4684,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": 13.4201,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": -89.3667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": 6.0,
+   "group": "Total"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Four-seam",
+   "pitches": 7438,
+   "rv100": 0.6877,
+   "mlb_rv100": 0.0169,
+   "runs_vs_mlb": 49.8988,
+   "whiff": 16.0256,
+   "mlb_whiff": 18.6567
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 4017,
+   "rv100": 0.5806,
+   "mlb_rv100": -0.0205,
+   "runs_vs_mlb": 24.1446,
+   "whiff": 26.622,
+   "mlb_whiff": 31.685
+  },
+  {
+   "pitch": "Sinker",
+   "pitches": 3429,
+   "rv100": 0.2578,
+   "mlb_rv100": -0.2706,
+   "runs_vs_mlb": 18.1194,
+   "whiff": 10.8173,
+   "mlb_whiff": 11.6711
+  },
+  {
+   "pitch": "Changeup",
+   "pitches": 1731,
+   "rv100": 0.8766,
+   "mlb_rv100": 0.055,
+   "runs_vs_mlb": 14.2219,
+   "whiff": 26.2383,
+   "mlb_whiff": 29.6851
+  },
+  {
+   "pitch": "Sweeper",
+   "pitches": 2573,
+   "rv100": 0.2349,
+   "mlb_rv100": 0.0116,
+   "runs_vs_mlb": 5.7445,
+   "whiff": 26.9565,
+   "mlb_whiff": 29.5657
+  },
+  {
+   "pitch": "Splitter",
+   "pitches": 625,
+   "rv100": 0.5035,
+   "mlb_rv100": -0.1295,
+   "runs_vs_mlb": 3.9563,
+   "whiff": 25.9375,
+   "mlb_whiff": 32.6589
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 1648,
+   "rv100": -0.287,
+   "mlb_rv100": 0.0495,
+   "runs_vs_mlb": -5.5464,
+   "whiff": 18.5615,
+   "mlb_whiff": 20.5509
+  },
+  {
+   "pitch": "Curveball",
+   "pitches": 2118,
+   "rv100": 0.0173,
+   "mlb_rv100": 0.3335,
+   "runs_vs_mlb": -6.6982,
+   "whiff": 30.4783,
+   "mlb_whiff": 29.0874
+  },
+  {
+   "pitch": "Knuckle curve",
+   "pitches": 743,
+   "rv100": -0.8735,
+   "mlb_rv100": 0.3449,
+   "runs_vs_mlb": -9.0527,
+   "whiff": 37.3887,
+   "mlb_whiff": 32.3829
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Cade Cavalli",
+   "bf": 701,
+   "first": 0.2858,
+   "second": 0.3009,
+   "third": 0.3044
+  },
+  {
+   "pitcher": "Foster Griffin",
+   "bf": 520,
+   "first": 0.3072,
+   "second": 0.2912,
+   "third": 0.3556
+  },
+  {
+   "pitcher": "Jake Irvin",
+   "bf": 426,
+   "first": 0.3633,
+   "second": 0.3408,
+   "third": 0.3025
+  },
+  {
+   "pitcher": "Andrew Alvarez",
+   "bf": 360,
+   "first": 0.2915,
+   "second": 0.2954,
+   "third": 0.4061
+  },
+  {
+   "pitcher": "Zack Littell",
+   "bf": 301,
+   "first": 0.3872,
+   "second": 0.4207,
+   "third": 0.4064
+  },
+  {
+   "pitcher": "Miles Mikolas",
+   "bf": 243,
+   "first": 0.3412,
+   "second": 0.4453,
+   "third": 0.3631
+  }
+ ]
+}

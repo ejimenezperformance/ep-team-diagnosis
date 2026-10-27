@@ -1,0 +1,641 @@
+team,section,item,published,recomputed,match
+NYM,kpis,wins,74.0,74.0,True
+NYM,kpis,losses,88.0,88.0,True
+NYM,kpis,runs_scored,699.0,699.0,True
+NYM,kpis,runs_allowed,731.0,731.0,True
+NYM,kpis,run_diff,-32.0,-32.0,True
+NYM,kpis,rd_wins,78.0,78.0,True
+NYM,kpis,one_run_w,17.0,17.0,True
+NYM,kpis,one_run_l,23.0,23.0,True
+NYM,kpis,oaa,-23.0,-23.0,True
+NYM,kpis,oaa_rank,25.0,25.0,True
+NYM,offense,Avg exit velocity (mph),89.1,89.1316,True
+NYM,offense,Avg exit velocity (mph) (MLB),88.0,88.0329,True
+NYM,offense,Avg exit velocity (mph) (rank),1.0,1.0,True
+NYM,offense,Hard-hit % (95+ mph),41.7,41.8493,False
+NYM,offense,Hard-hit % (95+ mph) (MLB),38.6,38.7164,False
+NYM,offense,Hard-hit % (95+ mph) (rank),2.0,2.0,True
+NYM,offense,Barrel %,8.6,8.5962,True
+NYM,offense,Barrel % (MLB),7.7,7.7043,True
+NYM,offense,Barrel % (rank),7.0,7.0,True
+NYM,offense,xwOBA,0.321,0.3205,True
+NYM,offense,xwOBA (MLB),0.314,0.3142,True
+NYM,offense,xwOBA (rank),6.0,6.0,True
+NYM,offense,wOBA,0.31,0.3096,True
+NYM,offense,wOBA (MLB),0.316,0.3161,True
+NYM,offense,wOBA (rank),23.0,23.0,True
+NYM,offense,OBP,0.31,0.3097,True
+NYM,offense,OBP (MLB),0.318,0.3185,True
+NYM,offense,OBP (rank),27.0,27.0,True
+NYM,offense,BB %,8.6,8.6402,True
+NYM,offense,BB % (MLB),8.9,8.8861,True
+NYM,offense,BB % (rank),19.0,19.0,True
+NYM,offense,K %,22.3,22.2713,True
+NYM,offense,K % (MLB),22.1,22.1377,True
+NYM,offense,K % (rank),19.0,19.0,True
+NYM,offense,Chase %,30.5,30.4771,True
+NYM,offense,Chase % (MLB),30.5,30.4677,True
+NYM,offense,Chase % (rank),13.0,13.0,True
+NYM,halves,First half woba,0.297,0.3008,False
+NYM,halves,First half xwoba,0.322,0.3227,True
+NYM,halves,Second half woba,0.324,0.3225,False
+NYM,halves,Second half xwoba,0.32,0.3173,True
+NYM,prevention,"Outs Above Average, team",-23.0,-23.0,True
+NYM,prevention,"Outs Above Average, team (rank)",25.0,25.0,True
+NYM,prevention,OAA vs. left-handed hitters,-26.0,-26.0,True
+NYM,prevention,OAA vs. left-handed hitters (rank),29.0,28.0,False
+NYM,prevention,OAA on balls in front of the fielder,-18.0,-17.0,True
+NYM,prevention,OAA on balls in front of the fielder (rank),28.0,28.0,True
+NYM,prevention,Starters: xwOBA allowed,0.315,0.3147,True
+NYM,prevention,Starters: xwOBA allowed (rank),13.0,13.0,True
+NYM,prevention,Starters: walk rate,9.1,9.1387,True
+NYM,prevention,Starters: walk rate (rank),24.0,24.0,True
+NYM,prevention,Starters: K-BB %,14.1,14.1314,True
+NYM,prevention,Starters: K-BB % (rank),12.0,12.0,True
+NYM,prevention,Starters: fastball velocity (mph),93.1,94.0167,False
+NYM,prevention,Starters: fastball velocity (mph) (rank),20.0,18.0,False
+NYM,prevention,Relievers: xwOBA allowed,0.299,0.2987,True
+NYM,prevention,Relievers: xwOBA allowed (rank),8.0,8.0,True
+NYM,prevention,Relievers: K-BB %,15.1,15.1482,True
+NYM,prevention,Relievers: K-BB % (rank),6.0,6.0,True
+NYM,prevention,Relievers: fastball velocity (mph),92.9,93.9551,False
+NYM,prevention,Relievers: fastball velocity (mph) (rank),28.0,25.0,False
+NYM,prevention,Catcher framing (runs),7.6,7.258,False
+NYM,prevention,Catcher framing (runs) (rank),2.0,3.0,False
+NYM,bridge,Contact quality (xwOBA),29.9,29.7656,True
+NYM,bridge,Results below contact,-59.6,-60.2661,False
+NYM,bridge,Baserunning,-0.9,-3.1495,False
+NYM,bridge,"Sequencing, other",3.9,7.0166,False
+NYM,bridge,Offense total,-26.6,-26.6333,True
+NYM,bridge,Starting pitching (xwOBA),7.9,7.8638,True
+NYM,bridge,Relief pitching (xwOBA),22.9,23.0652,False
+NYM,bridge,Fielding (Savant),-12.5,-13.7667,False
+NYM,bridge,Catcher framing,7.3,7.258,True
+NYM,bridge,"Results allowed vs. contact, other",-30.9,-29.7869,False
+NYM,bridge,Run prevention total,-5.4,-5.3667,True
+NYM,bridge,Run differential vs. MLB average,-32.0,-32.0,True
+NYM,pitches,Curveball rv100,1.22,1.217,True
+NYM,pitches,Curveball runs_vs_mlb,11.4,11.4408,True
+NYM,pitches,Curveball whiff,29.2,29.2135,True
+NYM,pitches,Sweeper rv100,0.34,0.3393,True
+NYM,pitches,Sweeper runs_vs_mlb,10.3,10.2788,True
+NYM,pitches,Sweeper whiff,26.8,26.831,True
+NYM,pitches,Cutter rv100,0.27,0.2674,True
+NYM,pitches,Cutter runs_vs_mlb,6.6,6.5604,True
+NYM,pitches,Cutter whiff,21.4,21.3914,True
+NYM,pitches,Slider rv100,0.42,0.422,True
+NYM,pitches,Slider runs_vs_mlb,5.1,5.0665,True
+NYM,pitches,Slider whiff,32.5,32.5,True
+NYM,pitches,Sinker rv100,-0.98,-0.9754,True
+NYM,pitches,Sinker runs_vs_mlb,-28.6,-28.6045,True
+NYM,pitches,Sinker whiff,12.0,11.9867,True
+NYM,tto,Sean Manaea first,0.28,0.2795,True
+NYM,tto,Sean Manaea second,0.337,0.336,True
+NYM,tto,Sean Manaea third,0.421,0.4063,False
+NYM,tto,Nolan McLean first,0.289,0.2885,True
+NYM,tto,Nolan McLean second,0.286,0.2852,True
+NYM,tto,Nolan McLean third,0.313,0.3187,False
+MIA,kpis,wins,80.0,80.0,True
+MIA,kpis,losses,82.0,82.0,True
+MIA,kpis,runs_scored,715.0,715.0,True
+MIA,kpis,runs_allowed,712.0,712.0,True
+MIA,kpis,run_diff,3.0,3.0,True
+MIA,kpis,rd_wins,81.0,81.0,True
+MIA,kpis,one_run_w,20.0,20.0,True
+MIA,kpis,one_run_l,20.0,20.0,True
+MIA,kpis,oaa,10.0,10.0,True
+MIA,kpis,oaa_rank,13.0,13.0,True
+MIA,offense,Avg exit velocity (mph),87.5,87.4989,True
+MIA,offense,Avg exit velocity (mph) (MLB),88.0,88.0329,True
+MIA,offense,Avg exit velocity (mph) (rank),23.0,23.0,True
+MIA,offense,Hard-hit % (95+ mph),37.9,37.9052,True
+MIA,offense,Hard-hit % (95+ mph) (MLB),38.7,38.7164,True
+MIA,offense,Hard-hit % (95+ mph) (rank),21.0,21.0,True
+MIA,offense,Barrel %,6.8,6.8215,True
+MIA,offense,Barrel % (MLB),7.7,7.7043,True
+MIA,offense,Barrel % (rank),26.0,26.0,True
+MIA,offense,xwOBA,0.309,0.3082,True
+MIA,offense,xwOBA (MLB),0.315,0.3142,True
+MIA,offense,xwOBA (rank),24.0,23.0,False
+MIA,offense,wOBA,0.32,0.3202,True
+MIA,offense,wOBA (MLB),0.316,0.3161,True
+MIA,offense,wOBA (rank),8.0,8.0,True
+MIA,offense,OBP,0.326,0.3263,True
+MIA,offense,OBP (MLB),0.318,0.3185,True
+MIA,offense,OBP (rank),6.0,6.0,True
+MIA,offense,BB %,9.0,9.0093,True
+MIA,offense,BB % (MLB),8.9,8.8861,True
+MIA,offense,BB % (rank),13.0,13.0,True
+MIA,offense,K %,21.8,21.8214,True
+MIA,offense,K % (MLB),22.1,22.1377,True
+MIA,offense,K % (rank),15.0,15.0,True
+MIA,offense,Chase %,29.2,29.2396,True
+MIA,offense,Chase % (MLB),30.5,30.4677,True
+MIA,offense,Chase % (rank),8.0,8.0,True
+MIA,halves,First half woba,0.326,0.3251,True
+MIA,halves,First half xwoba,0.311,0.3104,True
+MIA,halves,Second half woba,0.312,0.3129,True
+MIA,halves,Second half xwoba,0.305,0.305,True
+MIA,prevention,"Outs Above Average, team",10.0,10.0,True
+MIA,prevention,"Outs Above Average, team (rank)",13.0,13.0,True
+MIA,prevention,OAA vs. left-handed hitters,13.0,13.0,True
+MIA,prevention,OAA vs. left-handed hitters (rank),5.0,6.0,False
+MIA,prevention,OAA vs. right-handed hitters,-3.0,-3.0,True
+MIA,prevention,OAA vs. right-handed hitters (rank),17.0,17.0,True
+MIA,prevention,OAA on balls in front of the fielder,7.0,7.0,True
+MIA,prevention,OAA on balls in front of the fielder (rank),7.0,7.0,True
+MIA,prevention,Starters: xwOBA allowed,0.317,0.3173,True
+MIA,prevention,Starters: xwOBA allowed (rank),16.0,16.0,True
+MIA,prevention,Starters: walk rate,8.2,8.2451,True
+MIA,prevention,Starters: walk rate (rank),17.0,17.0,True
+MIA,prevention,Starters: K-BB %,12.1,12.0527,True
+MIA,prevention,Starters: K-BB % (rank),21.0,21.0,True
+MIA,prevention,Starters: fastball velocity (mph),96.0,96.0194,True
+MIA,prevention,Starters: fastball velocity (mph) (rank),2.0,2.0,True
+MIA,prevention,Relievers: xwOBA allowed,0.301,0.3007,True
+MIA,prevention,Relievers: xwOBA allowed (rank),10.0,11.0,False
+MIA,prevention,Relievers: K-BB %,13.2,13.1609,True
+MIA,prevention,Relievers: K-BB % (rank),16.0,16.0,True
+MIA,prevention,Relievers: fastball velocity (mph),95.8,95.8238,True
+MIA,prevention,Relievers: fastball velocity (mph) (rank),6.0,6.0,True
+MIA,prevention,Catcher framing (runs),5.4,5.4483,True
+MIA,prevention,Catcher framing (runs) (rank),6.0,6.0,True
+MIA,bridge,Contact quality (xwOBA),-27.9,-28.2889,False
+MIA,bridge,Results above contact,46.3,47.8364,False
+MIA,bridge,Baserunning,3.7,10.6765,False
+MIA,bridge,"Sequencing, other",-32.7,-40.8573,False
+MIA,bridge,Offense total,-10.6,-10.6333,True
+MIA,bridge,Starting pitching (xwOBA),1.9,0.8699,False
+MIA,bridge,Relief pitching (xwOBA),18.2,17.8939,False
+MIA,bridge,Fielding (Savant),5.5,5.2333,False
+MIA,bridge,Catcher framing,5.4,5.4483,True
+MIA,bridge,"Results allowed vs. contact, other",-17.4,-15.8121,False
+MIA,bridge,Run prevention total,13.6,13.6333,True
+MIA,bridge,Run differential vs. MLB average,3.0,3.0,True
+MIA,pitches,Sinker rv100,-0.15,-0.1512,True
+MIA,pitches,Sinker runs_vs_mlb,4.2,4.1796,True
+MIA,pitches,Sinker whiff,9.4,9.3712,True
+MIA,pitches,Changeup rv100,0.13,0.128,True
+MIA,pitches,Changeup runs_vs_mlb,1.7,1.698,True
+MIA,pitches,Changeup whiff,26.3,26.2837,True
+MIA,pitches,Splitter rv100,-0.51,-0.5095,True
+MIA,pitches,Splitter runs_vs_mlb,-3.0,-2.9529,True
+MIA,pitches,Splitter whiff,30.5,30.5483,True
+MIA,pitches,Curveball rv100,0.15,0.1523,True
+MIA,pitches,Curveball runs_vs_mlb,-3.2,-3.1855,True
+MIA,pitches,Curveball whiff,27.7,27.7174,True
+MIA,pitches,Four-seam rv100,-0.04,-0.043,True
+MIA,pitches,Four-seam runs_vs_mlb,-3.9,-3.8316,True
+MIA,pitches,Four-seam whiff,18.5,18.5058,True
+MIA,pitches,Cutter rv100,-0.63,-0.6321,True
+MIA,pitches,Cutter runs_vs_mlb,-9.1,-9.0863,True
+MIA,pitches,Cutter whiff,23.4,23.4375,True
+MIA,pitches,Sweeper rv100,-0.27,-0.2684,True
+MIA,pitches,Sweeper runs_vs_mlb,-11.1,-11.0733,True
+MIA,pitches,Sweeper whiff,27.1,27.1288,True
+MIA,pitches,Slider rv100,-0.42,-0.4206,True
+MIA,pitches,Slider runs_vs_mlb,-13.6,-13.5972,True
+MIA,pitches,Slider whiff,28.1,28.0735,True
+MIA,tto,Sandy Alcantara first,0.27,0.2705,True
+MIA,tto,Sandy Alcantara second,0.324,0.3243,True
+MIA,tto,Sandy Alcantara third,0.294,0.2942,True
+MIA,tto,Eury Pérez first,0.288,0.2857,False
+MIA,tto,Eury Pérez second,0.313,0.3135,True
+MIA,tto,Eury Pérez third,0.354,0.3541,True
+MIA,tto,Max Meyer first,0.268,0.2679,True
+MIA,tto,Max Meyer second,0.316,0.3168,True
+MIA,tto,Max Meyer third,0.346,0.346,True
+KC,kpis,wins,69.0,69.0,True
+KC,kpis,losses,93.0,93.0,True
+KC,kpis,runs_scored,690.0,690.0,True
+KC,kpis,runs_allowed,810.0,810.0,True
+KC,kpis,run_diff,-120.0,-120.0,True
+KC,kpis,rd_wins,70.0,70.0,True
+KC,kpis,one_run_w,21.0,21.0,True
+KC,kpis,one_run_l,26.0,26.0,True
+KC,kpis,oaa,19.0,19.0,True
+KC,kpis,oaa_rank,8.0,8.0,True
+KC,offense,Avg exit velocity (mph),88.6,88.5659,True
+KC,offense,Avg exit velocity (mph) (MLB),88.0,88.0329,True
+KC,offense,Avg exit velocity (mph) (rank),9.0,9.0,True
+KC,offense,Hard-hit % (95+ mph),40.9,40.9456,True
+KC,offense,Hard-hit % (95+ mph) (MLB),38.7,38.7164,True
+KC,offense,Hard-hit % (95+ mph) (rank),5.0,5.0,True
+KC,offense,Barrel %,8.1,8.1087,True
+KC,offense,Barrel % (MLB),7.7,7.7043,True
+KC,offense,Barrel % (rank),10.0,10.0,True
+KC,offense,xwOBA,0.315,0.3146,True
+KC,offense,xwOBA (MLB),0.315,0.3142,True
+KC,offense,xwOBA (rank),16.0,15.0,False
+KC,offense,wOBA,0.315,0.3148,True
+KC,offense,wOBA (MLB),0.316,0.3161,True
+KC,offense,wOBA (rank),18.0,18.0,True
+KC,offense,OBP,0.316,0.3164,True
+KC,offense,OBP (MLB),0.318,0.3185,True
+KC,offense,OBP (rank),17.0,17.0,True
+KC,offense,BB %,8.4,8.4169,True
+KC,offense,BB % (MLB),8.9,8.8861,True
+KC,offense,BB % (rank),23.0,23.0,True
+KC,offense,K %,20.9,20.9107,True
+KC,offense,K % (MLB),22.1,22.1377,True
+KC,offense,K % (rank),6.0,6.0,True
+KC,offense,Chase %,31.3,31.2648,True
+KC,offense,Chase % (MLB),30.5,30.4677,True
+KC,offense,Chase % (rank),20.0,20.0,True
+KC,halves,First half woba,0.313,0.313,True
+KC,halves,First half xwoba,0.317,0.3165,True
+KC,halves,Second half woba,0.317,0.3175,True
+KC,halves,Second half xwoba,0.312,0.3118,True
+KC,prevention,"Outs Above Average, team",19.0,19.0,True
+KC,prevention,"Outs Above Average, team (rank)",8.0,8.0,True
+KC,prevention,OAA vs. left-handed hitters,-2.0,-2.0,True
+KC,prevention,OAA vs. left-handed hitters (rank),17.0,17.0,True
+KC,prevention,OAA vs. right-handed hitters,22.0,22.0,True
+KC,prevention,OAA vs. right-handed hitters (rank),3.0,3.0,True
+KC,prevention,OAA on balls in front of the fielder,5.0,6.0,True
+KC,prevention,OAA on balls in front of the fielder (rank),9.0,8.0,False
+KC,prevention,Starters: xwOBA allowed,0.33,0.3287,True
+KC,prevention,Starters: xwOBA allowed (rank),25.0,24.0,False
+KC,prevention,Starters: walk rate,8.2,8.2412,True
+KC,prevention,Starters: walk rate (rank),16.0,16.0,True
+KC,prevention,Starters: K-BB %,10.9,10.8684,True
+KC,prevention,Starters: K-BB % (rank),25.0,25.0,True
+KC,prevention,Starters: fastball velocity (mph),93.0,92.9573,True
+KC,prevention,Starters: fastball velocity (mph) (rank),29.0,29.0,True
+KC,prevention,Relievers: xwOBA allowed,0.336,0.3359,True
+KC,prevention,Relievers: xwOBA allowed (rank),29.0,29.0,True
+KC,prevention,Relievers: K-BB %,7.8,7.7525,True
+KC,prevention,Relievers: K-BB % (rank),30.0,30.0,True
+KC,prevention,Relievers: fastball velocity (mph),94.8,94.7652,True
+KC,prevention,Relievers: fastball velocity (mph) (rank),18.0,18.0,True
+KC,prevention,Catcher framing (runs),-3.7,-3.6995,True
+KC,prevention,Catcher framing (runs) (rank),21.0,21.0,True
+KC,bridge,Contact quality (xwOBA),0.8,2.1477,False
+KC,bridge,Results below contact,-8.3,-8.1779,True
+KC,bridge,Baserunning,0.6,3.4188,False
+KC,bridge,"Sequencing, other",-28.7,-33.0219,False
+KC,bridge,Offense total,-35.6,-35.6333,True
+KC,bridge,Starting pitching (xwOBA),-32.8,-31.2218,False
+KC,bridge,Relief pitching (xwOBA),-50.8,-51.8871,False
+KC,bridge,Fielding (Savant),20.5,20.2333,False
+KC,bridge,Catcher framing,-3.7,-3.6995,True
+KC,bridge,"Results allowed vs. contact, other",-17.5,-17.7915,False
+KC,bridge,Run prevention total,-84.4,-84.3667,True
+KC,bridge,Run differential vs. MLB average,-120.0,-120.0,True
+KC,pitches,Slider rv100,1.16,1.1566,True
+KC,pitches,Slider runs_vs_mlb,39.1,39.1023,True
+KC,pitches,Slider whiff,30.8,30.8452,True
+KC,pitches,Four-seam rv100,0.59,0.5872,True
+KC,pitches,Four-seam runs_vs_mlb,36.6,36.5513,True
+KC,pitches,Four-seam whiff,17.4,17.4333,True
+KC,pitches,Sweeper rv100,1.45,1.4521,True
+KC,pitches,Sweeper runs_vs_mlb,22.1,22.0389,True
+KC,pitches,Sweeper whiff,22.7,22.7496,True
+KC,pitches,Curveball rv100,1.39,1.3897,True
+KC,pitches,Curveball runs_vs_mlb,17.3,17.2688,True
+KC,pitches,Curveball whiff,24.5,24.493,True
+KC,pitches,Sinker rv100,-0.21,-0.2093,True
+KC,pitches,Sinker runs_vs_mlb,2.6,2.6045,True
+KC,pitches,Sinker whiff,10.7,10.6862,True
+KC,pitches,Changeup rv100,-0.14,-0.1389,True
+KC,pitches,Changeup runs_vs_mlb,-6.9,-6.8482,True
+KC,pitches,Changeup whiff,25.8,25.7559,True
+KC,pitches,Cutter rv100,-0.45,-0.4487,True
+KC,pitches,Cutter runs_vs_mlb,-13.4,-13.4815,True
+KC,pitches,Cutter whiff,19.6,19.5527,True
+KC,tto,Michael Wacha first,0.284,0.2843,True
+KC,tto,Michael Wacha second,0.34,0.3401,True
+KC,tto,Michael Wacha third,0.299,0.2997,True
+KC,tto,Seth Lugo first,0.344,0.3408,False
+KC,tto,Seth Lugo second,0.315,0.3149,True
+KC,tto,Seth Lugo third,0.385,0.3856,True
+KC,tto,Noah Cameron first,0.262,0.262,True
+KC,tto,Noah Cameron second,0.367,0.3674,True
+KC,tto,Noah Cameron third,0.311,0.3108,True
+BOS,kpis,wins,87.0,87.0,True
+BOS,kpis,losses,75.0,75.0,True
+BOS,kpis,runs_scored,689.0,689.0,True
+BOS,kpis,runs_allowed,611.0,611.0,True
+BOS,kpis,run_diff,78.0,78.0,True
+BOS,kpis,rd_wins,88.0,88.0,True
+BOS,kpis,one_run_w,21.0,21.0,True
+BOS,kpis,one_run_l,21.0,21.0,True
+BOS,kpis,oaa,19.0,19.0,True
+BOS,kpis,oaa_rank,8.0,8.0,True
+BOS,offense,Avg exit velocity (mph),86.7,86.6657,True
+BOS,offense,Avg exit velocity (mph) (MLB),88.0,88.0329,True
+BOS,offense,Avg exit velocity (mph) (rank),29.0,29.0,True
+BOS,offense,Hard-hit % (95+ mph),35.8,35.8141,True
+BOS,offense,Hard-hit % (95+ mph) (MLB),38.7,38.7164,True
+BOS,offense,Hard-hit % (95+ mph) (rank),27.0,27.0,True
+BOS,offense,Barrel %,7.3,7.2977,True
+BOS,offense,Barrel % (MLB),7.7,7.7043,True
+BOS,offense,Barrel % (rank),22.0,22.0,True
+BOS,offense,xwOBA,0.309,0.3086,True
+BOS,offense,xwOBA (MLB),0.315,0.3142,True
+BOS,offense,xwOBA (rank),23.0,22.0,False
+BOS,offense,wOBA,0.316,0.3159,True
+BOS,offense,wOBA (MLB),0.316,0.3161,True
+BOS,offense,wOBA (rank),15.0,15.0,True
+BOS,offense,OBP,0.319,0.3193,True
+BOS,offense,OBP (MLB),0.318,0.3185,True
+BOS,offense,OBP (rank),12.0,12.0,True
+BOS,offense,BB %,8.5,8.4588,True
+BOS,offense,BB % (MLB),8.9,8.8861,True
+BOS,offense,BB % (rank),21.0,21.0,True
+BOS,offense,K %,21.7,21.695,True
+BOS,offense,K % (MLB),22.1,22.1377,True
+BOS,offense,K % (rank),13.0,13.0,True
+BOS,offense,Chase %,31.6,31.6012,True
+BOS,offense,Chase % (MLB),30.5,30.4677,True
+BOS,offense,Chase % (rank),23.0,23.0,True
+BOS,halves,First half woba,0.31,0.31,True
+BOS,halves,First half xwoba,0.308,0.3076,True
+BOS,halves,Second half woba,0.324,0.3239,True
+BOS,halves,Second half xwoba,0.31,0.3099,True
+BOS,prevention,"Outs Above Average, team",19.0,19.0,True
+BOS,prevention,"Outs Above Average, team (rank)",8.0,8.0,True
+BOS,prevention,OAA vs. left-handed hitters,7.0,7.0,True
+BOS,prevention,OAA vs. left-handed hitters (rank),12.0,12.0,True
+BOS,prevention,OAA vs. right-handed hitters,12.0,12.0,True
+BOS,prevention,OAA vs. right-handed hitters (rank),8.0,8.0,True
+BOS,prevention,OAA on balls in front of the fielder,1.0,2.0,True
+BOS,prevention,OAA on balls in front of the fielder (rank),15.0,14.0,False
+BOS,prevention,Starters: xwOBA allowed,0.306,0.3052,True
+BOS,prevention,Starters: xwOBA allowed (rank),6.0,6.0,True
+BOS,prevention,Starters: walk rate,7.4,7.4399,True
+BOS,prevention,Starters: walk rate (rank),5.0,5.0,True
+BOS,prevention,Starters: K-BB %,15.6,15.5587,True
+BOS,prevention,Starters: K-BB % (rank),10.0,10.0,True
+BOS,prevention,Starters: fastball velocity (mph),93.4,93.4264,True
+BOS,prevention,Starters: fastball velocity (mph) (rank),22.0,22.0,True
+BOS,prevention,Relievers: xwOBA allowed,0.295,0.2945,True
+BOS,prevention,Relievers: xwOBA allowed (rank),6.0,6.0,True
+BOS,prevention,Relievers: K-BB %,15.2,15.2026,True
+BOS,prevention,Relievers: K-BB % (rank),5.0,5.0,True
+BOS,prevention,Relievers: fastball velocity (mph),95.2,95.1714,True
+BOS,prevention,Relievers: fastball velocity (mph) (rank),9.0,9.0,True
+BOS,prevention,Catcher framing (runs),-4.6,-4.5755,True
+BOS,prevention,Catcher framing (runs) (rank),23.0,23.0,True
+BOS,bridge,Contact quality (xwOBA),-27.2,-26.4202,False
+BOS,bridge,Results above contact,24.8,25.4503,False
+BOS,bridge,Baserunning,-4.9,-5.5087,False
+BOS,bridge,"Sequencing, other",-29.3,-30.1548,False
+BOS,bridge,Offense total,-36.6,-36.6333,True
+BOS,bridge,Starting pitching (xwOBA),33.7,34.0232,False
+BOS,bridge,Relief pitching (xwOBA),28.3,29.0948,False
+BOS,bridge,Fielding (Savant),15.5,15.2333,False
+BOS,bridge,Catcher framing,-4.6,-4.5755,True
+BOS,bridge,"Results allowed vs. contact, other",41.7,40.8574,False
+BOS,bridge,Run prevention total,114.6,114.6333,True
+BOS,bridge,Run differential vs. MLB average,78.0,78.0,True
+BOS,pitches,Slider rv100,0.62,0.6246,True
+BOS,pitches,Slider runs_vs_mlb,9.7,9.7536,True
+BOS,pitches,Slider whiff,33.1,33.1461,True
+BOS,pitches,Curveball rv100,0.53,0.5314,True
+BOS,pitches,Curveball runs_vs_mlb,3.1,3.0843,True
+BOS,pitches,Curveball whiff,31.6,31.6024,True
+BOS,pitches,Cutter rv100,-0.11,-0.1106,True
+BOS,pitches,Cutter runs_vs_mlb,-4.5,-4.4333,True
+BOS,pitches,Cutter whiff,21.1,21.1119,True
+BOS,pitches,Changeup rv100,-0.24,-0.2386,True
+BOS,pitches,Changeup runs_vs_mlb,-8.5,-8.45,True
+BOS,pitches,Changeup whiff,31.1,31.0731,True
+BOS,pitches,Four-seam rv100,-0.25,-0.2473,True
+BOS,pitches,Four-seam runs_vs_mlb,-15.6,-15.5708,True
+BOS,pitches,Four-seam whiff,18.5,18.4641,True
+BOS,pitches,Sweeper rv100,-0.88,-0.8848,True
+BOS,pitches,Sweeper runs_vs_mlb,-17.3,-17.3011,True
+BOS,pitches,Sweeper whiff,32.4,32.4103,True
+BOS,pitches,Sinker rv100,-0.82,-0.8217,True
+BOS,pitches,Sinker runs_vs_mlb,-33.4,-33.445,True
+BOS,pitches,Sinker whiff,14.2,14.1575,True
+BOS,tto,Sonny Gray first,0.3,0.2998,True
+BOS,tto,Sonny Gray second,0.303,0.303,True
+BOS,tto,Sonny Gray third,0.315,0.3156,True
+BOS,tto,Payton Tolle first,0.238,0.2385,True
+BOS,tto,Payton Tolle second,0.25,0.2499,True
+BOS,tto,Payton Tolle third,0.294,0.2933,True
+BOS,tto,Brayan Bello first,0.38,0.3805,True
+BOS,tto,Brayan Bello second,0.335,0.3359,True
+BOS,tto,Brayan Bello third,0.441,0.4408,True
+HOU,kpis,wins,81.0,81.0,True
+HOU,kpis,losses,81.0,81.0,True
+HOU,kpis,runs_scored,734.0,734.0,True
+HOU,kpis,runs_allowed,766.0,766.0,True
+HOU,kpis,run_diff,-32.0,-32.0,True
+HOU,kpis,rd_wins,78.0,78.0,True
+HOU,kpis,one_run_w,15.0,15.0,True
+HOU,kpis,one_run_l,18.0,18.0,True
+HOU,kpis,oaa,-13.0,-13.0,True
+HOU,kpis,oaa_rank,18.0,18.0,True
+HOU,offense,Avg exit velocity (mph),87.7,87.7113,True
+HOU,offense,Avg exit velocity (mph) (MLB),88.0,88.0329,True
+HOU,offense,Avg exit velocity (mph) (rank),21.0,21.0,True
+HOU,offense,Hard-hit % (95+ mph),37.5,37.5,True
+HOU,offense,Hard-hit % (95+ mph) (MLB),38.7,38.7164,True
+HOU,offense,Hard-hit % (95+ mph) (rank),23.0,23.0,True
+HOU,offense,Barrel %,8.0,8.0288,True
+HOU,offense,Barrel % (MLB),7.7,7.7043,True
+HOU,offense,Barrel % (rank),11.0,11.0,True
+HOU,offense,xwOBA,0.311,0.3106,True
+HOU,offense,xwOBA (MLB),0.315,0.3142,True
+HOU,offense,xwOBA (rank),20.0,20.0,True
+HOU,offense,wOBA,0.319,0.3186,True
+HOU,offense,wOBA (MLB),0.316,0.3161,True
+HOU,offense,wOBA (rank),10.0,10.0,True
+HOU,offense,OBP,0.315,0.3153,True
+HOU,offense,OBP (MLB),0.318,0.3185,True
+HOU,offense,OBP (rank),19.0,19.0,True
+HOU,offense,BB %,8.7,8.6573,True
+HOU,offense,BB % (MLB),8.9,8.8861,True
+HOU,offense,BB % (rank),18.0,18.0,True
+HOU,offense,K %,21.9,21.9373,True
+HOU,offense,K % (MLB),22.1,22.1377,True
+HOU,offense,K % (rank),16.0,16.0,True
+HOU,offense,Chase %,31.9,31.9144,True
+HOU,offense,Chase % (MLB),30.5,30.4677,True
+HOU,offense,Chase % (rank),25.0,25.0,True
+HOU,halves,First half woba,0.318,0.3178,True
+HOU,halves,First half xwoba,0.317,0.3175,True
+HOU,halves,Second half woba,0.321,0.3198,False
+HOU,halves,Second half xwoba,0.301,0.3002,True
+HOU,prevention,"Outs Above Average, team",-13.0,-13.0,True
+HOU,prevention,"Outs Above Average, team (rank)",18.0,18.0,True
+HOU,prevention,OAA vs. left-handed hitters,11.0,11.0,True
+HOU,prevention,OAA vs. left-handed hitters (rank),8.0,9.0,False
+HOU,prevention,OAA vs. right-handed hitters,-24.0,-24.0,True
+HOU,prevention,OAA vs. right-handed hitters (rank),28.0,28.0,True
+HOU,prevention,OAA on balls in front of the fielder,-7.0,-7.0,True
+HOU,prevention,OAA on balls in front of the fielder (rank),22.0,22.0,True
+HOU,prevention,Starters: xwOBA allowed,0.326,0.3256,True
+HOU,prevention,Starters: xwOBA allowed (rank),21.0,20.0,False
+HOU,prevention,Starters: walk rate,11.2,11.1834,True
+HOU,prevention,Starters: walk rate (rank),30.0,30.0,True
+HOU,prevention,Starters: K-BB %,11.0,10.9763,True
+HOU,prevention,Starters: K-BB % (rank),23.0,23.0,True
+HOU,prevention,Starters: fastball velocity (mph),94.0,93.9988,True
+HOU,prevention,Starters: fastball velocity (mph) (rank),19.0,19.0,True
+HOU,prevention,Relievers: xwOBA allowed,0.302,0.3017,True
+HOU,prevention,Relievers: xwOBA allowed (rank),14.0,13.0,False
+HOU,prevention,Relievers: K-BB %,13.9,13.9335,True
+HOU,prevention,Relievers: K-BB % (rank),12.0,12.0,True
+HOU,prevention,Relievers: fastball velocity (mph),94.3,94.2957,True
+HOU,prevention,Relievers: fastball velocity (mph) (rank),22.0,22.0,True
+HOU,prevention,Catcher framing (runs),1.3,1.3356,True
+HOU,prevention,Catcher framing (runs) (rank),13.0,12.0,False
+HOU,bridge,Contact quality (xwOBA),-17.8,-16.894,False
+HOU,bridge,Results above contact,30.4,28.7883,False
+HOU,bridge,Baserunning,-8.2,-8.99,False
+HOU,bridge,"Sequencing, other",4.0,5.4624,True
+HOU,bridge,Offense total,8.4,8.3667,True
+HOU,bridge,Starting pitching (xwOBA),-21.0,-20.9926,True
+HOU,bridge,Relief pitching (xwOBA),17.2,17.2605,True
+HOU,bridge,Fielding (Savant),-8.5,-8.7667,False
+HOU,bridge,Catcher framing,1.3,1.3356,True
+HOU,bridge,"Results allowed vs. contact, other",-29.4,-29.2035,False
+HOU,bridge,Run prevention total,-40.4,-40.3667,True
+HOU,bridge,Run differential vs. MLB average,-32.0,-32.0,True
+HOU,pitches,Four-seam rv100,0.56,0.5592,True
+HOU,pitches,Four-seam runs_vs_mlb,45.0,45.0038,True
+HOU,pitches,Four-seam whiff,18.4,18.3637,True
+HOU,pitches,Changeup rv100,0.27,0.2697,True
+HOU,pitches,Changeup runs_vs_mlb,6.5,6.5093,True
+HOU,pitches,Changeup whiff,31.6,31.5965,True
+HOU,pitches,Slider rv100,0.07,0.0713,True
+HOU,pitches,Slider runs_vs_mlb,3.7,3.7437,True
+HOU,pitches,Slider whiff,33.1,33.1017,True
+HOU,pitches,Curveball rv100,0.44,0.4392,True
+HOU,pitches,Curveball runs_vs_mlb,1.3,1.2646,True
+HOU,pitches,Curveball whiff,29.0,28.9593,True
+HOU,pitches,Cutter rv100,-0.11,-0.1058,True
+HOU,pitches,Cutter runs_vs_mlb,-2.0,-2.0319,True
+HOU,pitches,Cutter whiff,19.1,19.0779,True
+HOU,pitches,Sweeper rv100,-0.09,-0.0898,True
+HOU,pitches,Sweeper runs_vs_mlb,-2.8,-2.8229,True
+HOU,pitches,Sweeper whiff,28.0,27.9906,True
+HOU,pitches,Sinker rv100,-0.87,-0.868,True
+HOU,pitches,Sinker runs_vs_mlb,-18.6,-18.6064,True
+HOU,pitches,Sinker whiff,14.9,14.8818,True
+HOU,tto,Peter Lambert first,0.271,0.2705,True
+HOU,tto,Peter Lambert second,0.31,0.3095,True
+HOU,tto,Peter Lambert third,0.318,0.3179,True
+HOU,tto,Hunter Brown first,0.255,0.2549,True
+HOU,tto,Hunter Brown second,0.294,0.2943,True
+HOU,tto,Hunter Brown third,0.31,0.3104,True
+HOU,tto,Spencer Arrighetti first,0.319,0.3182,True
+HOU,tto,Spencer Arrighetti second,0.352,0.3508,False
+HOU,tto,Spencer Arrighetti third,0.376,0.3765,True
+LAA,kpis,wins,62.0,62.0,True
+LAA,kpis,losses,100.0,100.0,True
+LAA,kpis,runs_scored,655.0,655.0,True
+LAA,kpis,runs_allowed,752.0,752.0,True
+LAA,kpis,run_diff,-97.0,-97.0,True
+LAA,kpis,rd_wins,72.0,72.0,True
+LAA,kpis,one_run_w,19.0,19.0,True
+LAA,kpis,one_run_l,29.0,29.0,True
+LAA,kpis,oaa,-42.0,-42.0,True
+LAA,kpis,oaa_rank,28.0,28.0,True
+LAA,offense,Avg exit velocity (mph),87.3,87.3467,True
+LAA,offense,Avg exit velocity (mph) (MLB),88.0,88.0329,True
+LAA,offense,Avg exit velocity (mph) (rank),25.0,25.0,True
+LAA,offense,Hard-hit % (95+ mph),37.2,37.2093,True
+LAA,offense,Hard-hit % (95+ mph) (MLB),38.7,38.7164,True
+LAA,offense,Hard-hit % (95+ mph) (rank),25.0,25.0,True
+LAA,offense,Barrel %,7.9,7.8712,True
+LAA,offense,Barrel % (MLB),7.7,7.7043,True
+LAA,offense,Barrel % (rank),14.0,14.0,True
+LAA,offense,xwOBA,0.302,0.3022,True
+LAA,offense,xwOBA (MLB),0.315,0.3142,True
+LAA,offense,xwOBA (rank),29.0,29.0,True
+LAA,offense,wOBA,0.301,0.3013,True
+LAA,offense,wOBA (MLB),0.316,0.3161,True
+LAA,offense,wOBA (rank),30.0,30.0,True
+LAA,offense,OBP,0.31,0.3099,True
+LAA,offense,OBP (MLB),0.318,0.3185,True
+LAA,offense,OBP (rank),26.0,26.0,True
+LAA,offense,BB %,8.4,8.3922,True
+LAA,offense,BB % (MLB),8.9,8.8861,True
+LAA,offense,BB % (rank),24.0,24.0,True
+LAA,offense,K %,25.5,25.4557,True
+LAA,offense,K % (MLB),22.1,22.1377,True
+LAA,offense,K % (rank),29.0,29.0,True
+LAA,offense,Chase %,32.1,32.0502,True
+LAA,offense,Chase % (MLB),30.5,30.4677,True
+LAA,offense,Chase % (rank),26.0,26.0,True
+LAA,halves,First half woba,0.312,0.3122,True
+LAA,halves,First half xwoba,0.311,0.3111,True
+LAA,halves,Second half woba,0.284,0.2847,True
+LAA,halves,Second half xwoba,0.289,0.2886,True
+LAA,prevention,"Outs Above Average, team",-42.0,-42.0,True
+LAA,prevention,"Outs Above Average, team (rank)",28.0,28.0,True
+LAA,prevention,OAA vs. left-handed hitters,-26.0,-26.0,True
+LAA,prevention,OAA vs. left-handed hitters (rank),28.0,28.0,True
+LAA,prevention,OAA vs. right-handed hitters,-17.0,-17.0,True
+LAA,prevention,OAA vs. right-handed hitters (rank),25.0,25.0,True
+LAA,prevention,OAA on balls in front of the fielder,-9.0,-9.0,True
+LAA,prevention,OAA on balls in front of the fielder (rank),25.0,25.0,True
+LAA,prevention,Starters: xwOBA allowed,0.319,0.3195,True
+LAA,prevention,Starters: xwOBA allowed (rank),17.0,17.0,True
+LAA,prevention,Starters: walk rate,10.0,10.0362,True
+LAA,prevention,Starters: walk rate (rank),29.0,29.0,True
+LAA,prevention,Starters: K-BB %,12.1,12.1271,True
+LAA,prevention,Starters: K-BB % (rank),20.0,20.0,True
+LAA,prevention,Starters: fastball velocity (mph),95.7,95.6924,True
+LAA,prevention,Starters: fastball velocity (mph) (rank),6.0,6.0,True
+LAA,prevention,Relievers: xwOBA allowed,0.311,0.3087,False
+LAA,prevention,Relievers: xwOBA allowed (rank),17.0,15.0,False
+LAA,prevention,Relievers: K-BB %,14.0,13.9954,True
+LAA,prevention,Relievers: K-BB % (rank),9.0,9.0,True
+LAA,prevention,Relievers: fastball velocity (mph),93.7,93.7477,True
+LAA,prevention,Relievers: fastball velocity (mph) (rank),28.0,28.0,True
+LAA,prevention,Catcher framing (runs),-7.7,-7.6563,True
+LAA,prevention,Catcher framing (runs) (rank),28.0,28.0,True
+LAA,bridge,Contact quality (xwOBA),-56.6,-56.3583,False
+LAA,bridge,Results below contact,-14.0,-13.0165,True
+LAA,bridge,Baserunning,-1.3,-3.1362,False
+LAA,bridge,"Sequencing, other",1.3,1.8776,False
+LAA,bridge,Offense total,-70.6,-70.6333,True
+LAA,bridge,Starting pitching (xwOBA),-3.2,-5.1526,False
+LAA,bridge,Relief pitching (xwOBA),-1.1,1.8811,False
+LAA,bridge,Fielding (Savant),-29.5,-29.7667,False
+LAA,bridge,Catcher framing,-7.7,-7.6563,True
+LAA,bridge,"Results allowed vs. contact, other",15.2,14.3278,False
+LAA,bridge,Run prevention total,-26.4,-26.3667,True
+LAA,bridge,Run differential vs. MLB average,-97.0,-97.0,True
+LAA,pitches,Sinker rv100,0.35,0.3507,True
+LAA,pitches,Sinker runs_vs_mlb,23.1,23.0959,True
+LAA,pitches,Sinker whiff,14.5,14.4689,True
+LAA,pitches,Four-seam rv100,0.07,0.0721,True
+LAA,pitches,Four-seam runs_vs_mlb,4.3,4.2998,True
+LAA,pitches,Four-seam whiff,18.3,18.2557,True
+LAA,pitches,Cutter rv100,0.42,0.422,True
+LAA,pitches,Cutter runs_vs_mlb,4.1,4.0716,True
+LAA,pitches,Cutter whiff,21.4,21.3592,True
+LAA,pitches,Splitter rv100,-0.06,-0.0608,True
+LAA,pitches,Splitter runs_vs_mlb,1.0,0.9639,True
+LAA,pitches,Splitter whiff,33.5,33.5404,True
+LAA,pitches,Curveball rv100,-0.13,-0.1244,True
+LAA,pitches,Curveball runs_vs_mlb,-4.1,-4.0571,True
+LAA,pitches,Curveball whiff,30.3,30.303,True
+LAA,pitches,Changeup rv100,-0.23,-0.2245,True
+LAA,pitches,Changeup runs_vs_mlb,-9.0,-8.9768,True
+LAA,pitches,Changeup whiff,32.3,32.3087,True
+LAA,pitches,Knuckle curve rv100,-1.13,-1.1257,True
+LAA,pitches,Knuckle curve runs_vs_mlb,-9.2,-9.2206,True
+LAA,pitches,Knuckle curve whiff,38.9,38.9286,True
+LAA,pitches,Slider rv100,-0.28,-0.2767,True
+LAA,pitches,Slider runs_vs_mlb,-10.6,-10.5701,True
+LAA,pitches,Slider whiff,33.2,33.1656,True
+LAA,pitches,Sweeper rv100,-0.94,-0.9396,True
+LAA,pitches,Sweeper runs_vs_mlb,-16.2,-16.2185,True
+LAA,pitches,Sweeper whiff,32.5,32.5495,True
+LAA,tto,Reid Detmers first,0.255,0.2549,True
+LAA,tto,Reid Detmers second,0.304,0.3045,True
+LAA,tto,Reid Detmers third,0.283,0.2853,False
+LAA,tto,Walbert Ureña first,0.263,0.2632,True
+LAA,tto,Walbert Ureña second,0.289,0.289,True
+LAA,tto,Walbert Ureña third,0.283,0.2831,True
+LAA,tto,José Soriano first,0.317,0.3178,True
+LAA,tto,José Soriano second,0.299,0.2999,True
+LAA,tto,José Soriano third,0.359,0.359,True

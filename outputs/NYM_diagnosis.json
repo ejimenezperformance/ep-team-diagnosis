@@ -1,0 +1,351 @@
+{
+ "team": "NYM",
+ "name": "Mets",
+ "runs_per_woba_point": 0.7811,
+ "kpis": {
+  "wins": 74,
+  "losses": 88,
+  "runs_scored": 699,
+  "runs_allowed": 731,
+  "run_diff": -32,
+  "rd_wins": 78,
+  "one_run_w": 17,
+  "one_run_l": 23,
+  "oaa": -23,
+  "oaa_rank": 25
+ },
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "team": 89.1316,
+   "mlb": 88.0329,
+   "rank": 1
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "team": 41.8493,
+   "mlb": 38.7164,
+   "rank": 2
+  },
+  {
+   "metric": "Barrel %",
+   "team": 8.5962,
+   "mlb": 7.7043,
+   "rank": 7
+  },
+  {
+   "metric": "xwOBA",
+   "team": 0.3205,
+   "mlb": 0.3142,
+   "rank": 6
+  },
+  {
+   "metric": "wOBA",
+   "team": 0.3096,
+   "mlb": 0.3161,
+   "rank": 23
+  },
+  {
+   "metric": "OBP",
+   "team": 0.3097,
+   "mlb": 0.3185,
+   "rank": 27
+  },
+  {
+   "metric": "BB %",
+   "team": 8.6402,
+   "mlb": 8.8861,
+   "rank": 19
+  },
+  {
+   "metric": "K %",
+   "team": 22.2713,
+   "mlb": 22.1377,
+   "rank": 19
+  },
+  {
+   "metric": "Chase %",
+   "team": 30.4771,
+   "mlb": 30.4677,
+   "rank": 13
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.3008,
+   "xwoba": 0.3227,
+   "gap": -0.0219
+  },
+  {
+   "half": "Second half",
+   "woba": 0.3225,
+   "xwoba": 0.3173,
+   "gap": 0.0052
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "team": -23,
+   "rank": 25
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "team": -26,
+   "rank": 28
+  },
+  {
+   "area": "OAA vs. right-handed hitters",
+   "team": 3,
+   "rank": 15
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "team": -17,
+   "rank": 28
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "team": 0.3147,
+   "mlb": 0.3176,
+   "rank": 13
+  },
+  {
+   "area": "Starters: walk rate",
+   "team": 9.1387,
+   "mlb": 8.2625,
+   "rank": 24
+  },
+  {
+   "area": "Starters: K-BB %",
+   "team": 14.1314,
+   "mlb": 13.6484,
+   "rank": 12
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "team": 94.0167,
+   "mlb": 94.343,
+   "rank": 18
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "team": 0.2987,
+   "mlb": 0.3097,
+   "rank": 8
+  },
+  {
+   "area": "Relievers: walk rate",
+   "team": 8.745,
+   "mlb": 9.6992,
+   "rank": 6
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "team": 15.1482,
+   "mlb": 12.7343,
+   "rank": 6
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "team": 93.9551,
+   "mlb": 94.8125,
+   "rank": 25
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "team": 7.258,
+   "rank": 3
+  }
+ ],
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": 29.7656,
+   "group": "Offense"
+  },
+  {
+   "step": "Results vs contact",
+   "runs": -60.2661,
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": -3.1495,
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": 7.0166,
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": -26.6333,
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": 7.8638,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": 23.0652,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": -13.7667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": 7.258,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": -29.7869,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": -5.3667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": -32.0,
+   "group": "Total"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Curveball",
+   "pitches": 1295,
+   "rv100": 1.217,
+   "mlb_rv100": 0.3335,
+   "runs_vs_mlb": 11.4408,
+   "whiff": 29.2135,
+   "mlb_whiff": 29.0874
+  },
+  {
+   "pitch": "Sweeper",
+   "pitches": 3137,
+   "rv100": 0.3393,
+   "mlb_rv100": 0.0116,
+   "runs_vs_mlb": 10.2788,
+   "whiff": 26.831,
+   "mlb_whiff": 29.5657
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 3011,
+   "rv100": 0.2674,
+   "mlb_rv100": 0.0495,
+   "runs_vs_mlb": 6.5604,
+   "whiff": 21.3914,
+   "mlb_whiff": 20.5509
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 1145,
+   "rv100": 0.422,
+   "mlb_rv100": -0.0205,
+   "runs_vs_mlb": 5.0665,
+   "whiff": 32.5,
+   "mlb_whiff": 31.685
+  },
+  {
+   "pitch": "Splitter",
+   "pitches": 400,
+   "rv100": 0.5405,
+   "mlb_rv100": -0.1295,
+   "runs_vs_mlb": 2.6799,
+   "whiff": 31.8182,
+   "mlb_whiff": 32.6589
+  },
+  {
+   "pitch": "Forkball",
+   "pitches": 302,
+   "rv100": -0.1921,
+   "mlb_rv100": 0.6908,
+   "runs_vs_mlb": -2.6662,
+   "whiff": 47.3282,
+   "mlb_whiff": 41.4141
+  },
+  {
+   "pitch": "Changeup",
+   "pitches": 2502,
+   "rv100": -0.053,
+   "mlb_rv100": 0.055,
+   "runs_vs_mlb": -2.7022,
+   "whiff": 29.2446,
+   "mlb_whiff": 29.6851
+  },
+  {
+   "pitch": "Four-seam",
+   "pitches": 7796,
+   "rv100": -0.0445,
+   "mlb_rv100": 0.0169,
+   "runs_vs_mlb": -4.7835,
+   "whiff": 20.8889,
+   "mlb_whiff": 18.6567
+  },
+  {
+   "pitch": "Sinker",
+   "pitches": 4059,
+   "rv100": -0.9754,
+   "mlb_rv100": -0.2706,
+   "runs_vs_mlb": -28.6045,
+   "whiff": 11.9867,
+   "mlb_whiff": 11.6711
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Nolan McLean",
+   "bf": 739,
+   "first": 0.2885,
+   "second": 0.2852,
+   "third": 0.3187
+  },
+  {
+   "pitcher": "Freddy Peralta",
+   "bf": 509,
+   "first": 0.272,
+   "second": 0.3234,
+   "third": 0.3273
+  },
+  {
+   "pitcher": "Christian Scott",
+   "bf": 474,
+   "first": 0.3151,
+   "second": 0.2615,
+   "third": 0.3446
+  },
+  {
+   "pitcher": "Sean Manaea",
+   "bf": 459,
+   "first": 0.2795,
+   "second": 0.336,
+   "third": 0.4063
+  },
+  {
+   "pitcher": "Zac Thornton",
+   "bf": 336,
+   "first": 0.3182,
+   "second": 0.3428,
+   "third": 0.2998
+  },
+  {
+   "pitcher": "Clay Holmes",
+   "bf": 214,
+   "first": 0.2727,
+   "second": 0.3294,
+   "third": 0.3213
+  }
+ ]
+}

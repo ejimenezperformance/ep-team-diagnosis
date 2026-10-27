@@ -1,0 +1,351 @@
+{
+ "team": "SEA",
+ "name": "Mariners",
+ "runs_per_woba_point": 0.7811,
+ "kpis": {
+  "wins": 76,
+  "losses": 86,
+  "runs_scored": 664,
+  "runs_allowed": 722,
+  "run_diff": -58,
+  "rd_wins": 75,
+  "one_run_w": 26,
+  "one_run_l": 25,
+  "oaa": -58,
+  "oaa_rank": 30
+ },
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "team": 88.3839,
+   "mlb": 88.0329,
+   "rank": 10
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "team": 38.4099,
+   "mlb": 38.7164,
+   "rank": 19
+  },
+  {
+   "metric": "Barrel %",
+   "team": 7.5776,
+   "mlb": 7.7043,
+   "rank": 18
+  },
+  {
+   "metric": "xwOBA",
+   "team": 0.3144,
+   "mlb": 0.3142,
+   "rank": 16
+  },
+  {
+   "metric": "wOBA",
+   "team": 0.3066,
+   "mlb": 0.3161,
+   "rank": 27
+  },
+  {
+   "metric": "OBP",
+   "team": 0.3136,
+   "mlb": 0.3185,
+   "rank": 21
+  },
+  {
+   "metric": "BB %",
+   "team": 9.1476,
+   "mlb": 8.8861,
+   "rank": 10
+  },
+  {
+   "metric": "K %",
+   "team": 22.9923,
+   "mlb": 22.1377,
+   "rank": 24
+  },
+  {
+   "metric": "Chase %",
+   "team": 31.569,
+   "mlb": 30.4677,
+   "rank": 22
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.3059,
+   "xwoba": 0.3195,
+   "gap": -0.0136
+  },
+  {
+   "half": "Second half",
+   "woba": 0.3076,
+   "xwoba": 0.3068,
+   "gap": 0.0008
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "team": -58,
+   "rank": 30
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "team": -21,
+   "rank": 26
+  },
+  {
+   "area": "OAA vs. right-handed hitters",
+   "team": -37,
+   "rank": 30
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "team": -6,
+   "rank": 21
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "team": 0.3069,
+   "mlb": 0.3176,
+   "rank": 8
+  },
+  {
+   "area": "Starters: walk rate",
+   "team": 6.414,
+   "mlb": 8.2625,
+   "rank": 2
+  },
+  {
+   "area": "Starters: K-BB %",
+   "team": 16.8036,
+   "mlb": 13.6484,
+   "rank": 5
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "team": 95.8595,
+   "mlb": 94.343,
+   "rank": 3
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "team": 0.3151,
+   "mlb": 0.3097,
+   "rank": 20
+  },
+  {
+   "area": "Relievers: walk rate",
+   "team": 8.7511,
+   "mlb": 9.6992,
+   "rank": 7
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "team": 13.9402,
+   "mlb": 12.7343,
+   "rank": 11
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "team": 96.0658,
+   "mlb": 94.8125,
+   "rank": 3
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "team": -4.7206,
+   "rank": 24
+  }
+ ],
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": 1.0365,
+   "group": "Offense"
+  },
+  {
+   "step": "Results vs contact",
+   "runs": -45.6928,
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": -5.8033,
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": -11.1738,
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": -61.6333,
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": 31.4562,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": -9.4617,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": -39.7667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": -4.7206,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": 26.1261,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": 3.6333,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": -58.0,
+   "group": "Total"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Sweeper",
+   "pitches": 2644,
+   "rv100": 0.342,
+   "mlb_rv100": 0.0116,
+   "runs_vs_mlb": 8.7352,
+   "whiff": 30.5184,
+   "mlb_whiff": 29.5657
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 989,
+   "rv100": 0.5996,
+   "mlb_rv100": 0.0495,
+   "runs_vs_mlb": 5.4401,
+   "whiff": 23.7991,
+   "mlb_whiff": 20.5509
+  },
+  {
+   "pitch": "Knuckle curve",
+   "pitches": 362,
+   "rv100": 1.8091,
+   "mlb_rv100": 0.3449,
+   "runs_vs_mlb": 5.3004,
+   "whiff": 22.6744,
+   "mlb_whiff": 32.3829
+  },
+  {
+   "pitch": "Sinker",
+   "pitches": 4797,
+   "rv100": -0.167,
+   "mlb_rv100": -0.2706,
+   "runs_vs_mlb": 4.9719,
+   "whiff": 10.7294,
+   "mlb_whiff": 11.6711
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 3541,
+   "rv100": 0.0779,
+   "mlb_rv100": -0.0205,
+   "runs_vs_mlb": 3.4841,
+   "whiff": 32.396,
+   "mlb_whiff": 31.685
+  },
+  {
+   "pitch": "Splitter",
+   "pitches": 1038,
+   "rv100": -0.024,
+   "mlb_rv100": -0.1295,
+   "runs_vs_mlb": 1.095,
+   "whiff": 33.9483,
+   "mlb_whiff": 32.6589
+  },
+  {
+   "pitch": "Curveball",
+   "pitches": 538,
+   "rv100": 0.2398,
+   "mlb_rv100": 0.3335,
+   "runs_vs_mlb": -0.5044,
+   "whiff": 34.3478,
+   "mlb_whiff": 29.0874
+  },
+  {
+   "pitch": "Changeup",
+   "pitches": 1564,
+   "rv100": 0.0111,
+   "mlb_rv100": 0.055,
+   "runs_vs_mlb": -0.6873,
+   "whiff": 27.7411,
+   "mlb_whiff": 29.6851
+  },
+  {
+   "pitch": "Four-seam",
+   "pitches": 7648,
+   "rv100": -0.4149,
+   "mlb_rv100": 0.0169,
+   "runs_vs_mlb": -33.0246,
+   "whiff": 20.4276,
+   "mlb_whiff": 18.6567
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Logan Gilbert",
+   "bf": 743,
+   "first": 0.2751,
+   "second": 0.2931,
+   "third": 0.3195
+  },
+  {
+   "pitcher": "George Kirby",
+   "bf": 737,
+   "first": 0.3094,
+   "second": 0.3121,
+   "third": 0.331
+  },
+  {
+   "pitcher": "Bryan Woo",
+   "bf": 708,
+   "first": 0.2746,
+   "second": 0.2968,
+   "third": 0.3289
+  },
+  {
+   "pitcher": "Emerson Hancock",
+   "bf": 563,
+   "first": 0.2847,
+   "second": 0.3163,
+   "third": 0.3348
+  },
+  {
+   "pitcher": "Bryce Miller",
+   "bf": 462,
+   "first": 0.2824,
+   "second": 0.2818,
+   "third": 0.3642
+  },
+  {
+   "pitcher": "Luis Castillo",
+   "bf": 389,
+   "first": 0.324,
+   "second": 0.3737,
+   "third": 0.334
+  }
+ ]
+}

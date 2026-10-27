@@ -1,0 +1,4 @@
+data/raw/
+outputs/pitches_prepared.pkl
+__pycache__/
+*.pyc

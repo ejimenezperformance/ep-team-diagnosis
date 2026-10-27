@@ -1,0 +1,356 @@
+{
+ "team": "HOU",
+ "name": "Astros",
+ "runs_per_woba_point": 0.7811,
+ "kpis": {
+  "wins": 81,
+  "losses": 81,
+  "runs_scored": 734,
+  "runs_allowed": 766,
+  "run_diff": -32,
+  "rd_wins": 78,
+  "one_run_w": 15,
+  "one_run_l": 18,
+  "oaa": -13,
+  "oaa_rank": 18
+ },
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "team": 87.7113,
+   "mlb": 88.0329,
+   "rank": 21
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "team": 37.5,
+   "mlb": 38.7164,
+   "rank": 23
+  },
+  {
+   "metric": "Barrel %",
+   "team": 8.0288,
+   "mlb": 7.7043,
+   "rank": 11
+  },
+  {
+   "metric": "xwOBA",
+   "team": 0.3106,
+   "mlb": 0.3142,
+   "rank": 20
+  },
+  {
+   "metric": "wOBA",
+   "team": 0.3186,
+   "mlb": 0.3161,
+   "rank": 10
+  },
+  {
+   "metric": "OBP",
+   "team": 0.3153,
+   "mlb": 0.3185,
+   "rank": 19
+  },
+  {
+   "metric": "BB %",
+   "team": 8.6573,
+   "mlb": 8.8861,
+   "rank": 18
+  },
+  {
+   "metric": "K %",
+   "team": 21.9373,
+   "mlb": 22.1377,
+   "rank": 16
+  },
+  {
+   "metric": "Chase %",
+   "team": 31.9144,
+   "mlb": 30.4677,
+   "rank": 25
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.3178,
+   "xwoba": 0.3175,
+   "gap": 0.0004
+  },
+  {
+   "half": "Second half",
+   "woba": 0.3198,
+   "xwoba": 0.3002,
+   "gap": 0.0196
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "team": -13,
+   "rank": 18
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "team": 11,
+   "rank": 9
+  },
+  {
+   "area": "OAA vs. right-handed hitters",
+   "team": -24,
+   "rank": 28
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "team": -7,
+   "rank": 22
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "team": 0.3256,
+   "mlb": 0.3176,
+   "rank": 20
+  },
+  {
+   "area": "Starters: walk rate",
+   "team": 11.1834,
+   "mlb": 8.2625,
+   "rank": 30
+  },
+  {
+   "area": "Starters: K-BB %",
+   "team": 10.9763,
+   "mlb": 13.6484,
+   "rank": 23
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "team": 93.9988,
+   "mlb": 94.343,
+   "rank": 19
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "team": 0.3017,
+   "mlb": 0.3097,
+   "rank": 13
+  },
+  {
+   "area": "Relievers: walk rate",
+   "team": 9.7178,
+   "mlb": 9.6992,
+   "rank": 17
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "team": 13.9335,
+   "mlb": 12.7343,
+   "rank": 12
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "team": 94.2957,
+   "mlb": 94.8125,
+   "rank": 22
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "team": 1.3356,
+   "rank": 12
+  }
+ ],
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": -16.894,
+   "group": "Offense"
+  },
+  {
+   "step": "Results vs contact",
+   "runs": 28.7883,
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": -8.99,
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": 5.4624,
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": 8.3667,
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": -20.9926,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": 17.2605,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": -8.7667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": 1.3356,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": -29.2035,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": -40.3667,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": -32.0,
+   "group": "Total"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Four-seam",
+   "pitches": 8298,
+   "rv100": 0.5592,
+   "mlb_rv100": 0.0169,
+   "runs_vs_mlb": 45.0038,
+   "whiff": 18.3637,
+   "mlb_whiff": 18.6567
+  },
+  {
+   "pitch": "Changeup",
+   "pitches": 3032,
+   "rv100": 0.2697,
+   "mlb_rv100": 0.055,
+   "runs_vs_mlb": 6.5093,
+   "whiff": 31.5965,
+   "mlb_whiff": 29.6851
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 4081,
+   "rv100": 0.0713,
+   "mlb_rv100": -0.0205,
+   "runs_vs_mlb": 3.7437,
+   "whiff": 33.1017,
+   "mlb_whiff": 31.685
+  },
+  {
+   "pitch": "Knuckle curve",
+   "pitches": 462,
+   "rv100": 1.1074,
+   "mlb_rv100": 0.3449,
+   "runs_vs_mlb": 3.5225,
+   "whiff": 37.0732,
+   "mlb_whiff": 32.3829
+  },
+  {
+   "pitch": "Curveball",
+   "pitches": 1197,
+   "rv100": 0.4392,
+   "mlb_rv100": 0.3335,
+   "runs_vs_mlb": 1.2646,
+   "whiff": 28.9593,
+   "mlb_whiff": 29.0874
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 1308,
+   "rv100": -0.1058,
+   "mlb_rv100": 0.0495,
+   "runs_vs_mlb": -2.0319,
+   "whiff": 19.0779,
+   "mlb_whiff": 20.5509
+  },
+  {
+   "pitch": "Sweeper",
+   "pitches": 2782,
+   "rv100": -0.0898,
+   "mlb_rv100": 0.0116,
+   "runs_vs_mlb": -2.8229,
+   "whiff": 27.9906,
+   "mlb_whiff": 29.5657
+  },
+  {
+   "pitch": "Sinker",
+   "pitches": 3115,
+   "rv100": -0.868,
+   "mlb_rv100": -0.2706,
+   "runs_vs_mlb": -18.6064,
+   "whiff": 14.8818,
+   "mlb_whiff": 11.6711
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Peter Lambert",
+   "bf": 660,
+   "first": 0.2705,
+   "second": 0.3095,
+   "third": 0.3179
+  },
+  {
+   "pitcher": "Hunter Brown",
+   "bf": 450,
+   "first": 0.2549,
+   "second": 0.2943,
+   "third": 0.3104
+  },
+  {
+   "pitcher": "Mike Burrows",
+   "bf": 417,
+   "first": 0.3095,
+   "second": 0.3566,
+   "third": 0.3429
+  },
+  {
+   "pitcher": "Spencer Arrighetti",
+   "bf": 383,
+   "first": 0.3182,
+   "second": 0.3508,
+   "third": 0.3765
+  },
+  {
+   "pitcher": "Tatsuya Imai",
+   "bf": 263,
+   "first": 0.3421,
+   "second": 0.3769,
+   "third": 0.2469
+  },
+  {
+   "pitcher": "Hayden Wesneski",
+   "bf": 244,
+   "first": 0.3084,
+   "second": 0.2755,
+   "third": 0.3352
+  },
+  {
+   "pitcher": "Cristian Javier",
+   "bf": 220,
+   "first": 0.3379,
+   "second": 0.371,
+   "third": 0.3431
+  },
+  {
+   "pitcher": "Kai-Wei Teng",
+   "bf": 204,
+   "first": 0.31,
+   "second": 0.3455,
+   "third": 0.5018
+  }
+ ]
+}

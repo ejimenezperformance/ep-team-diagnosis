@@ -1,0 +1,1992 @@
+{
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": 29.9,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Results below contact",
+   "runs": -59.6,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": -0.9,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": 3.9,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": -26.6,
+   "kind": "total",
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": 7.9,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": 22.9,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": -12.5,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": 7.3,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": -30.9,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": -5.4,
+   "kind": "total",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": -32.0,
+   "kind": "grand",
+   "group": "Total"
+  }
+ ],
+ "projection": [
+  {
+   "step": "2026 record",
+   "lo": 74,
+   "hi": 74,
+   "kind": "start"
+  },
+  {
+   "step": "Half the hitting gap returns",
+   "lo": 2.7,
+   "hi": 2.7,
+   "kind": "delta"
+  },
+  {
+   "step": "One-run games to .500",
+   "lo": 3,
+   "hi": 3,
+   "kind": "delta"
+  },
+  {
+   "step": "Four 2027 priorities",
+   "lo": 2.8,
+   "hi": 4.8,
+   "kind": "delta"
+  }
+ ],
+ "free_agents": [
+  {
+   "candidate": "Ty France",
+   "need": "1B",
+   "team_age": "SD, 32",
+   "xwoba": ".328",
+   "oaa": "-11 / +10 / +8",
+   "bat": "72.0",
+   "read": "Only FA 1B with two straight positive OAA years and above-average contact; 2025 Gold Glove; played 2026 on a minor-league deal, so likely the cheapest fix"
+  },
+  {
+   "candidate": "Paul Goldschmidt",
+   "need": "1B",
+   "team_age": "NYY, 39",
+   "xwoba": ".311",
+   "oaa": "0 / -3 / +6",
+   "bat": "71.3",
+   "read": "One-year option only"
+  },
+  {
+   "candidate": "Jake Bauers",
+   "need": "1B / DH",
+   "team_age": "MIL, 31",
+   "xwoba": ".371",
+   "oaa": "-1 / -1 / -9",
+   "bat": "76.5",
+   "read": "Elite bat, poor glove: a DH, not the first-base fix"
+  },
+  {
+   "candidate": "Jazz Chisholm Jr.",
+   "need": "2B",
+   "team_age": "NYY, 29",
+   "xwoba": ".294",
+   "oaa": "\u2014 / +5 / +15",
+   "bat": "72.9",
+   "read": "Best mix of consistent defense and age; bat below average; named a possible nine-figure FA (Passan, via SI)"
+  },
+  {
+   "candidate": "Brandon Lowe",
+   "need": "2B",
+   "team_age": "PIT, 32",
+   "xwoba": ".331",
+   "oaa": "0 / -14 / +15",
+   "bat": "73.5",
+   "read": "Best bat; defense swings year to year. Comparable deals: 3 years at $19-22MM a year (MLBTR)"
+  },
+  {
+   "candidate": "Isiah Kiner-Falefa",
+   "need": "2B / UT",
+   "team_age": "BOS, 32",
+   "xwoba": ".297",
+   "oaa": "+4 / -1 / +8",
+   "bat": "68.4",
+   "read": "Glove-first utility at low cost"
+  },
+  {
+   "candidate": "Freddy Peralta",
+   "need": "SP",
+   "team_age": "TB",
+   "xwoba": ".302",
+   "oaa": "\u2014",
+   "bat": "94.3 FB",
+   "read": "Re-sign: his 2026 results were hurt by the Mets defense"
+  },
+  {
+   "candidate": "Trevor Rogers",
+   "need": "SP",
+   "team_age": "BAL",
+   "xwoba": ".293",
+   "oaa": "\u2014",
+   "bat": "92.4 FB",
+   "read": "5.6% walks; MLBTR sees a $100MM+ deal possible"
+  },
+  {
+   "candidate": "Tarik Skubal",
+   "need": "SP",
+   "team_age": "LAD",
+   "xwoba": ".266",
+   "oaa": "\u2014",
+   "bat": "96.8 FB",
+   "read": "Best available; MLBTR projects a record contract, possibly above $400MM"
+  }
+ ],
+ "plan": [
+  {
+   "rank": "1",
+   "priority": "Infield defense",
+   "target": "Team OAA from -23 to 0 or better; OAA vs. LHH to MLB average",
+   "how": "Roster: plus defenders at 1B (Ty France) and 2B (Jazz Chisholm Jr.), or Semien to a utility role. Development: first-step and charge drills for balls in front (-18 OAA), positioning plan vs. LH pull hitters, a full offseason of 3B reps for Bichette",
+   "runs_lo": 12,
+   "runs_hi": 25,
+   "wins_lo": 1.1,
+   "wins_hi": 2.3,
+   "upside": false
+  },
+  {
+   "rank": "2",
+   "priority": "Breaking-ball quality",
+   "target": "CU, SW, FC, SL at MLB-average run value; sweeper whiff 26.8% \u2192 29.6%",
+   "how": "Offseason pitch design with Trackman/Rapsodo and high-speed video, usage changes by pitcher, re-test in spring",
+   "runs_lo": 8,
+   "runs_hi": 17,
+   "wins_lo": 0.7,
+   "wins_hi": 1.5,
+   "upside": false
+  },
+  {
+   "rank": "3",
+   "priority": "Starter walks",
+   "target": "Starter BB% from 9.1% to MLB average 8.3%",
+   "how": "Command program, zone-attack plan by count, role review for Senga (14.5% BB%)",
+   "runs_lo": 7,
+   "runs_hi": 7,
+   "wins_lo": 0.6,
+   "wins_hi": 0.6,
+   "upside": false
+  },
+  {
+   "rank": "4",
+   "priority": "On-base skills",
+   "target": "Team BB% 8.6% \u2192 8.9%; chase under 35% for Bichette and Vientos",
+   "how": "Swing-decision and pitch-recognition training, OBP-first lineup order",
+   "runs_lo": 4,
+   "runs_hi": 4,
+   "wins_lo": 0.4,
+   "wins_hi": 0.4,
+   "upside": false
+  },
+  {
+   "rank": "\u2014",
+   "priority": "Rotation availability",
+   "target": "Fewer than 17 starters used",
+   "how": "Integrated workload, strength and health monitoring for the rotation; a sixth starter of top-five quality (upside, not in the base case)",
+   "runs_lo": 8,
+   "runs_hi": 17,
+   "wins_lo": 0.7,
+   "wins_hi": 1.6,
+   "upside": true
+  }
+ ],
+ "pitchers": [
+  {
+   "pitcher": "Nolan McLean",
+   "role": "SP",
+   "bf": 747,
+   "xwoba": 0.294,
+   "xwoba_pct": 72,
+   "k": 26.0,
+   "k_pct": 74,
+   "bb": 9.4,
+   "bb_pct": 39,
+   "barrel": 6.4,
+   "barrel_pct": 70,
+   "fb": 94.9,
+   "fb_pct": 65,
+   "best_pitch": "Sinker",
+   "best_runs": -24.4,
+   "worst_pitch": "Sweeper",
+   "worst_runs": 8.4,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Sean Manaea",
+   "role": "SP/RP",
+   "bf": 653,
+   "xwoba": 0.333,
+   "xwoba_pct": 23,
+   "k": 22.1,
+   "k_pct": 47,
+   "bb": 6.7,
+   "bb_pct": 79,
+   "barrel": 10.9,
+   "barrel_pct": 5,
+   "fb": 90.2,
+   "fb_pct": 6,
+   "best_pitch": "Four-seam",
+   "best_runs": -1.6,
+   "worst_pitch": "Sweeper",
+   "worst_runs": 13.7,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Freddy Peralta",
+   "role": "SP",
+   "bf": 512,
+   "xwoba": 0.303,
+   "xwoba_pct": 61,
+   "k": 22.1,
+   "k_pct": 47,
+   "bb": 9.4,
+   "bb_pct": 39,
+   "barrel": 5.2,
+   "barrel_pct": 86,
+   "fb": 94.2,
+   "fb_pct": 52,
+   "best_pitch": "Curveball",
+   "best_runs": 0.6,
+   "worst_pitch": "Changeup",
+   "worst_runs": 4.6,
+   "status": "Free agent (TB)"
+  },
+  {
+   "pitcher": "Christian Scott",
+   "role": "SP",
+   "bf": 474,
+   "xwoba": 0.297,
+   "xwoba_pct": 68,
+   "k": 28.3,
+   "k_pct": 86,
+   "bb": 9.9,
+   "bb_pct": 31,
+   "barrel": 6.3,
+   "barrel_pct": 72,
+   "fb": 93.8,
+   "fb_pct": 46,
+   "best_pitch": "Cutter",
+   "best_runs": -8.0,
+   "worst_pitch": "Four-seam",
+   "worst_runs": -1.1,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Zac Thornton",
+   "role": "SP",
+   "bf": 337,
+   "xwoba": 0.325,
+   "xwoba_pct": 30,
+   "k": 18.7,
+   "k_pct": 25,
+   "bb": 5.3,
+   "bb_pct": 94,
+   "barrel": 9.5,
+   "barrel_pct": 17,
+   "fb": 90.5,
+   "fb_pct": 7,
+   "best_pitch": "Sinker",
+   "best_runs": -3.1,
+   "worst_pitch": "Slider",
+   "worst_runs": 3.0,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "David Peterson",
+   "role": "SP/RP",
+   "bf": 319,
+   "xwoba": 0.34,
+   "xwoba_pct": 15,
+   "k": 19.7,
+   "k_pct": 30,
+   "bb": 9.4,
+   "bb_pct": 39,
+   "barrel": 6.7,
+   "barrel_pct": 64,
+   "fb": 92.2,
+   "fb_pct": 24,
+   "best_pitch": "Slider",
+   "best_runs": -4.8,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 6.5,
+   "status": "Cubs"
+  },
+  {
+   "pitcher": "Kodai Senga",
+   "role": "SP/RP",
+   "bf": 283,
+   "xwoba": 0.351,
+   "xwoba_pct": 9,
+   "k": 26.5,
+   "k_pct": 79,
+   "bb": 14.5,
+   "bb_pct": 2,
+   "barrel": 13.5,
+   "barrel_pct": 1,
+   "fb": 94.6,
+   "fb_pct": 60,
+   "best_pitch": "Forkball",
+   "best_runs": -2.7,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 6.6,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Clay Holmes",
+   "role": "SP",
+   "bf": 215,
+   "xwoba": 0.308,
+   "xwoba_pct": 55,
+   "k": 20.9,
+   "k_pct": 39,
+   "bb": 8.4,
+   "bb_pct": 51,
+   "barrel": 5.3,
+   "barrel_pct": 85,
+   "fb": 93.1,
+   "fb_pct": 34,
+   "best_pitch": "Sinker",
+   "best_runs": -5.3,
+   "worst_pitch": null,
+   "worst_runs": null,
+   "status": "Cubs"
+  },
+  {
+   "pitcher": "Robert Stock",
+   "role": "SP",
+   "bf": 147,
+   "xwoba": 0.343,
+   "xwoba_pct": 12,
+   "k": 19.7,
+   "k_pct": 29,
+   "bb": 10.2,
+   "bb_pct": 27,
+   "barrel": 8.1,
+   "barrel_pct": 38,
+   "fb": 93.4,
+   "fb_pct": 40,
+   "best_pitch": "Four-seam",
+   "best_runs": -1.6,
+   "worst_pitch": "Sinker",
+   "worst_runs": 2.0,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Jonah Tong",
+   "role": "SP/RP",
+   "bf": 134,
+   "xwoba": 0.274,
+   "xwoba_pct": 86,
+   "k": 25.4,
+   "k_pct": 71,
+   "bb": 10.4,
+   "bb_pct": 24,
+   "barrel": 6.0,
+   "barrel_pct": 78,
+   "fb": 93.7,
+   "fb_pct": 45,
+   "best_pitch": "Changeup",
+   "best_runs": -4.0,
+   "worst_pitch": "Cutter",
+   "worst_runs": 1.1,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Tobias Myers",
+   "role": "RP",
+   "bf": 230,
+   "xwoba": 0.313,
+   "xwoba_pct": 46,
+   "k": 17.8,
+   "k_pct": 17,
+   "bb": 7.0,
+   "bb_pct": 76,
+   "barrel": 5.2,
+   "barrel_pct": 86,
+   "fb": 91.3,
+   "fb_pct": 12,
+   "best_pitch": "Splitter",
+   "best_runs": -1.2,
+   "worst_pitch": "Slider",
+   "worst_runs": 4.0,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Austin Warren",
+   "role": "RP",
+   "bf": 216,
+   "xwoba": 0.33,
+   "xwoba_pct": 26,
+   "k": 25.5,
+   "k_pct": 71,
+   "bb": 11.1,
+   "bb_pct": 17,
+   "barrel": 11.2,
+   "barrel_pct": 4,
+   "fb": 93.9,
+   "fb_pct": 47,
+   "best_pitch": "Sweeper",
+   "best_runs": -3.6,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 3.0,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Huascar Brazob\u00e1n",
+   "role": "RP",
+   "bf": 207,
+   "xwoba": 0.258,
+   "xwoba_pct": 94,
+   "k": 23.7,
+   "k_pct": 60,
+   "bb": 11.1,
+   "bb_pct": 17,
+   "barrel": 2.2,
+   "barrel_pct": 99,
+   "fb": 95.9,
+   "fb_pct": 77,
+   "best_pitch": "Sinker",
+   "best_runs": -6.4,
+   "worst_pitch": null,
+   "worst_runs": null,
+   "status": "Traded"
+  },
+  {
+   "pitcher": "Devin Williams",
+   "role": "RP",
+   "bf": 184,
+   "xwoba": 0.278,
+   "xwoba_pct": 84,
+   "k": 28.3,
+   "k_pct": 85,
+   "bb": 11.4,
+   "bb_pct": 15,
+   "barrel": 4.5,
+   "barrel_pct": 91,
+   "fb": 93.7,
+   "fb_pct": 45,
+   "best_pitch": "Four-seam",
+   "best_runs": -0.5,
+   "worst_pitch": "Changeup",
+   "worst_runs": 1.2,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Brooks Raley",
+   "role": "RP",
+   "bf": 170,
+   "xwoba": 0.286,
+   "xwoba_pct": 79,
+   "k": 23.5,
+   "k_pct": 59,
+   "bb": 8.8,
+   "bb_pct": 45,
+   "barrel": 4.5,
+   "barrel_pct": 92,
+   "fb": 88.1,
+   "fb_pct": 1,
+   "best_pitch": "Sweeper",
+   "best_runs": -3.4,
+   "worst_pitch": "Sinker",
+   "worst_runs": 0.6,
+   "status": "Traded"
+  },
+  {
+   "pitcher": "Luke Weaver",
+   "role": "RP",
+   "bf": 169,
+   "xwoba": 0.263,
+   "xwoba_pct": 92,
+   "k": 26.6,
+   "k_pct": 79,
+   "bb": 6.5,
+   "bb_pct": 84,
+   "barrel": 8.1,
+   "barrel_pct": 37,
+   "fb": 94.2,
+   "fb_pct": 53,
+   "best_pitch": "Four-seam",
+   "best_runs": -6.4,
+   "worst_pitch": null,
+   "worst_runs": null,
+   "status": "Traded"
+  },
+  {
+   "pitcher": "Jonathan Pintaro",
+   "role": "RP",
+   "bf": 130,
+   "xwoba": 0.319,
+   "xwoba_pct": 37,
+   "k": 23.1,
+   "k_pct": 55,
+   "bb": 12.3,
+   "bb_pct": 9,
+   "barrel": 6.2,
+   "barrel_pct": 75,
+   "fb": 92.8,
+   "fb_pct": 31,
+   "best_pitch": "Sinker",
+   "best_runs": -0.3,
+   "worst_pitch": "Cutter",
+   "worst_runs": 1.5,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Cionel P\u00e9rez",
+   "role": "RP",
+   "bf": 125,
+   "xwoba": 0.287,
+   "xwoba_pct": 77,
+   "k": 28.0,
+   "k_pct": 85,
+   "bb": 6.4,
+   "bb_pct": 85,
+   "barrel": 9.8,
+   "barrel_pct": 13,
+   "fb": 96.9,
+   "fb_pct": 87,
+   "best_pitch": "Four-seam",
+   "best_runs": -1.7,
+   "worst_pitch": "Sinker",
+   "worst_runs": 2.1,
+   "status": "Mets"
+  },
+  {
+   "pitcher": "Daniel Duarte",
+   "role": "RP",
+   "bf": 112,
+   "xwoba": 0.263,
+   "xwoba_pct": 92,
+   "k": 26.8,
+   "k_pct": 80,
+   "bb": 6.2,
+   "bb_pct": 87,
+   "barrel": 6.8,
+   "barrel_pct": 64,
+   "fb": 91.9,
+   "fb_pct": 21,
+   "best_pitch": "Sweeper",
+   "best_runs": -2.9,
+   "worst_pitch": "Cutter",
+   "worst_runs": 2.5,
+   "status": "Mets"
+  }
+ ],
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "mets": 89.1,
+   "mlb": 88.0,
+   "rank": 1,
+   "fmt": "num1"
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "mets": 41.7,
+   "mlb": 38.6,
+   "rank": 2,
+   "fmt": "pct"
+  },
+  {
+   "metric": "Barrel %",
+   "mets": 8.6,
+   "mlb": 7.7,
+   "rank": 7,
+   "fmt": "pct"
+  },
+  {
+   "metric": "xwOBA",
+   "mets": 0.321,
+   "mlb": 0.314,
+   "rank": 6,
+   "fmt": "rate"
+  },
+  {
+   "metric": "wOBA",
+   "mets": 0.31,
+   "mlb": 0.316,
+   "rank": 23,
+   "fmt": "rate"
+  },
+  {
+   "metric": "OBP",
+   "mets": 0.31,
+   "mlb": 0.318,
+   "rank": 27,
+   "fmt": "rate"
+  },
+  {
+   "metric": "BB %",
+   "mets": 8.6,
+   "mlb": 8.9,
+   "rank": 19,
+   "fmt": "pct"
+  },
+  {
+   "metric": "K %",
+   "mets": 22.3,
+   "mlb": 22.1,
+   "rank": 19,
+   "fmt": "pct"
+  },
+  {
+   "metric": "Chase %",
+   "mets": 30.5,
+   "mlb": 30.5,
+   "rank": 13,
+   "fmt": "pct"
+  }
+ ],
+ "evals": [
+  {
+   "group": "Hitters",
+   "player": "Juan Soto",
+   "pos": "LF",
+   "headline": "The best hitter on the team",
+   "strengths": "wOBA .381 (99th pct), xwOBA .412 (100th), BB% 16.2% (98th), chase 20.9% (96th), barrel 13.9% (92nd); about +36 runs vs. average",
+   "weaknesses": "-3 OAA in LF; baserunning -1.6 runs; missed time with injury",
+   "plan": "Maximize games played (workload and health plan); DH on days OF defense matters most. Target: 650+ PA"
+  },
+  {
+   "group": "Hitters",
+   "player": "Carson Benge",
+   "pos": "RF",
+   "headline": "Core piece",
+   "strengths": "wOBA .342 (75th), xwOBA .341 (81st), OBP .346 (78th), +1 OAA in RF, +4.4 baserunning runs (best on team)",
+   "weaknesses": "Bat speed 71.0 mph (34th) and BB% 7.6% (34th) limit his ceiling",
+   "plan": "Offseason strength and bat-speed program. Target: +1 mph bat speed with same contact, barrel 7.3% \u2192 9%"
+  },
+  {
+   "group": "Hitters",
+   "player": "Bo Bichette",
+   "pos": "3B",
+   "headline": "Contact elite, decisions poor",
+   "strengths": "Whiff 17.1% (82nd), in-zone contact 87th pct, xwOBA .330 (69th)",
+   "weaknesses": "Chase 40.9% (5th pct), BB% 7.0% (28th); results .019 below contact; bat speed 69.8 (20th); -1 OAA in first year at 3B",
+   "plan": "Swing-decision program (pitch recognition, take-first counts). Target: chase under 35%, BB% 8.5%+"
+  },
+  {
+   "group": "Hitters",
+   "player": "Francisco Lindor",
+   "pos": "SS",
+   "headline": "Strong contact, availability",
+   "strengths": "Hard-hit 49.5% (92nd), EV 91.4 mph (89th), xwOBA .331 (70th), 0 OAA at SS",
+   "weaknesses": "OBP .309 (38th); multiple IL stints; baserunning -1.4 runs",
+   "plan": "Workload and health plan; OBP-first approach. Target: 600+ PA, OBP .330"
+  },
+  {
+   "group": "Hitters",
+   "player": "Marcus Semien",
+   "pos": "2B",
+   "headline": "The clearest defensive decline",
+   "strengths": "Still makes contact and controls the zone (K% 69th, chase 69th pct)",
+   "weaknesses": "2B OAA +19 \u2192 +6 \u2192 -9 with sprint speed unchanged (28.5 \u2192 28.3 ft/s); bat speed 68.6 (8th pct) but stable for 3 years; blasts per swing 9.9% \u2192 6.8%, wOBA .277 (11th)",
+   "plan": "Utility role, not everyday 2B; test first-step and lateral quickness first. Target: 2B filled by a +OAA defender"
+  },
+  {
+   "group": "Hitters",
+   "player": "A.J. Ewing",
+   "pos": "CF",
+   "headline": "Keep in center",
+   "strengths": "+5 OAA in CF (best on team), chase 26.7% (71st), +2.9 baserunning runs",
+   "weaknesses": "K% 25.4% (28th), bat speed 70.4 (26th)",
+   "plan": "Two-strike approach and contact work. Target: K% under 23%"
+  },
+  {
+   "group": "Hitters",
+   "player": "Brett Baty",
+   "pos": "3B",
+   "headline": "The power is real",
+   "strengths": "Bat speed 75.3 mph (90th), barrel 10.3% (72nd), +1 OAA at 3B, +1.4 baserunning runs",
+   "weaknesses": "K% 26.4% (23rd), in-zone contact 24th pct; results .017 below contact",
+   "plan": "In-zone contact work. Target: whiff 27.1% \u2192 24%. His 3B defense (+1) beat Bichette's (-1)"
+  },
+  {
+   "group": "Hitters",
+   "player": "Francisco Alvarez",
+   "pos": "C",
+   "headline": "Elite power, too many misses",
+   "strengths": "Barrel 15.4% (96th), hard-hit 48.0% (88th), bat speed 74.2 (79th); +2.2 framing runs",
+   "weaknesses": "K% 30.7% (10th), whiff 31.5% (6th), in-zone contact 9th pct",
+   "plan": "Contact program. Target: whiff under 28%, K% under 27%"
+  },
+  {
+   "group": "Hitters",
+   "player": "Jared Young",
+   "pos": "1B",
+   "headline": "Useful platoon bat",
+   "strengths": "wOBA .332 (68th), hard-hit 46.8% (85th), chase 27.5% (68th)",
+   "weaknesses": "BB% 7.3% (30th); -1 OAA at 1B",
+   "plan": "Part of the 1B solution if paired with a better glove"
+  },
+  {
+   "group": "Hitters",
+   "player": "Mark Vientos",
+   "pos": "1B",
+   "headline": "Power without on-base",
+   "strengths": "Barrel 9.7% (69th), hard-hit 74th, bat speed 73.8 (74th)",
+   "weaknesses": "OBP .258 (4th pct), BB% 5.1% (11th), chase 35.2% (21st), whiff 29.9% (12th), -9 OAA at 1B",
+   "plan": "Off first base; swing decisions gate playing time. Target: chase under 32%"
+  },
+  {
+   "group": "Hitters",
+   "player": "Luis Torrens",
+   "pos": "C",
+   "headline": "Glove-first catcher",
+   "strengths": "+5.4 framing runs, one of the better framers in MLB",
+   "weaknesses": "xwOBA .289 (21st), BB% 6.4% (21st)",
+   "plan": "Keep as the defensive catcher; his framing pays for the bat"
+  },
+  {
+   "group": "Hitters",
+   "player": "Luis Robert Jr.",
+   "pos": "OF",
+   "headline": "Top bat speed",
+   "strengths": "Bat speed 77.3 mph (98th), BB% 10.6% (75th)",
+   "weaknesses": "Whiff 26.6% (27th), K% 24.3% (33rd); 218 PA only",
+   "plan": "Played for Baltimore after Aug 30; not part of the 2027 plan"
+  },
+  {
+   "group": "Hitters",
+   "player": "Tyrone Taylor",
+   "pos": "OF",
+   "headline": "Results ran ahead of contact",
+   "strengths": "Barrel 11.9% (81st)",
+   "weaknesses": "wOBA .337 on .309 xwOBA (likely to fall), OBP .290 (20th), BB% 5.7% (16th)",
+   "plan": "Traded to the Cubs; 2026 results should not be expected to repeat"
+  },
+  {
+   "group": "Hitters",
+   "player": "Jorge Polanco",
+   "pos": "1B",
+   "headline": "Lowest bat on the team",
+   "strengths": "In-zone contact 64th pct",
+   "weaknesses": "wOBA .196, xwOBA .234 (near MLB bottom), hard-hit 31.0% (14th), bat speed 69.5 (16th)",
+   "plan": "Ankle surgery in August, under contract for 2027; not a 1B; DH/bench only if spring testing shows bat speed back"
+  },
+  {
+   "group": "Hitters",
+   "player": "MJ Melendez",
+   "pos": "LF",
+   "headline": "Hits it hard, misses a lot",
+   "strengths": "EV 93.6 mph and hard-hit 55.6% (both 98th), BB% 11.8% (86th)",
+   "weaknesses": "K% 34.7% (1st pct), in-zone contact 2nd pct",
+   "plan": "Outrighted to Triple-A; depth only if contact improves (whiff under 28%)"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Nolan McLean",
+   "pos": "SP",
+   "headline": "The ace, with one pitch to fix",
+   "strengths": "Sinker -24.4 runs vs. MLB (best pitch on staff); xwOBA .294 (72nd), K% 26.0% (74th), GB 45.9% (70th)",
+   "weaknesses": "Sweeper +8.4 runs with 22.6% whiff vs. 29.6% MLB; cutter +4.8",
+   "plan": "Sweeper redesign (shape and speed on Trackman/Rapsodo) or shift usage to the curveball (-4.5 runs). Target: sweeper whiff 28%+"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Sean Manaea",
+   "pos": "SP/RP",
+   "headline": "The costliest pitch on the team",
+   "strengths": "BB% 6.7% (79th)",
+   "weaknesses": "Sweeper +13.7 runs on 752 pitches, worst single pitch on staff; barrels 10.9% (5th pct), FB 90.2 mph (6th); TTO xwOBA .280 / .337 / .421",
+   "plan": "Cut sweeper usage from 30% and rebuild its shape, or multi-inning relief; faces a lineup twice at most. Target: sweeper at MLB-average run value"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Freddy Peralta",
+   "pos": "SP",
+   "headline": "Better than his results; now a free agent",
+   "strengths": "Barrels 5.2% (86th), xwOBA .303 (61st)",
+   "weaknesses": "wOBA allowed .344 vs. .303 xwOBA, largest gap among starters (points at the defense); changeup +4.6 runs; BB% 9.4%",
+   "plan": "Re-signing candidate; a better infield would help him most. Changeup to MLB average if he returns"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Christian Scott",
+   "pos": "SP",
+   "headline": "Building block",
+   "strengths": "K% 28.3% (86th), K-BB% 18.4% (80th), cutter -8.0 runs",
+   "weaknesses": "BB% 9.9% (31st), GB 32.7% (6th)",
+   "plan": "Command work. Target: BB% 8.5% or lower"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Zac Thornton",
+   "pos": "SP",
+   "headline": "Throws strikes, misses no bats",
+   "strengths": "BB% 5.3% (94th)",
+   "weaknesses": "Whiff 16.6% (5th), K% 18.7% (25th), FB 90.5 mph (7th); slider +3.0 runs, 19.3% whiff vs. 31.7% MLB",
+   "plan": "Develop one swing-and-miss pitch. Target: whiff 22%+"
+  },
+  {
+   "group": "Pitchers",
+   "player": "David Peterson",
+   "pos": "SP/RP",
+   "headline": "Throws the wrong pitches too often; now with the Cubs",
+   "strengths": "GB 52.9% (92nd), slider -4.8 runs",
+   "weaknesses": "Four-seam +6.5 runs (14.2% whiff vs. 18.7% MLB), changeup +4.8, sinker +3.5; xwOBA .340 (15th)",
+   "plan": "No longer a Mets decision; kept for the diagnosis"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Kodai Senga",
+   "pos": "SP/RP",
+   "headline": "Stuff without control",
+   "strengths": "Whiff 26.7% (80th), K% 26.5% (79th), forkball -2.7 runs",
+   "weaknesses": "BB% 14.5% (2nd pct), barrels 13.5% (1st), GB 29.4% (2nd); four-seam +6.6 runs with 12.5% whiff at 96 mph; 0-9, 7.34 ERA",
+   "plan": "Relief role and a command plan; check fastball shape. Target: BB% under 10%"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Clay Holmes",
+   "pos": "SP",
+   "headline": "Ground-ball starter, injured, traded to the Cubs",
+   "strengths": "GB 55.3% (94th), barrels 5.3% (85th), sinker -5.3 runs",
+   "weaknesses": "Whiff 19.6% (21st); broken leg in May",
+   "plan": "Traded to the Cubs; lost starts are part of the rotation-depth cost"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Robert Stock",
+   "pos": "SP",
+   "headline": "Depth only",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .343 (12th), K-BB% 9.5% (19th)",
+   "plan": "Triple-A depth"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Jonah Tong",
+   "pos": "SP/RP",
+   "headline": "Promising",
+   "strengths": "xwOBA .274 (86th), whiff 28.3% (87th), changeup -4.0 runs",
+   "weaknesses": "BB% 10.4% (24th)",
+   "plan": "Rotation candidate if the walks come down. Target: BB% under 9%"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Tobias Myers",
+   "pos": "RP",
+   "headline": "Low-leverage arm",
+   "strengths": "BB% 7.0% (76th), barrels 5.2% (86th)",
+   "weaknesses": "K% 17.8% (17th), whiff 18.7% (14th); slider +4.0 runs, 14.6% whiff vs. 31.7% MLB",
+   "plan": "Slider redesign or drop it for the splitter (-1.2 runs)"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Austin Warren",
+   "pos": "RP",
+   "headline": "Misses bats, gives up barrels",
+   "strengths": "K% 25.5% (71st), sweeper -3.6 runs",
+   "weaknesses": "Barrels 11.2% (4th pct), BB% 11.1% (17th), chase 25.9% (6th)",
+   "plan": "Fastball location (four-seam +3.0 runs). Target: barrels under 8%"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Devin Williams",
+   "pos": "RP",
+   "headline": "Elite stuff, results lagged",
+   "strengths": "Whiff 31.8% (97th), chase 38.6% (99th), K% 28.3% (85th), xwOBA .278 (84th)",
+   "weaknesses": "BB% 11.4% (15th); wOBA .327 vs. .278 xwOBA, matches the defense problem; 0.7 WAR (CBS Sports)",
+   "plan": "Keep in high leverage; expect results to move toward contact quality. Target: BB% under 10%"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Jonathan Pintaro",
+   "pos": "RP",
+   "headline": "Walks first",
+   "strengths": "\u2014",
+   "weaknesses": "BB% 12.3% (9th), chase 27.5% (17th)",
+   "plan": "Command plan. Target: BB% under 10%"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Cionel P\u00e9rez",
+   "pos": "RP",
+   "headline": "Velocity and ground balls",
+   "strengths": "FB 96.9 mph (87th), K-BB% 21.6% (90th), GB 54.9% (93rd)",
+   "weaknesses": "Hard contact when hit (barrels 9.8%, 13th)",
+   "plan": "High-leverage candidate"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Daniel Duarte",
+   "pos": "RP",
+   "headline": "Strike-thrower",
+   "strengths": "xwOBA .263 (92nd), K-BB% 20.5% (87th), chase 39.2% (99th), sweeper -2.9 runs",
+   "weaknesses": "GB 31.1% (3rd); cutter +2.5 runs",
+   "plan": "Keep; cutter usage down"
+  },
+  {
+   "group": "Pitchers",
+   "player": "Brazob\u00e1n, Raley, Weaver",
+   "pos": "RP",
+   "headline": "Traded at the deadline",
+   "strengths": "Among the best Mets relievers by contact allowed (xwOBA .258, .286, .263)",
+   "weaknesses": "\u2014",
+   "plan": "The bullpen held up after August; their loss shows up in 2027 depth, not the 2026 collapse"
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "mets": -23,
+   "mlb": 0,
+   "rank": 25,
+   "fmt": "int"
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "mets": -26,
+   "mlb": -1,
+   "rank": 29,
+   "fmt": "int"
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "mets": -18,
+   "mlb": 0,
+   "rank": 28,
+   "fmt": "int"
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "mets": 0.315,
+   "mlb": 0.318,
+   "rank": 13,
+   "fmt": "rate"
+  },
+  {
+   "area": "Starters: walk rate",
+   "mets": 9.1,
+   "mlb": 8.3,
+   "rank": 24,
+   "fmt": "pct"
+  },
+  {
+   "area": "Starters: K-BB %",
+   "mets": 14.1,
+   "mlb": 13.6,
+   "rank": 12,
+   "fmt": "pct"
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "mets": 93.1,
+   "mlb": 93.6,
+   "rank": 20,
+   "fmt": "num1"
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "mets": 0.299,
+   "mlb": 0.31,
+   "rank": 8,
+   "fmt": "rate"
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "mets": 15.1,
+   "mlb": 12.8,
+   "rank": 6,
+   "fmt": "pct"
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "mets": 92.9,
+   "mlb": 94.2,
+   "rank": 28,
+   "fmt": "num1"
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "mets": 7.6,
+   "mlb": 0,
+   "rank": 2,
+   "fmt": "signed1"
+  }
+ ],
+ "simulation": [
+  {
+   "scenario": "No changes",
+   "talent": 79,
+   "talent_lo": 77,
+   "talent_hi": 83,
+   "record": 80,
+   "record_lo": 71,
+   "record_hi": 89,
+   "p88": 14
+  },
+  {
+   "scenario": "Plan executed",
+   "talent": 83,
+   "talent_lo": 81,
+   "talent_hi": 87,
+   "record": 84,
+   "record_lo": 75,
+   "record_hi": 93,
+   "p88": 29
+  }
+ ],
+ "causes": [
+  {
+   "cause": "Hitting results below contact quality",
+   "cost": "about -60 runs",
+   "repeats": "About half",
+   "evidence": "Year-to-year r = 0.38 for team batting (2021-2026); teams with gaps this large kept about half the next year; Mets second half normal",
+   "action": "Do not overhaul the lineup; keep the contact quality"
+  },
+  {
+   "cause": "One-run games (17-23)",
+   "cost": "about -4 wins vs. run differential",
+   "repeats": "Mostly no",
+   "evidence": "Close-game record tracks bullpen and chance more than talent",
+   "action": "Keep the bullpen strong; no roster move aimed at \"clutch\""
+  },
+  {
+   "cause": "Infield defense",
+   "cost": "-12.5 fielding runs; most of the run-prevention gap",
+   "repeats": "Yes",
+   "evidence": "Pitching-side results vs. contact repeat (r = 0.53); OAA -26 vs. LHH",
+   "action": "Main roster and development priority"
+  },
+  {
+   "cause": "Starter walks",
+   "cost": "about -7 runs",
+   "repeats": "Yes",
+   "evidence": "9.1% BB, 24th; walk rate is a stable skill",
+   "action": "Command program, pitch-mix changes"
+  },
+  {
+   "cause": "Breaking-ball quality",
+   "cost": "about -33 runs vs. MLB rate",
+   "repeats": "Partly",
+   "evidence": "Sweeper whiff 26.8% vs. 29.6%; overlaps defense",
+   "action": "Pitch design in the offseason"
+  },
+  {
+   "cause": "Low OBP",
+   "cost": "about -4 runs from walks alone",
+   "repeats": "Yes",
+   "evidence": "BB% 19th; chase 40.9% (Bichette), 35.2% (Vientos)",
+   "action": "Swing-decision training, lineup order"
+  },
+  {
+   "cause": "Rotation availability",
+   "cost": "17 starters used",
+   "repeats": "Partly",
+   "evidence": "Injuries to Holmes, Senga, Megill",
+   "action": "Workload and health monitoring"
+  }
+ ],
+ "monitoring": [
+  {
+   "who": "Hitters",
+   "rule": "Bat speed from game data reviewed monthly; a monthly drop of 1.0+ mph triggers a strength and health check (about 44% of a monthly change carries into the next month, EP hitter monthly tracker)"
+  },
+  {
+   "who": "Pitchers",
+   "rule": "Fastball velocity by start vs. each pitcher's 30-day average; two straight starts below it trigger an arm-care check"
+  },
+  {
+   "who": "Everyone",
+   "rule": "Weekly countermovement jump on force plates in season, judged against each player's own typical error"
+  }
+ ],
+ "decisions": [
+  {
+   "decision": "Sign a first baseman and a second baseman who field (Ty France, Jazz Chisholm Jr.)",
+   "target": "Team OAA from -23 to 0",
+   "wins": "+1.1 to +2.3"
+  },
+  {
+   "decision": "Rebuild the sweepers (Manaea +13.7 runs, McLean +8.4)",
+   "target": "Breaking balls at MLB-average run value",
+   "wins": "+0.7 to +1.5"
+  },
+  {
+   "decision": "Cut starter walks",
+   "target": "9.1% to 8.3%",
+   "wins": "+0.6"
+  },
+  {
+   "decision": "Swing decisions (Bichette chases 40.9%)",
+   "target": "Team walk rate to MLB average",
+   "wins": "+0.4"
+  },
+  {
+   "decision": "Re-sign or replace Freddy Peralta; Manaea faces a lineup twice at most",
+   "target": "A sixth starter of top-five quality",
+   "wins": "upside"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Curveball",
+   "pitches": 1295,
+   "rv100": 1.22,
+   "mlb_rv100": 0.33,
+   "runs_vs_mlb": 11.4,
+   "whiff": 29.2,
+   "mlb_whiff": 29.1
+  },
+  {
+   "pitch": "Sweeper",
+   "pitches": 3137,
+   "rv100": 0.34,
+   "mlb_rv100": 0.01,
+   "runs_vs_mlb": 10.3,
+   "whiff": 26.8,
+   "mlb_whiff": 29.6
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 3011,
+   "rv100": 0.27,
+   "mlb_rv100": 0.05,
+   "runs_vs_mlb": 6.6,
+   "whiff": 21.4,
+   "mlb_whiff": 20.6
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 1145,
+   "rv100": 0.42,
+   "mlb_rv100": -0.02,
+   "runs_vs_mlb": 5.1,
+   "whiff": 32.5,
+   "mlb_whiff": 31.7
+  },
+  {
+   "pitch": "Sinker",
+   "pitches": 4059,
+   "rv100": -0.98,
+   "mlb_rv100": -0.27,
+   "runs_vs_mlb": -28.6,
+   "whiff": 12.0,
+   "mlb_whiff": 11.7
+  }
+ ],
+ "availability": [
+  {
+   "item": "Juan Soto games without a PA (injury plus rest)",
+   "season": "51 of 162",
+   "comparison": "His .412 xwOBA vs. .283 for Mets bench hitters (under 300 PA)",
+   "runs": -22
+  },
+  {
+   "item": "Francisco Lindor games without a PA",
+   "season": "58 of 162",
+   "comparison": "His .331 xwOBA vs. .283",
+   "runs": -10
+  },
+  {
+   "item": "Starts by pitchers outside the top five",
+   "season": "51 of 162 (17 different starters)",
+   "comparison": ".334 xwOBA allowed vs. .308 for McLean, Scott, Peralta, Manaea, Thornton",
+   "runs": -17
+  }
+ ],
+ "trends": [
+  {
+   "id": "soto-bs",
+   "player": "Juan Soto",
+   "metric": "Bat speed (mph)",
+   "y2024": 75.4,
+   "y2025": 73.6,
+   "y2026": 72.5,
+   "higher_better": true,
+   "read": "Real decline at age 27"
+  },
+  {
+   "id": "soto-sp",
+   "player": "Juan Soto",
+   "metric": "Sprint speed (ft/s)",
+   "y2024": 26.8,
+   "y2025": 25.8,
+   "y2026": 25.6,
+   "higher_better": true,
+   "read": "Declining with it"
+  },
+  {
+   "id": "semien-oaa",
+   "player": "Marcus Semien",
+   "metric": "2B Outs Above Average",
+   "y2024": 19,
+   "y2025": 6,
+   "y2026": -9,
+   "higher_better": true,
+   "read": "Steep defensive decline"
+  },
+  {
+   "id": "semien-bs",
+   "player": "Marcus Semien",
+   "metric": "Bat speed (mph)",
+   "y2024": 68.3,
+   "y2025": 68.5,
+   "y2026": 68.6,
+   "higher_better": true,
+   "read": "Stable: his profile, not a decline"
+  },
+  {
+   "id": "lindor-oaa",
+   "player": "Francisco Lindor",
+   "metric": "SS Outs Above Average",
+   "y2024": 15,
+   "y2025": 5,
+   "y2026": 0,
+   "higher_better": true,
+   "read": "Defensive decline"
+  },
+  {
+   "id": "polanco-bs",
+   "player": "Jorge Polanco",
+   "metric": "Bat speed (mph)",
+   "y2024": 69.8,
+   "y2025": 71.2,
+   "y2026": 69.5,
+   "higher_better": true,
+   "read": "Down 1.7 mph from 2025"
+  },
+  {
+   "id": "polanco-sp",
+   "player": "Jorge Polanco",
+   "metric": "Sprint speed (ft/s)",
+   "y2024": 27.5,
+   "y2025": 27.1,
+   "y2026": 26.1,
+   "higher_better": true,
+   "read": "Down 1.4 ft/s at 32"
+  },
+  {
+   "id": "holmes-si",
+   "player": "Clay Holmes",
+   "metric": "Sinker velocity (mph)",
+   "y2024": 96.6,
+   "y2025": 93.7,
+   "y2026": 93.1,
+   "higher_better": true,
+   "read": "Lost 3.5 mph as a starter (traded to the Cubs)"
+  },
+  {
+   "id": "manaea-ff",
+   "player": "Sean Manaea",
+   "metric": "Four-seam velocity (mph)",
+   "y2024": 92.2,
+   "y2025": 91.7,
+   "y2026": 91.3,
+   "higher_better": true,
+   "read": "Slow decline"
+  },
+  {
+   "id": "manaea-sw",
+   "player": "Sean Manaea",
+   "metric": "Sweeper whiff % (Savant)",
+   "y2024": 39.0,
+   "y2025": 35.3,
+   "y2026": 29.7,
+   "higher_better": true,
+   "read": "Main pitch losing bats"
+  },
+  {
+   "id": "senga-ff",
+   "player": "Kodai Senga",
+   "metric": "Four-seam velocity (mph)",
+   "y2024": 95.8,
+   "y2025": 94.7,
+   "y2026": 96.3,
+   "higher_better": true,
+   "read": "Velocity is back"
+  },
+  {
+   "id": "senga-wh",
+   "player": "Kodai Senga",
+   "metric": "Four-seam whiff % (Savant)",
+   "y2024": 31.3,
+   "y2025": 19.9,
+   "y2026": 15.7,
+   "higher_better": true,
+   "read": "Shape or location, not velocity"
+  }
+ ],
+ "upside": [
+  {
+   "item": "Full seasons from Soto and Lindor (if healthy)",
+   "wins_lo": 2.9,
+   "wins_hi": 2.9
+  },
+  {
+   "item": "Deeper rotation (sixth starter of top-five quality)",
+   "wins_lo": 0.7,
+   "wins_hi": 1.6
+  },
+  {
+   "item": "Times-through-order rule for Manaea",
+   "wins_lo": 0.5,
+   "wins_hi": 0.5
+  }
+ ],
+ "devplans": [
+  {
+   "player": "Juan Soto",
+   "group": "Hitter",
+   "shows": "Bat speed down 2.9 mph in two years (75.4 \u2192 72.5) and sprint speed down 1.2 ft/s, while results stayed elite (.381 wOBA); missed time in 2026",
+   "question": "Lost rotational power (hips and trunk), lost lower-body force, or a lingering injury? At 27, a drop this size is not normal aging",
+   "assessment": "Medical review of the 2026 injury; force plates (CMJ, IMTP); hip and thoracic rotation ROM; med-ball scoop toss velocity; bat-sensor baseline with his own bat",
+   "block": "12 weeks: restore ROM first, then strength (weeks 1-6), then rotational power and bat-speed intent (weeks 7-12)",
+   "retest": "Spring training: bat speed back to 74+ mph, with jump and rotational power at or above baseline"
+  },
+  {
+   "player": "Marcus Semien",
+   "group": "Hitter",
+   "shows": "2B OAA +19, +6, -9 in three years while sprint speed held at 28.3-28.5 ft/s; top speed is not the problem",
+   "question": "First step, lateral change of direction or reaction time (not measured by sprint speed), or positioning",
+   "assessment": "5-10 yd lateral starts and pro-agility (timed), reactive agility drills, lateral force on force plates (L vs R), video of first-step direction on missed plays",
+   "block": "Lateral power and deceleration; reactive first-step drills; positioning review with infield coach",
+   "retest": "Spring: if lateral tests are below the team infield average, utility role and 2B goes to a better defender"
+  },
+  {
+   "player": "Francisco Lindor",
+   "group": "Hitter",
+   "shows": "SS OAA +15, +5, 0; sprint speed 27.6 \u2192 27.1 ft/s; bat speed up to 72.9 mph; multiple IL stints in 2026",
+   "question": "A durability and lateral-movement problem at 32, not a bat problem",
+   "assessment": "Same lateral battery as Semien; injury history review",
+   "block": "Durability (hamstring, adductors, trunk) and lateral power; planned in-season rest schedule",
+   "retest": "600+ PA and SS OAA at 0 or better"
+  },
+  {
+   "player": "Jorge Polanco",
+   "group": "Hitter",
+   "shows": "Bat speed down 1.7 mph from 2025 and sprint speed down 1.4 ft/s, with the worst bat on the team (.196 wOBA)",
+   "question": "Ankle surgery in Aug 2026: does the ankle explain the lost bat and sprint speed, or is it age?",
+   "assessment": "Medical clearance on the ankle, force plates with L vs R comparison, sprint test, bat-sensor baseline",
+   "block": "\u2014",
+   "retest": "Spring: a roster spot only if bat speed returns to 71+ mph"
+  },
+  {
+   "player": "The infield as a group",
+   "group": "Hitter",
+   "shows": "-18 OAA on balls hit in front of fielders (28th) and -26 vs. LHH (29th)",
+   "question": "\u2014",
+   "assessment": "Monthly review of OAA in front and vs. LHH",
+   "block": "Weekly first-step and charging block for every infielder all season; positioning plan vs. LH pull hitters with analytics staff",
+   "retest": "Both OAA splits at MLB average"
+  },
+  {
+   "player": "Clay Holmes",
+   "group": "Pitcher",
+   "shows": "Sinker 96.6 (2024, reliever) \u2192 93.7 \u2192 93.1 (2025-26, starter); GB still 55% (94th pct); broken leg in May",
+   "question": "Has starting cost him power (fatigue, conditioning) beyond the expected drop from relieving?",
+   "assessment": "Return-to-play clearance; force plates (L vs R asymmetry after the fracture); velocity by inning and by start",
+   "block": "Return-to-run and lower-body strength progression, then throwing ramp; starter conditioning",
+   "retest": "Spring: sinker 94+ mph through 5 innings, no limb asymmetry above 10%"
+  },
+  {
+   "player": "Sean Manaea",
+   "group": "Pitcher",
+   "shows": "Four-seam 92.2 \u2192 91.3 mph and sweeper whiff 39% \u2192 30% (Savant) in three years; costliest pitch on the 2026 staff",
+   "question": "Is the sweeper losing shape (less sweep, slower spin), or are hitters reading it?",
+   "assessment": "Pitch-design session with Trackman and high-speed video: sweeper movement and spin vs. 2024; arm-slot consistency",
+   "block": "Rebuild the sweeper toward its 2024 shape or cut its use from 30% to about 20%",
+   "retest": "Spring bullpens: sweeper whiff back to 33%+ (Savant)"
+  },
+  {
+   "player": "Kodai Senga",
+   "group": "Pitcher",
+   "shows": "Four-seam back to 96.3 mph, but whiff fell from 31% to 16% (Savant); walked 14.5%",
+   "question": "A release-point or shape change after injury, not a strength problem",
+   "assessment": "Release height, extension and fastball movement vs. 2024 (Trackman); delivery video review",
+   "block": "Delivery consistency work; command plan by count",
+   "retest": "Spring: fastball whiff 22%+ and BB% under 10%"
+  }
+ ],
+ "backtest": [
+  {
+   "metric": "Team batting gap, year-to-year r (150 team-seasons)",
+   "value": "0.38 (95% CI 0.22-0.50)"
+  },
+  {
+   "metric": "Teams with gap of -.010 or worse",
+   "value": "25"
+  },
+  {
+   "metric": "Their average gap \u2192 next season",
+   "value": "-.013 \u2192 -.007"
+  },
+  {
+   "metric": "Their wOBA change next season",
+   "value": "+.007"
+  },
+  {
+   "metric": "Pitching-side gap, year-to-year r",
+   "value": "0.43"
+  },
+  {
+   "metric": "Hitter split-half r (261 hitters)",
+   "value": "0.14"
+  },
+  {
+   "metric": "Team batting split-half r",
+   "value": "0.33"
+  },
+  {
+   "metric": "Mets gap per BIP, re-scored by EV, LA, direction and speed",
+   "value": "-.015 to -.020 (MLB \u2248 +.003)"
+  },
+  {
+   "metric": "Explained by slower sprint (26.8 vs 27.5 ft/s) and less pull (37.6% vs 38.6%)",
+   "value": "\u2248 .003"
+  },
+  {
+   "metric": "Gap on balls hit to center (Mets vs MLB)",
+   "value": "-.028 vs -.005"
+  },
+  {
+   "metric": "Gap on line drives (Mets vs MLB)",
+   "value": "-.039 vs +.006"
+  },
+  {
+   "metric": "Gap per PA at Citi Field vs. road",
+   "value": "-.016 vs -.006"
+  }
+ ],
+ "hitters": [
+  {
+   "player": "Juan Soto",
+   "pos": "LF",
+   "pa": 482,
+   "woba": 0.381,
+   "xwoba": 0.412,
+   "chase": 20.9,
+   "chase_pct": 96,
+   "barrel": 13.9,
+   "barrel_pct": 92,
+   "bat_speed": 72.5,
+   "bat_speed_pct": 56,
+   "oaa": -3,
+   "verdict": "Elite bat; health and LF defense",
+   "status": "Mets"
+  },
+  {
+   "player": "Carson Benge",
+   "pos": "RF",
+   "pa": 654,
+   "woba": 0.342,
+   "xwoba": 0.341,
+   "chase": 28.0,
+   "chase_pct": 66,
+   "barrel": 7.3,
+   "barrel_pct": 48,
+   "bat_speed": 71.0,
+   "bat_speed_pct": 34,
+   "oaa": 1,
+   "verdict": "Core piece; add bat speed",
+   "status": "Mets"
+  },
+  {
+   "player": "Bo Bichette",
+   "pos": "3B",
+   "pa": 696,
+   "woba": 0.311,
+   "xwoba": 0.33,
+   "chase": 40.9,
+   "chase_pct": 5,
+   "barrel": 6.4,
+   "barrel_pct": 39,
+   "bat_speed": 69.8,
+   "bat_speed_pct": 20,
+   "oaa": -1,
+   "verdict": "Contact elite, chase must drop",
+   "status": "Mets"
+  },
+  {
+   "player": "Francisco Lindor",
+   "pos": "SS",
+   "pa": 469,
+   "woba": 0.321,
+   "xwoba": 0.331,
+   "chase": 29.5,
+   "chase_pct": 56,
+   "barrel": 9.0,
+   "barrel_pct": 63,
+   "bat_speed": 72.9,
+   "bat_speed_pct": 63,
+   "oaa": 0,
+   "verdict": "Strong contact; availability",
+   "status": "Mets"
+  },
+  {
+   "player": "Marcus Semien",
+   "pos": "2B",
+   "pa": 547,
+   "woba": 0.277,
+   "xwoba": 0.3,
+   "chase": 27.3,
+   "chase_pct": 69,
+   "barrel": 5.8,
+   "barrel_pct": 33,
+   "bat_speed": 68.6,
+   "bat_speed_pct": 8,
+   "oaa": -9,
+   "verdict": "Range and contact quality in decline",
+   "status": "Mets"
+  },
+  {
+   "player": "A.J. Ewing",
+   "pos": "CF",
+   "pa": 492,
+   "woba": 0.312,
+   "xwoba": 0.32,
+   "chase": 26.7,
+   "chase_pct": 71,
+   "barrel": 7.5,
+   "barrel_pct": 50,
+   "bat_speed": 70.4,
+   "bat_speed_pct": 26,
+   "oaa": 5,
+   "verdict": "Keep in CF; cut strikeouts",
+   "status": "Mets"
+  },
+  {
+   "player": "Brett Baty",
+   "pos": "3B",
+   "pa": 473,
+   "woba": 0.305,
+   "xwoba": 0.322,
+   "chase": 28.8,
+   "chase_pct": 60,
+   "barrel": 10.3,
+   "barrel_pct": 72,
+   "bat_speed": 75.3,
+   "bat_speed_pct": 90,
+   "oaa": 1,
+   "verdict": "Power is real; in-zone contact",
+   "status": "Mets"
+  },
+  {
+   "player": "Francisco Alvarez",
+   "pos": "C",
+   "pa": 420,
+   "woba": 0.314,
+   "xwoba": 0.324,
+   "chase": 31.8,
+   "chase_pct": 40,
+   "barrel": 15.4,
+   "barrel_pct": 96,
+   "bat_speed": 74.2,
+   "bat_speed_pct": 79,
+   "oaa": null,
+   "verdict": "Elite power; whiff too high",
+   "status": "Mets"
+  },
+  {
+   "player": "Jared Young",
+   "pos": "1B",
+   "pa": 342,
+   "woba": 0.332,
+   "xwoba": 0.321,
+   "chase": 27.5,
+   "chase_pct": 68,
+   "barrel": 7.7,
+   "barrel_pct": 52,
+   "bat_speed": 73.2,
+   "bat_speed_pct": 67,
+   "oaa": -1,
+   "verdict": "Useful 1B/platoon bat",
+   "status": "Mets"
+  },
+  {
+   "player": "Mark Vientos",
+   "pos": "1B",
+   "pa": 295,
+   "woba": 0.281,
+   "xwoba": 0.304,
+   "chase": 35.2,
+   "chase_pct": 21,
+   "barrel": 9.7,
+   "barrel_pct": 69,
+   "bat_speed": 73.8,
+   "bat_speed_pct": 74,
+   "oaa": -9,
+   "verdict": "Power, no OBP; not a 1B",
+   "status": "Mets"
+  },
+  {
+   "player": "Luis Torrens",
+   "pos": "C",
+   "pa": 281,
+   "woba": 0.302,
+   "xwoba": 0.289,
+   "chase": 32.4,
+   "chase_pct": 36,
+   "barrel": 5.5,
+   "barrel_pct": 31,
+   "bat_speed": 70.2,
+   "bat_speed_pct": 24,
+   "oaa": null,
+   "verdict": "Glove-first: +5.4 framing runs",
+   "status": "Mets"
+  },
+  {
+   "player": "Luis Robert Jr.",
+   "pos": "OF",
+   "pa": 218,
+   "woba": 0.308,
+   "xwoba": 0.318,
+   "chase": 32.8,
+   "chase_pct": 34,
+   "barrel": 8.5,
+   "barrel_pct": 59,
+   "bat_speed": 77.3,
+   "bat_speed_pct": 98,
+   "oaa": null,
+   "verdict": "Top bat speed; contact and health",
+   "status": "Baltimore"
+  },
+  {
+   "player": "Tyrone Taylor",
+   "pos": "OF",
+   "pa": 159,
+   "woba": 0.337,
+   "xwoba": 0.309,
+   "chase": 34.4,
+   "chase_pct": 26,
+   "barrel": 11.9,
+   "barrel_pct": 81,
+   "bat_speed": 71.6,
+   "bat_speed_pct": 44,
+   "oaa": null,
+   "verdict": "Results ran ahead of contact",
+   "status": "Cubs"
+  },
+  {
+   "player": "Jorge Polanco",
+   "pos": "1B",
+   "pa": 145,
+   "woba": 0.196,
+   "xwoba": 0.234,
+   "chase": 30.1,
+   "chase_pct": 51,
+   "barrel": 4.0,
+   "barrel_pct": 17,
+   "bat_speed": 69.5,
+   "bat_speed_pct": 16,
+   "oaa": 0,
+   "verdict": "Lowest bat on the team",
+   "status": "60-day IL"
+  },
+  {
+   "player": "MJ Melendez",
+   "pos": "LF",
+   "pa": 144,
+   "woba": 0.3,
+   "xwoba": 0.28,
+   "chase": 29.5,
+   "chase_pct": 56,
+   "barrel": 11.1,
+   "barrel_pct": 77,
+   "bat_speed": 74.1,
+   "bat_speed_pct": 77,
+   "oaa": 0,
+   "verdict": "Hits it hard; strikes out 35%",
+   "status": "Triple-A"
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.297,
+   "xwoba": 0.322,
+   "gap": -0.025
+  },
+  {
+   "half": "Second half",
+   "woba": 0.324,
+   "xwoba": 0.32,
+   "gap": 0.004
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Sean Manaea",
+   "first": 0.28,
+   "second": 0.337,
+   "third": 0.421
+  },
+  {
+   "pitcher": "Nolan McLean",
+   "first": 0.289,
+   "second": 0.286,
+   "third": 0.313
+  }
+ ],
+ "roster": [
+  {
+   "player": "Freddy Peralta (SP)",
+   "status": "Traded to Tampa Bay; now a free agent",
+   "source": "MLB Trade Rumors"
+  },
+  {
+   "player": "Clay Holmes (SP), Tyrone Taylor (OF)",
+   "status": "Traded to the Cubs at the deadline",
+   "source": "Chicago Sun-Times"
+  },
+  {
+   "player": "David Peterson (SP)",
+   "status": "With the Cubs",
+   "source": "Chicago Sun-Times"
+  },
+  {
+   "player": "Luke Weaver, Huascar Brazob\u00e1n, Brooks Raley, A.J. Minter (RP)",
+   "status": "Moved at the deadline",
+   "source": "CBS Sports"
+  },
+  {
+   "player": "Luis Robert Jr. (OF)",
+   "status": "Played for Baltimore after August 30",
+   "source": "Statcast game logs"
+  },
+  {
+   "player": "Jorge Polanco (1B)",
+   "status": "Ankle surgery, 60-day IL; under contract for 2027",
+   "source": "ABC7 New York"
+  },
+  {
+   "player": "MJ Melendez (OF)",
+   "status": "Outrighted to Triple-A",
+   "source": "NBC Sports"
+  },
+  {
+   "player": "Bo Bichette (3B)",
+   "status": "Can opt out of 2 years and $84MM; expected to stay for 2027 ($42MM)",
+   "source": "MLB Trade Rumors"
+  }
+ ],
+ "infield_value": [
+  {
+   "player": "Ty France (1B)",
+   "proj_oaa": 5.5
+  },
+  {
+   "player": "Mark Vientos (1B)",
+   "proj_oaa": -8
+  },
+  {
+   "player": "Jazz Chisholm Jr. (2B)",
+   "proj_oaa": 11
+  },
+  {
+   "player": "Marcus Semien (2B)",
+   "proj_oaa": 0.7
+  }
+ ],
+ "players": [
+  {
+   "group": "Hitters",
+   "player": "Juan Soto",
+   "value": 36
+  },
+  {
+   "group": "Hitters",
+   "player": "Carson Benge",
+   "value": 14
+  },
+  {
+   "group": "Hitters",
+   "player": "Bo Bichette",
+   "value": 8
+  },
+  {
+   "group": "Hitters",
+   "player": "Francisco Lindor",
+   "value": 6
+  },
+  {
+   "group": "Hitters",
+   "player": "MJ Melendez",
+   "value": -4
+  },
+  {
+   "group": "Hitters",
+   "player": "Luis Torrens",
+   "value": -6
+  },
+  {
+   "group": "Hitters",
+   "player": "Marcus Semien",
+   "value": -6
+  },
+  {
+   "group": "Hitters",
+   "player": "Jorge Polanco",
+   "value": -9
+  },
+  {
+   "group": "Starters",
+   "player": "Nolan McLean",
+   "value": 12
+  },
+  {
+   "group": "Starters",
+   "player": "Christian Scott",
+   "value": 6
+  },
+  {
+   "group": "Starters",
+   "player": "David Peterson",
+   "value": -6
+  },
+  {
+   "group": "Starters",
+   "player": "Kodai Senga",
+   "value": -8
+  },
+  {
+   "group": "Starters",
+   "player": "Sean Manaea",
+   "value": -9
+  },
+  {
+   "group": "Fielders",
+   "player": "Ronny Mauricio (SS)",
+   "value": -4
+  },
+  {
+   "group": "Fielders",
+   "player": "Marcus Semien (2B)",
+   "value": -9
+  },
+  {
+   "group": "Fielders",
+   "player": "Mark Vientos (1B)",
+   "value": -9
+  }
+ ],
+ "kpis": [
+  {
+   "metric": "wins",
+   "value": 74
+  },
+  {
+   "metric": "losses",
+   "value": 88
+  },
+  {
+   "metric": "runs_scored",
+   "value": 699
+  },
+  {
+   "metric": "runs_allowed",
+   "value": 731
+  },
+  {
+   "metric": "run_diff",
+   "value": -32
+  },
+  {
+   "metric": "rd_wins",
+   "value": 78
+  },
+  {
+   "metric": "one_run_w",
+   "value": 17
+  },
+  {
+   "metric": "one_run_l",
+   "value": 23
+  },
+  {
+   "metric": "proj_low",
+   "value": 82
+  },
+  {
+   "metric": "proj_high",
+   "value": 84
+  },
+  {
+   "metric": "oaa",
+   "value": -23
+  },
+  {
+   "metric": "oaa_rank",
+   "value": 25
+  },
+  {
+   "metric": "exit_velo_rank",
+   "value": 1
+  },
+  {
+   "metric": "woba_rank",
+   "value": 23
+  },
+  {
+   "metric": "contact_gap_runs",
+   "value": -59.6
+  },
+  {
+   "metric": "sim_88_no",
+   "value": 14
+  },
+  {
+   "metric": "sim_88_plan",
+   "value": 29
+  },
+  {
+   "metric": "payroll_committed",
+   "value": 255
+  },
+  {
+   "metric": "injury_runs",
+   "value": -32
+  }
+ ]
+}

@@ -1,0 +1,2091 @@
+{
+ "kpis": [
+  {
+   "metric": "wins",
+   "value": 62
+  },
+  {
+   "metric": "losses",
+   "value": 100
+  },
+  {
+   "metric": "runs_scored",
+   "value": 655
+  },
+  {
+   "metric": "runs_allowed",
+   "value": 752
+  },
+  {
+   "metric": "run_diff",
+   "value": -97
+  },
+  {
+   "metric": "rd_wins",
+   "value": 72
+  },
+  {
+   "metric": "one_run_w",
+   "value": 19
+  },
+  {
+   "metric": "one_run_l",
+   "value": 29
+  },
+  {
+   "metric": "proj_low",
+   "value": 77
+  },
+  {
+   "metric": "proj_high",
+   "value": 80
+  },
+  {
+   "metric": "oaa",
+   "value": -42
+  },
+  {
+   "metric": "oaa_rank",
+   "value": 28
+  },
+  {
+   "metric": "sim_88_no",
+   "value": 11
+  },
+  {
+   "metric": "sim_88_plan",
+   "value": 39
+  }
+ ],
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": -56.6,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Results below contact",
+   "runs": -14.0,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": -1.3,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": 1.3,
+   "kind": "part",
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": -70.6,
+   "kind": "total",
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": -3.2,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": -1.1,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": -29.5,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": -7.7,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": 15.2,
+   "kind": "part",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": -26.4,
+   "kind": "total",
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": -97.0,
+   "kind": "grand",
+   "group": "Total"
+  }
+ ],
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "team": 87.3,
+   "mlb": 88.0,
+   "rank": 25,
+   "fmt": "num1"
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "team": 37.2,
+   "mlb": 38.7,
+   "rank": 25,
+   "fmt": "pct"
+  },
+  {
+   "metric": "Barrel %",
+   "team": 7.9,
+   "mlb": 7.7,
+   "rank": 14,
+   "fmt": "pct"
+  },
+  {
+   "metric": "xwOBA",
+   "team": 0.302,
+   "mlb": 0.315,
+   "rank": 29,
+   "fmt": "rate"
+  },
+  {
+   "metric": "wOBA",
+   "team": 0.301,
+   "mlb": 0.316,
+   "rank": 30,
+   "fmt": "rate"
+  },
+  {
+   "metric": "OBP",
+   "team": 0.31,
+   "mlb": 0.318,
+   "rank": 26,
+   "fmt": "rate"
+  },
+  {
+   "metric": "BB %",
+   "team": 8.4,
+   "mlb": 8.9,
+   "rank": 24,
+   "fmt": "pct"
+  },
+  {
+   "metric": "K %",
+   "team": 25.5,
+   "mlb": 22.1,
+   "rank": 29,
+   "fmt": "pct"
+  },
+  {
+   "metric": "Chase %",
+   "team": 32.1,
+   "mlb": 30.5,
+   "rank": 26,
+   "fmt": "pct"
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.312,
+   "xwoba": 0.311,
+   "gap": 0.001
+  },
+  {
+   "half": "Second half",
+   "woba": 0.284,
+   "xwoba": 0.289,
+   "gap": -0.005
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "team": -42,
+   "mlb": 0,
+   "rank": 28,
+   "fmt": "int"
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "team": -26,
+   "mlb": -1,
+   "rank": 28,
+   "fmt": "int"
+  },
+  {
+   "area": "OAA vs. right-handed hitters",
+   "team": -17,
+   "mlb": 1,
+   "rank": 25,
+   "fmt": "int"
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "team": -9,
+   "mlb": 0,
+   "rank": 25,
+   "fmt": "int"
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "team": 0.319,
+   "mlb": 0.318,
+   "rank": 17,
+   "fmt": "rate"
+  },
+  {
+   "area": "Starters: walk rate",
+   "team": 10.0,
+   "mlb": 8.3,
+   "rank": 29,
+   "fmt": "pct"
+  },
+  {
+   "area": "Starters: K-BB %",
+   "team": 12.1,
+   "mlb": 13.6,
+   "rank": 20,
+   "fmt": "pct"
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "team": 95.7,
+   "mlb": 94.3,
+   "rank": 6,
+   "fmt": "num1"
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "team": 0.311,
+   "mlb": 0.31,
+   "rank": 17,
+   "fmt": "rate"
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "team": 14.0,
+   "mlb": 12.7,
+   "rank": 9,
+   "fmt": "pct"
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "team": 93.7,
+   "mlb": 94.8,
+   "rank": 28,
+   "fmt": "num1"
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "team": -7.7,
+   "mlb": 0,
+   "rank": 28,
+   "fmt": "signed1"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Sinker",
+   "pitches": 3717,
+   "rv100": 0.35,
+   "mlb_rv100": -0.27,
+   "runs_vs_mlb": 23.1,
+   "whiff": 14.5,
+   "mlb_whiff": 11.7
+  },
+  {
+   "pitch": "Four-seam",
+   "pitches": 7788,
+   "rv100": 0.07,
+   "mlb_rv100": 0.02,
+   "runs_vs_mlb": 4.3,
+   "whiff": 18.3,
+   "mlb_whiff": 18.7
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 1093,
+   "rv100": 0.42,
+   "mlb_rv100": 0.05,
+   "runs_vs_mlb": 4.1,
+   "whiff": 21.4,
+   "mlb_whiff": 20.6
+  },
+  {
+   "pitch": "Splitter",
+   "pitches": 1404,
+   "rv100": -0.06,
+   "mlb_rv100": -0.13,
+   "runs_vs_mlb": 1.0,
+   "whiff": 33.5,
+   "mlb_whiff": 32.7
+  },
+  {
+   "pitch": "Curveball",
+   "pitches": 886,
+   "rv100": -0.13,
+   "mlb_rv100": 0.33,
+   "runs_vs_mlb": -4.1,
+   "whiff": 30.3,
+   "mlb_whiff": 29.1
+  },
+  {
+   "pitch": "Changeup",
+   "pitches": 3212,
+   "rv100": -0.23,
+   "mlb_rv100": 0.05,
+   "runs_vs_mlb": -9.0,
+   "whiff": 32.3,
+   "mlb_whiff": 29.7
+  },
+  {
+   "pitch": "Knuckle curve",
+   "pitches": 627,
+   "rv100": -1.13,
+   "mlb_rv100": 0.34,
+   "runs_vs_mlb": -9.2,
+   "whiff": 38.9,
+   "mlb_whiff": 32.4
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 4126,
+   "rv100": -0.28,
+   "mlb_rv100": -0.02,
+   "runs_vs_mlb": -10.6,
+   "whiff": 33.2,
+   "mlb_whiff": 31.7
+  },
+  {
+   "pitch": "Sweeper",
+   "pitches": 1705,
+   "rv100": -0.94,
+   "mlb_rv100": 0.01,
+   "runs_vs_mlb": -16.2,
+   "whiff": 32.5,
+   "mlb_whiff": 29.6
+  }
+ ],
+ "players": [
+  {
+   "group": "Hitters",
+   "player": "Mike Trout",
+   "value": 32
+  },
+  {
+   "group": "Hitters",
+   "player": "Nolan Schanuel",
+   "value": 7
+  },
+  {
+   "group": "Hitters",
+   "player": "Yo\u00e1n Moncada",
+   "value": -5
+  },
+  {
+   "group": "Hitters",
+   "player": "Adam Frazier",
+   "value": -6
+  },
+  {
+   "group": "Hitters",
+   "player": "Jorge Soler",
+   "value": -6
+  },
+  {
+   "group": "Hitters",
+   "player": "Mois\u00e9s Ballesteros",
+   "value": -6
+  },
+  {
+   "group": "Hitters",
+   "player": "Tyler Heineman",
+   "value": -6
+  },
+  {
+   "group": "Hitters",
+   "player": "Christian Moore",
+   "value": -7
+  },
+  {
+   "group": "Hitters",
+   "player": "Josh Lowe",
+   "value": -8
+  },
+  {
+   "group": "Hitters",
+   "player": "Logan O'Hoppe",
+   "value": -10
+  },
+  {
+   "group": "Starters",
+   "player": "Reid Detmers",
+   "value": 21
+  },
+  {
+   "group": "Starters",
+   "player": "Walbert Ure\u00f1a",
+   "value": 19
+  },
+  {
+   "group": "Starters",
+   "player": "Jos\u00e9 Soriano",
+   "value": -1
+  },
+  {
+   "group": "Starters",
+   "player": "Yusei Kikuchi",
+   "value": -3
+  },
+  {
+   "group": "Starters",
+   "player": "George Klassen",
+   "value": -4
+  },
+  {
+   "group": "Starters",
+   "player": "Ryan Johnson",
+   "value": -4
+  },
+  {
+   "group": "Starters",
+   "player": "Sam Aldegheri",
+   "value": -6
+  },
+  {
+   "group": "Starters",
+   "player": "Jack Kochanowicz",
+   "value": -9
+  },
+  {
+   "group": "Starters",
+   "player": "Grayson Rodriguez",
+   "value": -14
+  },
+  {
+   "group": "Fielders",
+   "player": "Nolan Schanuel (1B)",
+   "value": 4
+  },
+  {
+   "group": "Fielders",
+   "player": "Mike Trout (CF)",
+   "value": -5
+  },
+  {
+   "group": "Fielders",
+   "player": "Jo Adell (RF)",
+   "value": -6
+  },
+  {
+   "group": "Fielders",
+   "player": "Yo\u00e1n Moncada (3B)",
+   "value": -6
+  },
+  {
+   "group": "Fielders",
+   "player": "Zach Neto (SS)",
+   "value": -8
+  },
+  {
+   "group": "Fielders",
+   "player": "Vaughn Grissom (1B)",
+   "value": -13
+  }
+ ],
+ "backtest": [
+  {
+   "metric": "Team batting gap, year-to-year r (150 team-seasons)",
+   "value": "0.38 (95% CI 0.21-0.49)"
+  },
+  {
+   "metric": "Teams with gap of -.010 or worse: avg gap \u2192 next season",
+   "value": "-.013 \u2192 -.007 (25 teams)"
+  },
+  {
+   "metric": "Teams with gap of +.010 or better: avg gap \u2192 next season",
+   "value": "+.013 \u2192 -.001 (4 teams)"
+  },
+  {
+   "metric": "Pitching-side gap, year-to-year r",
+   "value": "0.43"
+  },
+  {
+   "metric": "Hitter split-half r (347 hitters, 200+ PA)",
+   "value": "0.18"
+  },
+  {
+   "metric": "Team batting split-half r",
+   "value": "0.32"
+  },
+  {
+   "metric": "Team pitching split-half r",
+   "value": "0.53"
+  },
+  {
+   "metric": "Angels gap (wOBA \u2212 xwOBA) and MLB rank",
+   "value": "-.001"
+  },
+  {
+   "metric": "Angels gap per PA at home vs. road",
+   "value": "-.014 vs. +.011"
+  },
+  {
+   "metric": "Angels line drives: wOBA \u2212 xwOBA vs. MLB",
+   "value": "-.005 vs. +.001"
+  },
+  {
+   "metric": "Angels ground balls: wOBA \u2212 xwOBA vs. MLB",
+   "value": "+.005 vs. -.001"
+  }
+ ],
+ "availability": [
+  {
+   "item": "Starts by pitchers outside the top five",
+   "season": "42 of 162 (10 different starters)",
+   "comparison": ".354 xwOBA allowed vs. .308 for Detmers, Ure\u00f1a, Soriano, Rodriguez, Johnson",
+   "runs": -31
+  },
+  {
+   "item": "Mike Trout: 142 games, most since 2016",
+   "season": "20 games missed (17 with a right hamstring strain)",
+   "comparison": "Availability was not the problem in 2026",
+   "runs": null
+  },
+  {
+   "item": "One-run games",
+   "season": "19-29",
+   "comparison": "About 10 wins below what the run differential implies",
+   "runs": null
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Reid Detmers",
+   "first": 0.255,
+   "second": 0.304,
+   "third": 0.283
+  },
+  {
+   "pitcher": "Walbert Ure\u00f1a",
+   "first": 0.263,
+   "second": 0.289,
+   "third": 0.283
+  },
+  {
+   "pitcher": "Jos\u00e9 Soriano",
+   "first": 0.317,
+   "second": 0.299,
+   "third": 0.359
+  }
+ ],
+ "roster": [
+  {
+   "player": "Ownership",
+   "status": "Kroenke Sports & Entertainment buying the club for about $4 billion; expected to close in Q1 2027",
+   "source": "Roundtable"
+  },
+  {
+   "player": "Front office and manager",
+   "status": "Interim GM John Mozeliak (Perry Minasian dismissed in June); manager Kurt Suzuki on a one-year deal",
+   "source": "Roundtable"
+  },
+  {
+   "player": "Mike Trout (OF)",
+   "status": "Signed through 2030; expected to move to left field",
+   "source": "MLB.com; Roundtable"
+  },
+  {
+   "player": "Logan O'Hoppe (C)",
+   "status": "Traded to the Texas Rangers",
+   "source": "Roundtable"
+  },
+  {
+   "player": "Catcher options",
+   "status": "Ballesteros (bat-first), Heineman (arbitration-eligible), prospect Jacob Cozart; Travis d'Arnaud is a free agent",
+   "source": "Roundtable"
+  },
+  {
+   "player": "Center field",
+   "status": "Prospect Nelson Rada (.376 OBP, 43 SB at Triple-A) or a free agent",
+   "source": "Roundtable"
+  },
+  {
+   "player": "Yo\u00e1n Moncada (INF)",
+   "status": "Free agent; recovering from knee surgery",
+   "source": "MLB.com"
+  },
+  {
+   "player": "Arbitration class",
+   "status": "About $35MM projected (Neto $9.8MM, Detmers $7.5MM, Schanuel $3MM among them)",
+   "source": "MLB Trade Rumors via Yardbarker; total by EP"
+  }
+ ],
+ "free_agents": [
+  {
+   "need": "C",
+   "candidate": "Ryan Jeffers",
+   "team_age": "MIN",
+   "xwoba": ".344",
+   "oaa": "\u2014",
+   "bat": "73.5",
+   "read": "Best bat at the position; framing about average (-1.3 runs)"
+  },
+  {
+   "need": "2B/CF",
+   "candidate": "Jazz Chisholm Jr.",
+   "team_age": "NYY",
+   "xwoba": ".295",
+   "oaa": "+9 / +5 / +15",
+   "bat": "72.9",
+   "read": "Left-handed power and the best glove on the list; played CF for the Marlins"
+  },
+  {
+   "need": "Bat (2B, LH)",
+   "candidate": "Brandon Lowe",
+   "team_age": "PIT",
+   "xwoba": ".331",
+   "oaa": "0 / -14 / +15",
+   "bat": "73.5",
+   "read": "Left-handed power (12.4% barrels)"
+  },
+  {
+   "need": "Bat (1B/DH, LH)",
+   "candidate": "Nathaniel Lowe",
+   "team_age": "CIN",
+   "xwoba": ".336",
+   "oaa": "+7 / -5 / -3",
+   "bat": "74.4",
+   "read": "Left-handed contact: 23.1% K, 27.3% chase"
+  },
+  {
+   "need": "Bat (OF/DH)",
+   "candidate": "Seiya Suzuki",
+   "team_age": "CHC",
+   "xwoba": ".339",
+   "oaa": "-3 / 0 / +5",
+   "bat": "73.3",
+   "read": "Power with a 22.5% chase rate"
+  },
+  {
+   "need": "CF",
+   "candidate": "Trent Grisham",
+   "team_age": "NYY",
+   "xwoba": ".336",
+   "oaa": "+2 / -2 / -5",
+   "bat": "70.7",
+   "read": "Left-handed bat; 12.6% walks"
+  },
+  {
+   "need": "RP",
+   "candidate": "David Bednar",
+   "team_age": "NYY",
+   "xwoba": ".263",
+   "oaa": "\u2014",
+   "bat": "96.1 FB",
+   "read": "Bat-missing closer"
+  },
+  {
+   "need": "RP",
+   "candidate": "Gregory Soto",
+   "team_age": "PIT",
+   "xwoba": ".269",
+   "oaa": "\u2014",
+   "bat": "96.4 FB",
+   "read": "Left-handed power arm"
+  }
+ ],
+ "target_value": [
+  {
+   "player": "Ryan Jeffers (C)",
+   "value": 31.5,
+   "unit": "runs per 600 PA",
+   "target": true
+  },
+  {
+   "player": "Seiya Suzuki (OF/DH)",
+   "value": 29.2,
+   "unit": "runs per 600 PA",
+   "target": true
+  },
+  {
+   "player": "Nathaniel Lowe (1B/DH)",
+   "value": 27.9,
+   "unit": "runs per 600 PA",
+   "target": true
+  },
+  {
+   "player": "Brandon Lowe (2B)",
+   "value": 25.6,
+   "unit": "runs per 600 PA",
+   "target": true
+  },
+  {
+   "player": "Jazz Chisholm Jr. (bat only)",
+   "value": 9.0,
+   "unit": "runs per 600 PA",
+   "target": true
+  },
+  {
+   "player": "Angels sub-.300 group (2026)",
+   "value": 0.0,
+   "unit": "baseline",
+   "target": false
+  }
+ ],
+ "hitters": [
+  {
+   "player": "Zach Neto",
+   "pos": "SS",
+   "pa": 704,
+   "woba": 0.336,
+   "xwoba": 0.318,
+   "chase": 36.9,
+   "chase_pct": 15,
+   "barrel": 11.9,
+   "barrel_pct": 80,
+   "bat_speed": 71.5,
+   "bat_speed_pct": 43,
+   "oaa": -8,
+   "verdict": "Power at SS; chase and K%",
+   "status": "Angels"
+  },
+  {
+   "player": "Mike Trout",
+   "pos": "CF",
+   "pa": 634,
+   "woba": 0.353,
+   "xwoba": 0.38,
+   "chase": 20.7,
+   "chase_pct": 97,
+   "barrel": 16.0,
+   "barrel_pct": 98,
+   "bat_speed": 74.7,
+   "bat_speed_pct": 85,
+   "oaa": -5,
+   "verdict": "Still elite: .380 xwOBA; to LF",
+   "status": "Angels"
+  },
+  {
+   "player": "Vaughn Grissom",
+   "pos": "1B",
+   "pa": 474,
+   "woba": 0.304,
+   "xwoba": 0.308,
+   "chase": 31.3,
+   "chase_pct": 43,
+   "barrel": 6.7,
+   "barrel_pct": 43,
+   "bat_speed": 70.8,
+   "bat_speed_pct": 31,
+   "oaa": -13,
+   "verdict": "-13 OAA at 1B",
+   "status": "Angels"
+  },
+  {
+   "player": "Jo Adell",
+   "pos": "RF",
+   "pa": 456,
+   "woba": 0.301,
+   "xwoba": 0.323,
+   "chase": 36.5,
+   "chase_pct": 17,
+   "barrel": 8.6,
+   "barrel_pct": 60,
+   "bat_speed": 77.4,
+   "bat_speed_pct": 98,
+   "oaa": -6,
+   "verdict": "Bat speed 77.4 (98th); 3.5% walks",
+   "status": "Angels"
+  },
+  {
+   "player": "Nolan Schanuel",
+   "pos": "1B",
+   "pa": 446,
+   "woba": 0.327,
+   "xwoba": 0.334,
+   "chase": 27.2,
+   "chase_pct": 70,
+   "barrel": 2.4,
+   "barrel_pct": 6,
+   "bat_speed": 68.1,
+   "bat_speed_pct": 5,
+   "oaa": 4,
+   "verdict": "Contact and eye, no power",
+   "status": "Angels"
+  },
+  {
+   "player": "Oswald Peraza",
+   "pos": "2B",
+   "pa": 370,
+   "woba": 0.276,
+   "xwoba": 0.272,
+   "chase": 38.6,
+   "chase_pct": 9,
+   "barrel": 6.1,
+   "barrel_pct": 35,
+   "bat_speed": 72.5,
+   "bat_speed_pct": 57,
+   "oaa": -2,
+   "verdict": ".272 xwOBA, chase 38.6%",
+   "status": "Angels"
+  },
+  {
+   "player": "Jorge Soler",
+   "pos": "RF",
+   "pa": 361,
+   "woba": 0.294,
+   "xwoba": 0.294,
+   "chase": 27.4,
+   "chase_pct": 68,
+   "barrel": 10.9,
+   "barrel_pct": 76,
+   "bat_speed": 74.9,
+   "bat_speed_pct": 87,
+   "oaa": -2,
+   "verdict": "32.7% strikeouts",
+   "status": "Angels"
+  },
+  {
+   "player": "Josh Lowe",
+   "pos": "LF",
+   "pa": 343,
+   "woba": 0.278,
+   "xwoba": 0.284,
+   "chase": 36.0,
+   "chase_pct": 19,
+   "barrel": 9.0,
+   "barrel_pct": 63,
+   "bat_speed": 73.6,
+   "bat_speed_pct": 73,
+   "oaa": 2,
+   "verdict": "Strikeouts, chase",
+   "status": "Angels"
+  },
+  {
+   "player": "Wade Meckler",
+   "pos": "LF",
+   "pa": 337,
+   "woba": 0.341,
+   "xwoba": 0.317,
+   "chase": 23.1,
+   "chase_pct": 89,
+   "barrel": 2.9,
+   "barrel_pct": 10,
+   "bat_speed": 69.0,
+   "bat_speed_pct": 12,
+   "oaa": 1,
+   "verdict": "Eye; results ran ahead",
+   "status": "Angels"
+  },
+  {
+   "player": "Denzer Guzman",
+   "pos": "3B",
+   "pa": 304,
+   "woba": 0.265,
+   "xwoba": 0.264,
+   "chase": 33.6,
+   "chase_pct": 30,
+   "barrel": 4.8,
+   "barrel_pct": 24,
+   "bat_speed": 74.4,
+   "bat_speed_pct": 82,
+   "oaa": -1,
+   "verdict": ".264 xwOBA",
+   "status": "Angels"
+  },
+  {
+   "player": "Logan O'Hoppe",
+   "pos": "C",
+   "pa": 257,
+   "woba": 0.255,
+   "xwoba": 0.265,
+   "chase": 34.9,
+   "chase_pct": 22,
+   "barrel": 9.8,
+   "barrel_pct": 70,
+   "bat_speed": 71.9,
+   "bat_speed_pct": 48,
+   "oaa": null,
+   "verdict": "Traded; framing -10.7",
+   "status": "Traded (TEX)"
+  },
+  {
+   "player": "Jose Siri",
+   "pos": "LF",
+   "pa": 251,
+   "woba": 0.309,
+   "xwoba": 0.303,
+   "chase": 40.2,
+   "chase_pct": 6,
+   "barrel": 13.2,
+   "barrel_pct": 90,
+   "bat_speed": 73.4,
+   "bat_speed_pct": 68,
+   "oaa": -3,
+   "verdict": "Power, chase 40%",
+   "status": "Angels"
+  },
+  {
+   "player": "Mois\u00e9s Ballesteros",
+   "pos": "C",
+   "pa": 177,
+   "woba": 0.244,
+   "xwoba": 0.27,
+   "chase": 39.1,
+   "chase_pct": 8,
+   "barrel": 7.7,
+   "barrel_pct": 52,
+   "bat_speed": 72.2,
+   "bat_speed_pct": 52,
+   "oaa": 0,
+   "verdict": "Bat-first catcher",
+   "status": "Angels"
+  },
+  {
+   "player": "Adam Frazier",
+   "pos": "2B",
+   "pa": 147,
+   "woba": 0.292,
+   "xwoba": 0.264,
+   "chase": 36.5,
+   "chase_pct": 17,
+   "barrel": 2.1,
+   "barrel_pct": 5,
+   "bat_speed": 65.2,
+   "bat_speed_pct": 1,
+   "oaa": -1,
+   "verdict": "Depth",
+   "status": "Angels"
+  },
+  {
+   "player": "Christian Moore",
+   "pos": "2B",
+   "pa": 147,
+   "woba": 0.24,
+   "xwoba": 0.254,
+   "chase": 31.1,
+   "chase_pct": 45,
+   "barrel": 9.3,
+   "barrel_pct": 65,
+   "bat_speed": 72.0,
+   "bat_speed_pct": 50,
+   "oaa": -3,
+   "verdict": "32.7% strikeouts",
+   "status": "Angels"
+  },
+  {
+   "player": "Yo\u00e1n Moncada",
+   "pos": "3B",
+   "pa": 130,
+   "woba": 0.285,
+   "xwoba": 0.269,
+   "chase": 21.1,
+   "chase_pct": 95,
+   "barrel": 7.8,
+   "barrel_pct": 53,
+   "bat_speed": 72.3,
+   "bat_speed_pct": 53,
+   "oaa": -6,
+   "verdict": "Free agent; knee surgery",
+   "status": "Free agent"
+  },
+  {
+   "player": "Tyler Heineman",
+   "pos": "C",
+   "pa": 113,
+   "woba": 0.215,
+   "xwoba": 0.244,
+   "chase": 41.3,
+   "chase_pct": 5,
+   "barrel": 0.0,
+   "barrel_pct": 1,
+   "bat_speed": 65.0,
+   "bat_speed_pct": 1,
+   "oaa": null,
+   "verdict": "Framing +5.9; no bat",
+   "status": "Angels"
+  }
+ ],
+ "pitchers": [
+  {
+   "pitcher": "Reid Detmers",
+   "role": "SP",
+   "bf": 740,
+   "xwoba": 0.28,
+   "xwoba_pct": 83,
+   "k": 28.5,
+   "k_pct": 87,
+   "bb": 6.5,
+   "bb_pct": 84,
+   "barrel": 7.8,
+   "barrel_pct": 43,
+   "fb": 94.1,
+   "fb_pct": 44,
+   "best_pitch": "Slider",
+   "best_runs": -17.7,
+   "worst_pitch": null,
+   "worst_runs": null,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Walbert Ure\u00f1a",
+   "role": "SP",
+   "bf": 625,
+   "xwoba": 0.281,
+   "xwoba_pct": 82,
+   "k": 22.7,
+   "k_pct": 53,
+   "bb": 10.9,
+   "bb_pct": 18,
+   "barrel": 5.4,
+   "barrel_pct": 84,
+   "fb": 98.1,
+   "fb_pct": 94,
+   "best_pitch": "Changeup",
+   "best_runs": -18.1,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 4.1,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Jos\u00e9 Soriano",
+   "role": "SP",
+   "bf": 511,
+   "xwoba": 0.321,
+   "xwoba_pct": 35,
+   "k": 24.9,
+   "k_pct": 69,
+   "bb": 11.2,
+   "bb_pct": 17,
+   "barrel": 8.1,
+   "barrel_pct": 38,
+   "fb": 96.3,
+   "fb_pct": 76,
+   "best_pitch": "Knuckle curve",
+   "best_runs": -9.1,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 1.9,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Grayson Rodriguez",
+   "role": "SP",
+   "bf": 444,
+   "xwoba": 0.36,
+   "xwoba_pct": 5,
+   "k": 19.1,
+   "k_pct": 27,
+   "bb": 9.7,
+   "bb_pct": 35,
+   "barrel": 8.7,
+   "barrel_pct": 27,
+   "fb": 96.1,
+   "fb_pct": 74,
+   "best_pitch": null,
+   "best_runs": null,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 11.5,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Ryan Johnson",
+   "role": "SP",
+   "bf": 437,
+   "xwoba": 0.335,
+   "xwoba_pct": 21,
+   "k": 18.1,
+   "k_pct": 19,
+   "bb": 9.8,
+   "bb_pct": 32,
+   "barrel": 9.4,
+   "barrel_pct": 18,
+   "fb": 89.7,
+   "fb_pct": 5,
+   "best_pitch": "Cutter",
+   "best_runs": -5.5,
+   "worst_pitch": "Sinker",
+   "worst_runs": 13.9,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Yusei Kikuchi",
+   "role": "SP",
+   "bf": 305,
+   "xwoba": 0.333,
+   "xwoba_pct": 23,
+   "k": 22.0,
+   "k_pct": 46,
+   "bb": 9.8,
+   "bb_pct": 32,
+   "barrel": 8.3,
+   "barrel_pct": 35,
+   "fb": 95.5,
+   "fb_pct": 65,
+   "best_pitch": "Curveball",
+   "best_runs": -2.2,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 2.4,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Jack Kochanowicz",
+   "role": "SP",
+   "bf": 296,
+   "xwoba": 0.358,
+   "xwoba_pct": 5,
+   "k": 15.9,
+   "k_pct": 8,
+   "bb": 12.2,
+   "bb_pct": 10,
+   "barrel": 7.4,
+   "barrel_pct": 51,
+   "fb": 95.7,
+   "fb_pct": 67,
+   "best_pitch": "Slider",
+   "best_runs": -1.2,
+   "worst_pitch": "Changeup",
+   "worst_runs": 4.1,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Brent Suter",
+   "role": "RP",
+   "bf": 266,
+   "xwoba": 0.317,
+   "xwoba_pct": 41,
+   "k": 20.7,
+   "k_pct": 36,
+   "bb": 6.8,
+   "bb_pct": 79,
+   "barrel": 6.4,
+   "barrel_pct": 71,
+   "fb": 89.1,
+   "fb_pct": 3,
+   "best_pitch": "Sinker",
+   "best_runs": -4.0,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 6.8,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Mitch Farris",
+   "role": "RP",
+   "bf": 258,
+   "xwoba": 0.354,
+   "xwoba_pct": 8,
+   "k": 24.4,
+   "k_pct": 66,
+   "bb": 11.2,
+   "bb_pct": 16,
+   "barrel": 9.2,
+   "barrel_pct": 20,
+   "fb": 91.7,
+   "fb_pct": 14,
+   "best_pitch": "Cutter",
+   "best_runs": -1.5,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 6.9,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Jos\u00e9 Fermin",
+   "role": "RP",
+   "bf": 238,
+   "xwoba": 0.327,
+   "xwoba_pct": 28,
+   "k": 26.1,
+   "k_pct": 76,
+   "bb": 10.5,
+   "bb_pct": 22,
+   "barrel": 7.5,
+   "barrel_pct": 49,
+   "fb": 96.4,
+   "fb_pct": 79,
+   "best_pitch": "Slider",
+   "best_runs": -7.2,
+   "worst_pitch": "Sinker",
+   "worst_runs": 2.9,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Ryan Zeferjahn",
+   "role": "RP",
+   "bf": 223,
+   "xwoba": 0.268,
+   "xwoba_pct": 89,
+   "k": 33.6,
+   "k_pct": 97,
+   "bb": 13.9,
+   "bb_pct": 3,
+   "barrel": 5.6,
+   "barrel_pct": 83,
+   "fb": 97.5,
+   "fb_pct": 89,
+   "best_pitch": "Sweeper",
+   "best_runs": -7.6,
+   "worst_pitch": "Sinker",
+   "worst_runs": 1.9,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Sam Bachman",
+   "role": "RP",
+   "bf": 217,
+   "xwoba": 0.313,
+   "xwoba_pct": 47,
+   "k": 22.6,
+   "k_pct": 52,
+   "bb": 13.4,
+   "bb_pct": 4,
+   "barrel": 8.3,
+   "barrel_pct": 34,
+   "fb": 98.6,
+   "fb_pct": 97,
+   "best_pitch": "Slider",
+   "best_runs": -5.4,
+   "worst_pitch": "Changeup",
+   "worst_runs": 2.9,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Chase Silseth",
+   "role": "RP",
+   "bf": 174,
+   "xwoba": 0.301,
+   "xwoba_pct": 65,
+   "k": 27.6,
+   "k_pct": 83,
+   "bb": 12.6,
+   "bb_pct": 8,
+   "barrel": 8.7,
+   "barrel_pct": 27,
+   "fb": 95.9,
+   "fb_pct": 71,
+   "best_pitch": "Four-seam",
+   "best_runs": -5.8,
+   "worst_pitch": "Splitter",
+   "worst_runs": 2.4,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Sam Aldegheri",
+   "role": "SP/RP",
+   "bf": 151,
+   "xwoba": 0.355,
+   "xwoba_pct": 7,
+   "k": 14.6,
+   "k_pct": 3,
+   "bb": 11.3,
+   "bb_pct": 16,
+   "barrel": 9.0,
+   "barrel_pct": 22,
+   "fb": 92.1,
+   "fb_pct": 17,
+   "best_pitch": "Four-seam",
+   "best_runs": -2.8,
+   "worst_pitch": null,
+   "worst_runs": null,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Samy Natera Jr.",
+   "role": "RP",
+   "bf": 131,
+   "xwoba": 0.246,
+   "xwoba_pct": 98,
+   "k": 36.6,
+   "k_pct": 99,
+   "bb": 9.9,
+   "bb_pct": 31,
+   "barrel": 4.4,
+   "barrel_pct": 93,
+   "fb": 94.9,
+   "fb_pct": 57,
+   "best_pitch": "Four-seam",
+   "best_runs": -8.7,
+   "worst_pitch": "Slider",
+   "worst_runs": 1.0,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "George Klassen",
+   "role": "SP",
+   "bf": 125,
+   "xwoba": 0.356,
+   "xwoba_pct": 7,
+   "k": 19.2,
+   "k_pct": 28,
+   "bb": 16.8,
+   "bb_pct": 1,
+   "barrel": 8.9,
+   "barrel_pct": 25,
+   "fb": 96.4,
+   "fb_pct": 80,
+   "best_pitch": "Slider",
+   "best_runs": -2.7,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 0.5,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Kirby Yates",
+   "role": "RP",
+   "bf": 118,
+   "xwoba": 0.278,
+   "xwoba_pct": 84,
+   "k": 30.5,
+   "k_pct": 93,
+   "bb": 10.2,
+   "bb_pct": 27,
+   "barrel": 7.6,
+   "barrel_pct": 46,
+   "fb": 90.8,
+   "fb_pct": 8,
+   "best_pitch": "Four-seam",
+   "best_runs": -5.5,
+   "worst_pitch": "Splitter",
+   "worst_runs": 1.1,
+   "status": "Angels"
+  },
+  {
+   "pitcher": "Drew Pomeranz",
+   "role": "RP",
+   "bf": 108,
+   "xwoba": 0.333,
+   "xwoba_pct": 23,
+   "k": 14.8,
+   "k_pct": 3,
+   "bb": 11.1,
+   "bb_pct": 17,
+   "barrel": 7.7,
+   "barrel_pct": 45,
+   "fb": 92.1,
+   "fb_pct": 18,
+   "best_pitch": "Knuckle curve",
+   "best_runs": -0.1,
+   "worst_pitch": "Four-seam",
+   "worst_runs": 3.2,
+   "status": "Angels"
+  }
+ ],
+ "trends": [
+  {
+   "id": "t0",
+   "player": "Reid Detmers",
+   "metric": "Curveball whiff % (Savant)",
+   "y2024": 21.6,
+   "y2025": 22.5,
+   "y2026": 37.2,
+   "higher_better": true,
+   "read": "Up 15.6 points: a new weapon"
+  },
+  {
+   "id": "t1",
+   "player": "Grayson Rodriguez",
+   "metric": "4-Seam Fastball whiff % (Savant)",
+   "y2024": 27.0,
+   "y2025": null,
+   "y2026": 16.3,
+   "higher_better": true,
+   "read": "Down 10.7 points since 2024"
+  },
+  {
+   "id": "t2",
+   "player": "Jos\u00e9 Soriano",
+   "metric": "Four-seam velocity (mph)",
+   "y2024": 98.7,
+   "y2025": 97.9,
+   "y2026": 97.1,
+   "higher_better": true,
+   "read": "Down 1.6 mph in two years"
+  },
+  {
+   "id": "t3",
+   "player": "Yusei Kikuchi",
+   "metric": "4-Seam Fastball whiff % (Savant)",
+   "y2024": 28.0,
+   "y2025": 21.2,
+   "y2026": 18.6,
+   "higher_better": true,
+   "read": "Down 9.4 points"
+  },
+  {
+   "id": "t4",
+   "player": "Kirby Yates",
+   "metric": "Four-seam velocity (mph)",
+   "y2024": 93.2,
+   "y2025": 92.8,
+   "y2026": 90.8,
+   "higher_better": true,
+   "read": "Down 2.4 mph at 39"
+  },
+  {
+   "id": "t5",
+   "player": "Ryan Johnson",
+   "metric": "Sinker velocity (mph)",
+   "y2024": null,
+   "y2025": 94.3,
+   "y2026": 92.4,
+   "higher_better": true,
+   "read": "Down 1.9 mph in one year"
+  },
+  {
+   "id": "t6",
+   "player": "Chase Silseth",
+   "metric": "Four-seam velocity (mph)",
+   "y2024": 93.7,
+   "y2025": 95.4,
+   "y2026": 95.9,
+   "higher_better": true,
+   "read": "Up 2.2 mph: real gain"
+  },
+  {
+   "id": "t7",
+   "player": "Jose Siri",
+   "metric": "Outs Above Average",
+   "y2024": 16,
+   "y2025": 0,
+   "y2026": -3,
+   "higher_better": true,
+   "read": "From +16 to -3"
+  },
+  {
+   "id": "t8",
+   "player": "Vaughn Grissom",
+   "metric": "Outs Above Average",
+   "y2024": -2,
+   "y2025": null,
+   "y2026": -13,
+   "higher_better": true,
+   "read": "Exposed at first base"
+  },
+  {
+   "id": "t9",
+   "player": "Nolan Schanuel",
+   "metric": "Bat speed (mph)",
+   "y2024": 65.1,
+   "y2025": 67.4,
+   "y2026": 68.1,
+   "higher_better": true,
+   "read": "Up 3.0 mph, still 5th pct"
+  },
+  {
+   "id": "t10",
+   "player": "Oswald Peraza",
+   "metric": "Bat speed (mph)",
+   "y2024": 74.6,
+   "y2025": 73.6,
+   "y2026": 72.5,
+   "higher_better": true,
+   "read": "Down 2.1 mph in two years"
+  },
+  {
+   "id": "t11",
+   "player": "Logan O'Hoppe",
+   "metric": "Sprint speed (ft/s)",
+   "y2024": 28.1,
+   "y2025": 27.3,
+   "y2026": 27.2,
+   "higher_better": true,
+   "read": "Traded to Texas"
+  }
+ ],
+ "evals": [
+  {
+   "group": "Hitters",
+   "player": "Zach Neto",
+   "pos": "SS",
+   "headline": "Power at shortstop; chase and strikeouts",
+   "strengths": "barrel 11.9% (80th)",
+   "weaknesses": "chase 36.9% (15th); K% 30.5% (10th); -8 OAA at SS",
+   "plan": "Swing-decision program (36.9% chase, 30.5% K); shortstop positioning work (-8 OAA). Target: chase under 32%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Mike Trout",
+   "pos": "CF",
+   "headline": "Still elite at the plate (.380 xwOBA, 16.9% walks)",
+   "strengths": "xwOBA .380 (98th); chase 20.7% (97th); barrel 16.0% (98th); bat speed 74.7 mph (85th); BB% 16.9% (99th); hard-hit 46.4% (84th); xwOBA .380 above his .353 wOBA (unlucky results)",
+   "weaknesses": "K% 26.0% (24th); -5 OAA at CF; -2.0 baserunning runs",
+   "plan": "Move to left field (-5 OAA in CF) and protect him with DH days. Target: 140+ games again."
+  },
+  {
+   "group": "Hitters",
+   "player": "Vaughn Grissom",
+   "pos": "1B",
+   "headline": "-13 OAA at first base",
+   "strengths": "\u2014",
+   "weaknesses": "BB% 6.5% (22nd); -13 OAA at 1B",
+   "plan": "Off first base; Schanuel (+4 OAA) plays first. Target: a role where the glove is not exposed."
+  },
+  {
+   "group": "Hitters",
+   "player": "Jo Adell",
+   "pos": "RF",
+   "headline": "Bat speed 77.4 (98th); 3.5% walks",
+   "strengths": "bat speed 77.4 mph (98th)",
+   "weaknesses": "chase 36.5% (17th); BB% 3.5% (2nd); -6 OAA at RF",
+   "plan": "Swing-decision program. Target: chase under 32%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Nolan Schanuel",
+   "pos": "1B",
+   "headline": "Contact and eye, no power",
+   "strengths": "xwOBA .334 (75th); chase 27.2% (70th); K% 13.0% (93rd); +4 OAA at 1B",
+   "weaknesses": "barrel 2.4% (6th); bat speed 68.1 mph (5th)",
+   "plan": "Strength and bat-speed block. Target: +1 mph bat speed with the same contact rate."
+  },
+  {
+   "group": "Hitters",
+   "player": "Oswald Peraza",
+   "pos": "2B",
+   "headline": ".272 xwOBA, chase 38.6%",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .272 (8th); chase 38.6% (9th); BB% 4.6% (7th); K% 30.0% (11th)",
+   "plan": "Swing-decision program. Target: chase under 35%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Jorge Soler",
+   "pos": "RF",
+   "headline": "32.7% strikeouts",
+   "strengths": "barrel 10.9% (76th); bat speed 74.9 mph (87th)",
+   "weaknesses": "xwOBA .294 (26th); K% 32.7% (2nd)",
+   "plan": "Contact program. Target: K% under 30%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Josh Lowe",
+   "pos": "LF",
+   "headline": "Strikeouts, chase",
+   "strengths": "bat speed 73.6 mph (73rd)",
+   "weaknesses": "xwOBA .284 (16th); chase 36.0% (19th); K% 30.6% (10th)",
+   "plan": "Swing-decision program. Target: chase under 32%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Wade Meckler",
+   "pos": "LF",
+   "headline": "Eye; results ran ahead",
+   "strengths": "chase 23.1% (89th)",
+   "weaknesses": "barrel 2.9% (10th); bat speed 69.0 mph (12th)",
+   "plan": "Strength and bat-speed block. Target: +1 mph bat speed with the same contact rate."
+  },
+  {
+   "group": "Hitters",
+   "player": "Denzer Guzman",
+   "pos": "3B",
+   "headline": ".264 xwOBA",
+   "strengths": "bat speed 74.4 mph (82nd)",
+   "weaknesses": "xwOBA .264 (5th); chase 33.6% (30th); barrel 4.8% (24th); BB% 5.6% (15th)",
+   "plan": "Swing-decision program. Target: chase under 30%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Logan O'Hoppe",
+   "pos": "C",
+   "headline": "Traded; framing -10.7",
+   "strengths": "barrel 9.8% (70th)",
+   "weaknesses": "xwOBA .265 (5th); chase 34.9% (22nd); BB% 6.6% (23rd); -10.7 framing runs",
+   "plan": "Swing-decision program. Target: chase under 31%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Jose Siri",
+   "pos": "LF",
+   "headline": "Power, chase 40%",
+   "strengths": "barrel 13.2% (90th)",
+   "weaknesses": "chase 40.2% (6th); BB% 6.0% (19th); K% 31.9% (6th)",
+   "plan": "Swing-decision program. Target: chase under 36%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Mois\u00e9s Ballesteros",
+   "pos": "C",
+   "headline": "Bat-first catcher",
+   "strengths": "xwOBA .270 above his .244 wOBA (unlucky results)",
+   "weaknesses": "xwOBA .270 (7th); chase 39.1% (8th); K% 26.0% (24th)",
+   "plan": "Swing-decision program. Target: chase under 35%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Adam Frazier",
+   "pos": "2B",
+   "headline": "Depth",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .264 (5th); chase 36.5% (17th); barrel 2.1% (5th); bat speed 65.2 mph (1st); K% 26.5% (22nd); wOBA .292 on .264 xwOBA (results ran ahead of contact)",
+   "plan": "Swing-decision program. Target: chase under 32%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Christian Moore",
+   "pos": "2B",
+   "headline": "32.7% strikeouts",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .254 (3rd); K% 32.7% (3rd)",
+   "plan": "Contact program. Target: K% under 30%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Yo\u00e1n Moncada",
+   "pos": "3B",
+   "headline": "Free agent; knee surgery",
+   "strengths": "chase 21.1% (95th); BB% 13.1% (92nd)",
+   "weaknesses": "xwOBA .269 (7th); K% 34.6% (1st); -6 OAA at 3B",
+   "plan": "Contact program. Target: K% under 32%."
+  },
+  {
+   "group": "Hitters",
+   "player": "Tyler Heineman",
+   "pos": "C",
+   "headline": "Framing +5.9; no bat",
+   "strengths": "K% 9.7% (98th); +5.9 framing runs; xwOBA .244 above his .215 wOBA (unlucky results)",
+   "weaknesses": "xwOBA .244 (1st); chase 41.3% (5th); barrel 0.0% (1st); bat speed 65.0 mph (1st); BB% 2.7% (1st)",
+   "plan": "Swing-decision program. Target: chase under 37%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Reid Detmers",
+   "pos": "SP",
+   "headline": "The ace: slider -17.7 runs, 6.5% walks",
+   "strengths": "xwOBA .280 (83rd); K% 28.5% (87th); BB% 6.5% (84th); slider -17.7 runs vs. MLB",
+   "weaknesses": "\u2014",
+   "plan": "Keep the slider-heavy mix; build the curveball (whiff 21.6 \u2192 37.2%). Target: 30+ starts."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Walbert Ure\u00f1a",
+   "pos": "SP",
+   "headline": "Changeup -18.1; 98 mph",
+   "strengths": "xwOBA .281 (82nd); barrels 5.4% (84th); whiff 26.1% (76th); ground balls 55.8% (95th); fastball 98.1 mph (94th); changeup -18.1 runs vs. MLB",
+   "weaknesses": "BB% 10.9% (18th); four-seam +4.1 runs vs. MLB",
+   "plan": "Command plan by count. Target: walk rate under 8%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Jos\u00e9 Soriano",
+   "pos": "SP",
+   "headline": "Whiffs; walks; third time",
+   "strengths": "whiff 28.3% (87th); ground balls 52.0% (92nd); knuckle curve -9.1 runs vs. MLB; wOBA allowed .288 on .321 xwOBA (results better than contact; likely to rise)",
+   "weaknesses": "BB% 11.2% (17th)",
+   "plan": "Command plan by count. Target: walk rate under 9%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Grayson Rodriguez",
+   "pos": "SP",
+   "headline": "The four-seam gets hit hard",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .360 (5th); K% 19.1% (27th); barrels 8.7% (27th); four-seam +11.5 runs vs. MLB",
+   "plan": "Four-seam shape and location review (+11.5 runs, whiff 27.0 \u2192 16.3% since 2024). Target: four-seam at MLB average."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Ryan Johnson",
+   "pos": "SP",
+   "headline": "The sinker gets hit hard",
+   "strengths": "cutter -5.5 runs vs. MLB",
+   "weaknesses": "xwOBA .335 (21st); K% 18.1% (19th); barrels 9.4% (18th); ground balls 35.0% (11th); sinker +13.9 runs vs. MLB",
+   "plan": "Cut the sinker (+13.9 runs) in favor of the cutter (-5.5). Target: sinker under 20% usage."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Yusei Kikuchi",
+   "pos": "SP",
+   "headline": "Fastball whiffs fading",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .333 (23rd); whiff 19.8% (22nd)",
+   "plan": "Develop one swing-and-miss pitch. Target: whiff rate 22%+."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Jack Kochanowicz",
+   "pos": "SP",
+   "headline": "Ground balls, no strikeouts",
+   "strengths": "ground balls 56.4% (97th)",
+   "weaknesses": "xwOBA .358 (5th); K% 15.9% (8th); BB% 12.2% (10th); changeup +4.1 runs vs. MLB",
+   "plan": "Command plan by count. Target: walk rate under 10%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Brent Suter",
+   "pos": "RP",
+   "headline": "Soft-tossing strike-thrower",
+   "strengths": "BB% 6.8% (79th); barrels 6.4% (71st); ground balls 48.9% (83rd); sinker -4.0 runs vs. MLB",
+   "weaknesses": "whiff 19.8% (22nd); four-seam +6.8 runs vs. MLB",
+   "plan": "Rework or cut the four-seam (shape on Trackman/high-speed video). Target: MLB-average run value."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Mitch Farris",
+   "pos": "RP",
+   "headline": "Hit hard",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .354 (8th); BB% 11.2% (16th); barrels 9.2% (20th); four-seam +6.9 runs vs. MLB",
+   "plan": "Command plan by count. Target: walk rate under 9%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Jos\u00e9 Fermin",
+   "pos": "RP",
+   "headline": "Slider -7.2",
+   "strengths": "K% 26.1% (76th); whiff 27.3% (82nd); slider -7.2 runs vs. MLB",
+   "weaknesses": "xwOBA .327 (28th); BB% 10.5% (22nd)",
+   "plan": "Command plan by count. Target: walk rate under 8%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Ryan Zeferjahn",
+   "pos": "RP",
+   "headline": "Elite whiffs; walks",
+   "strengths": "xwOBA .268 (89th); K% 33.6% (97th); barrels 5.6% (83rd); whiff 31.5% (96th); fastball 97.5 mph (89th); sweeper -7.6 runs vs. MLB",
+   "weaknesses": "BB% 13.9% (3rd)",
+   "plan": "Command plan by count. Target: walk rate under 11%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Sam Bachman",
+   "pos": "RP",
+   "headline": "98.6 mph; walks",
+   "strengths": "whiff 32.0% (97th); ground balls 49.2% (83rd); fastball 98.6 mph (97th); slider -5.4 runs vs. MLB",
+   "weaknesses": "BB% 13.4% (4th)",
+   "plan": "Command plan by count. Target: walk rate under 11%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Chase Silseth",
+   "pos": "RP",
+   "headline": "Velocity up",
+   "strengths": "K% 27.6% (83rd); whiff 30.3% (93rd); four-seam -5.8 runs vs. MLB",
+   "weaknesses": "BB% 12.6% (8th); barrels 8.7% (27th)",
+   "plan": "Command plan by count. Target: walk rate under 10%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Sam Aldegheri",
+   "pos": "SP/RP",
+   "headline": "Depth",
+   "strengths": "wOBA allowed .318 on .355 xwOBA (results better than contact; likely to rise)",
+   "weaknesses": "xwOBA .355 (7th); K% 14.6% (3rd); BB% 11.3% (16th); barrels 9.0% (22nd); whiff 19.0% (17th)",
+   "plan": "Command plan by count. Target: walk rate under 9%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Samy Natera Jr.",
+   "pos": "RP",
+   "headline": "36.6% K",
+   "strengths": "xwOBA .246 (98th); K% 36.6% (99th); barrels 4.4% (93rd); whiff 31.4% (96th); four-seam -8.7 runs vs. MLB",
+   "weaknesses": "ground balls 22.1% (1st)",
+   "plan": "Keep the current mix; monitor velocity and whiffs monthly."
+  },
+  {
+   "group": "Pitchers",
+   "player": "George Klassen",
+   "pos": "SP",
+   "headline": "16.8% walks",
+   "strengths": "whiff 28.1% (86th); ground balls 51.9% (91st); wOBA allowed .316 on .356 xwOBA (results better than contact; likely to rise)",
+   "weaknesses": "xwOBA .356 (7th); K% 19.2% (28th); BB% 16.8% (1st); barrels 8.9% (25th)",
+   "plan": "Command plan by count. Target: walk rate under 14%."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Kirby Yates",
+   "pos": "RP",
+   "headline": "Velocity down 2.4 mph",
+   "strengths": "xwOBA .278 (84th); K% 30.5% (93rd); whiff 30.8% (95th); four-seam -5.5 runs vs. MLB",
+   "weaknesses": "BB% 10.2% (27th)",
+   "plan": "Keep the current mix; monitor velocity and whiffs monthly."
+  },
+  {
+   "group": "Pitchers",
+   "player": "Drew Pomeranz",
+   "pos": "RP",
+   "headline": "Below average",
+   "strengths": "\u2014",
+   "weaknesses": "xwOBA .333 (23rd); K% 14.8% (3rd); BB% 11.1% (17th); whiff 19.8% (22nd); ground balls 26.9% (1st); four-seam +3.2 runs vs. MLB",
+   "plan": "Command plan by count. Target: walk rate under 9%."
+  }
+ ],
+ "devplans": [
+  {
+   "player": "Mike Trout",
+   "group": "Hitter",
+   "shows": ".380 xwOBA and 16.0% barrels (98th pct) at 35; 142 games; -5 OAA in center; right hamstring strain in June",
+   "question": "Keep the bat healthy while reducing sprint load",
+   "assessment": "Hamstring strength (left vs. right); sprint speed; force plates",
+   "block": "Hamstring durability program; left-field transition work",
+   "retest": "Spring: no hamstring asymmetry above 10%; 140+ games"
+  },
+  {
+   "player": "Grayson Rodriguez",
+   "group": "Pitcher",
+   "shows": "Four-seam whiff 27.0 \u2192 16.3% since 2024 (no 2025 data); four-seam +11.5 runs; .360 xwOBA",
+   "question": "Shape or velocity loss after his time away, or location?",
+   "assessment": "Four-seam movement, spin and approach angle vs. 2024 (Trackman); velocity by inning",
+   "block": "Four-seam shape work or reduced usage; more changeups and sliders",
+   "retest": "Spring: four-seam whiff 22%+"
+  },
+  {
+   "player": "Jos\u00e9 Soriano",
+   "group": "Pitcher",
+   "shows": "Four-seam 98.7 \u2192 97.1 mph, sinker 97.7 \u2192 96.3 mph; 11.2% walks; .359 xwOBA the third time",
+   "question": "Velocity loss from fatigue across the season or a mechanical change?",
+   "assessment": "Velocity by month and by inning; delivery video",
+   "block": "Strength and a command plan by count",
+   "retest": "Spring: four-seam 97.5+ mph; walk rate under 10%"
+  },
+  {
+   "player": "Zach Neto",
+   "group": "Hitter",
+   "shows": "11.9% barrels at shortstop but 36.9% chase, 30.5% K and -8 OAA",
+   "question": "Decisions at the plate; first step at shortstop",
+   "assessment": "Pitch-recognition testing; lateral first-step tests",
+   "block": "Swing-decision program; lateral power and positioning",
+   "retest": "Chase under 32%; SS OAA at 0 or better"
+  },
+  {
+   "player": "Ryan Johnson",
+   "group": "Pitcher",
+   "shows": "Sinker 94.3 \u2192 92.4 mph and +13.9 runs; four-seam 89.7 mph",
+   "question": "Lost velocity on his main pitch",
+   "assessment": "Velocity and movement by month; force plates",
+   "block": "Strength block; arsenal built around the cutter (-5.5)",
+   "retest": "Spring: sinker 93.5+ mph or under 20% usage"
+  },
+  {
+   "player": "Reid Detmers",
+   "group": "Pitcher",
+   "shows": "Curveball whiff 21.6 \u2192 37.2%; slider -17.7 runs; 6.5% walks",
+   "question": "Keep the new curveball while holding a 30-start workload",
+   "assessment": "Curveball movement and spin by month; recovery markers",
+   "block": "Maintain the mix; durability block",
+   "retest": "30+ starts; curveball whiff 30%+"
+  }
+ ],
+ "monitoring": [
+  {
+   "who": "Hitters",
+   "rule": "Bat speed from game data reviewed monthly; a monthly drop of 1.0+ mph triggers a strength and health check"
+  },
+  {
+   "who": "Defense",
+   "rule": "OAA by position reviewed monthly against the -15 team target; a regular below -4 by June changes position"
+  },
+  {
+   "who": "Pitchers",
+   "rule": "Fastball velocity by start vs. each pitcher's 30-day average; two straight starts below it trigger an arm-care check"
+  },
+  {
+   "who": "Everyone",
+   "rule": "Weekly countermovement jump on force plates in season, judged against each player's own typical error"
+  }
+ ],
+ "causes": [
+  {
+   "cause": "One-run games (19-29)",
+   "cost": "about -10 wins vs. run differential",
+   "repeats": "Mostly no",
+   "evidence": "Close-game records track bullpen and chance more than talent",
+   "action": "No roster move aimed at \"clutch\""
+  },
+  {
+   "cause": "Weak contact and strikeouts",
+   "cost": "about -57 runs (xwOBA 29th, K% 29th)",
+   "repeats": "Yes",
+   "evidence": "Contact quality and strikeout rate are stable skills",
+   "action": "Main roster priority: two contact bats"
+  },
+  {
+   "cause": "Defense",
+   "cost": "about -30 fielding runs (-42 OAA, 28th)",
+   "repeats": "Yes",
+   "evidence": "Grissom -13 at 1B, Neto -8 at SS, Adell -6, Moncada -6, Trout -5 in CF",
+   "action": "Glove-first CF and 2B; Trout to LF; Grissom off 1B"
+  },
+  {
+   "cause": "Catcher framing",
+   "cost": "about -8 runs (28th)",
+   "repeats": "Yes",
+   "evidence": "O'Hoppe -10.7 (traded); Heineman +5.9",
+   "action": "A catcher who frames; Heineman for pitching-first days"
+  },
+  {
+   "cause": "Rotation depth and walks",
+   "cost": "about -31 runs (42 depth starts at .354); starter BB% 10.0% (29th)",
+   "repeats": "Partly",
+   "evidence": "Rodriguez four-seam +11.5, Johnson sinker +13.9; Soriano 11.2% walks",
+   "action": "One durable starter; pitch design"
+  },
+  {
+   "cause": "Hitting results below contact",
+   "cost": "about -14 runs",
+   "repeats": "Mostly no",
+   "evidence": "Year-to-year r = 0.38",
+   "action": "Do not count on it, either way"
+  }
+ ],
+ "plan": [
+  {
+   "rank": "1",
+   "priority": "Contact bats",
+   "target": "Team K% from 25.5% toward 23%; 600 PA from a .330+ bat instead of the sub-.300 group (.275)",
+   "how": "Jeffers at catcher, N. Lowe or Suzuki; swing-decision work for Neto, Peraza and Siri",
+   "runs_lo": 20,
+   "runs_hi": 30,
+   "wins_lo": 1.8,
+   "wins_hi": 2.8,
+   "upside": false
+  },
+  {
+   "rank": "2",
+   "priority": "Defense",
+   "target": "Team OAA from -42 to -15 or better",
+   "how": "Glove-first CF (Rada or Chisholm); Trout to LF; Schanuel at 1B, Grissom off it; first-step and positioning work for Neto",
+   "runs_lo": 15,
+   "runs_hi": 25,
+   "wins_lo": 1.4,
+   "wins_hi": 2.3,
+   "upside": false
+  },
+  {
+   "rank": "3",
+   "priority": "Rotation depth and walks",
+   "target": "Fewer than 30 starts outside the top five (42 in 2026); starters' BB% from 10.0% to 9.0%",
+   "how": "One durable starter; cut Johnson's sinker and rework Rodriguez's four-seam; command plan for Soriano and Klassen",
+   "runs_lo": 12,
+   "runs_hi": 20,
+   "wins_lo": 1.1,
+   "wins_hi": 1.8,
+   "upside": false
+  },
+  {
+   "rank": "4",
+   "priority": "Catcher framing",
+   "target": "Team framing from -7.7 runs to 0 or better",
+   "how": "A catcher who frames as primary; Heineman (+5.9) as the pitching-first backup",
+   "runs_lo": 5,
+   "runs_hi": 8,
+   "wins_lo": 0.5,
+   "wins_hi": 0.7,
+   "upside": false
+  },
+  {
+   "rank": "\u2014",
+   "priority": "Bullpen strikeouts",
+   "target": "One or two bat-missing relievers (Bednar, Soto)",
+   "how": "Relievers were average; this is depth, not a fix",
+   "runs_lo": 3,
+   "runs_hi": 6,
+   "wins_lo": 0.3,
+   "wins_hi": 0.6,
+   "upside": true
+  }
+ ],
+ "projection": [
+  {
+   "step": "2026 record",
+   "lo": 62,
+   "hi": 62,
+   "kind": "start"
+  },
+  {
+   "step": "Record matches run differential",
+   "lo": 10.1,
+   "hi": 10.1,
+   "kind": "delta"
+  },
+  {
+   "step": "Hitting results return toward contact",
+   "lo": 0.8,
+   "hi": 0.8,
+   "kind": "delta"
+  },
+  {
+   "step": "Four 2027 priorities",
+   "lo": 4.8,
+   "hi": 7.6,
+   "kind": "delta"
+  }
+ ],
+ "decisions": [
+  {
+   "decision": "Add two contact bats, starting at catcher (Jeffers) and 1B/DH (N. Lowe or Suzuki)",
+   "target": "Team K% toward 23%",
+   "wins": "+1.8 to +2.8"
+  },
+  {
+   "decision": "Fix the defense: glove-first CF, Trout to LF, Grissom off first base",
+   "target": "Team OAA -15 or better",
+   "wins": "+1.4 to +2.3"
+  },
+  {
+   "decision": "Deepen the rotation and cut walks (Johnson's sinker, Rodriguez's four-seam)",
+   "target": "Fewer than 30 depth starts",
+   "wins": "+1.1 to +1.8"
+  },
+  {
+   "decision": "Start a catcher who frames",
+   "target": "Framing 0 or better",
+   "wins": "+0.5 to +0.7"
+  },
+  {
+   "decision": "Add bullpen depth with new ownership's budget",
+   "target": "One or two bat-missing relievers",
+   "wins": "upside"
+  }
+ ],
+ "upside": [
+  {
+   "item": "Bullpen depth (Bednar or Soto)",
+   "wins_lo": 0.3,
+   "wins_hi": 0.6
+  },
+  {
+   "item": "Neto and Adell cut chase under 32%",
+   "wins_lo": 0.4,
+   "wins_hi": 0.8
+  },
+  {
+   "item": "Detmers' curveball gain holds (whiff 21.6 \u2192 37.2%)",
+   "wins_lo": 0.3,
+   "wins_hi": 0.3
+  }
+ ],
+ "simulation": [
+  {
+   "scenario": "No changes",
+   "talent": 73,
+   "talent_lo": 70,
+   "talent_hi": 76,
+   "record": 73,
+   "record_lo": 64,
+   "record_hi": 81,
+   "p88": 11
+  },
+  {
+   "scenario": "Plan executed",
+   "talent": 79,
+   "talent_lo": 76,
+   "talent_hi": 82,
+   "record": 79,
+   "record_lo": 71,
+   "record_hi": 88,
+   "p88": 39
+  }
+ ]
+}

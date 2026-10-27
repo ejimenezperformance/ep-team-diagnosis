@@ -1,0 +1,349 @@
+{
+ "team": "ATL",
+ "name": "Braves",
+ "runs_per_woba_point": 0.7811,
+ "kpis": {
+  "wins": 94,
+  "losses": 68,
+  "runs_scored": 742,
+  "runs_allowed": 626,
+  "run_diff": 116,
+  "rd_wins": 92,
+  "one_run_w": 27,
+  "one_run_l": 21,
+  "oaa": 26,
+  "oaa_rank": 4
+ },
+ "offense": [
+  {
+   "metric": "Avg exit velocity (mph)",
+   "team": 88.9356,
+   "mlb": 88.0329,
+   "rank": 4
+  },
+  {
+   "metric": "Hard-hit % (95+ mph)",
+   "team": 39.9857,
+   "mlb": 38.7164,
+   "rank": 10
+  },
+  {
+   "metric": "Barrel %",
+   "team": 8.6346,
+   "mlb": 7.7043,
+   "rank": 5
+  },
+  {
+   "metric": "xwOBA",
+   "team": 0.3151,
+   "mlb": 0.3142,
+   "rank": 14
+  },
+  {
+   "metric": "wOBA",
+   "team": 0.3141,
+   "mlb": 0.3161,
+   "rank": 19
+  },
+  {
+   "metric": "OBP",
+   "team": 0.3095,
+   "mlb": 0.3185,
+   "rank": 28
+  },
+  {
+   "metric": "BB %",
+   "team": 7.6821,
+   "mlb": 8.8861,
+   "rank": 28
+  },
+  {
+   "metric": "K %",
+   "team": 21.6422,
+   "mlb": 22.1377,
+   "rank": 11
+  },
+  {
+   "metric": "Chase %",
+   "team": 33.7109,
+   "mlb": 30.4677,
+   "rank": 29
+  }
+ ],
+ "halves": [
+  {
+   "half": "First half",
+   "woba": 0.3162,
+   "xwoba": 0.3202,
+   "gap": -0.004
+  },
+  {
+   "half": "Second half",
+   "woba": 0.3112,
+   "xwoba": 0.3077,
+   "gap": 0.0034
+  }
+ ],
+ "prevention": [
+  {
+   "area": "Outs Above Average, team",
+   "team": 26,
+   "rank": 4
+  },
+  {
+   "area": "OAA vs. left-handed hitters",
+   "team": 17,
+   "rank": 3
+  },
+  {
+   "area": "OAA vs. right-handed hitters",
+   "team": 8,
+   "rank": 13
+  },
+  {
+   "area": "OAA on balls in front of the fielder",
+   "team": 6,
+   "rank": 8
+  },
+  {
+   "area": "Starters: xwOBA allowed",
+   "team": 0.3162,
+   "mlb": 0.3176,
+   "rank": 15
+  },
+  {
+   "area": "Starters: walk rate",
+   "team": 8.8533,
+   "mlb": 8.2625,
+   "rank": 22
+  },
+  {
+   "area": "Starters: K-BB %",
+   "team": 12.6194,
+   "mlb": 13.6484,
+   "rank": 18
+  },
+  {
+   "area": "Starters: fastball velocity (mph)",
+   "team": 93.392,
+   "mlb": 94.343,
+   "rank": 23
+  },
+  {
+   "area": "Relievers: xwOBA allowed",
+   "team": 0.3018,
+   "mlb": 0.3097,
+   "rank": 14
+  },
+  {
+   "area": "Relievers: walk rate",
+   "team": 8.6325,
+   "mlb": 9.6992,
+   "rank": 4
+  },
+  {
+   "area": "Relievers: K-BB %",
+   "team": 15.0061,
+   "mlb": 12.7343,
+   "rank": 7
+  },
+  {
+   "area": "Relievers: fastball velocity (mph)",
+   "team": 94.4812,
+   "mlb": 94.8125,
+   "rank": 20
+  },
+  {
+   "area": "Catcher framing (runs)",
+   "team": 1.3251,
+   "rank": 13
+  }
+ ],
+ "bridge": [
+  {
+   "step": "Contact quality (xwOBA)",
+   "runs": 4.2768,
+   "group": "Offense"
+  },
+  {
+   "step": "Results vs contact",
+   "runs": -13.3058,
+   "group": "Offense"
+  },
+  {
+   "step": "Baserunning",
+   "runs": -5.4584,
+   "group": "Offense"
+  },
+  {
+   "step": "Sequencing, other",
+   "runs": 30.854,
+   "group": "Offense"
+  },
+  {
+   "step": "Offense total",
+   "runs": 16.3667,
+   "group": "Offense"
+  },
+  {
+   "step": "Starting pitching (xwOBA)",
+   "runs": 3.9099,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Relief pitching (xwOBA)",
+   "runs": 15.0735,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Fielding (Savant)",
+   "runs": 14.2333,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Catcher framing",
+   "runs": 1.3251,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Results allowed vs. contact, other",
+   "runs": 65.0916,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run prevention total",
+   "runs": 99.6333,
+   "group": "Run prevention"
+  },
+  {
+   "step": "Run differential vs. MLB average",
+   "runs": 116.0,
+   "group": "Total"
+  }
+ ],
+ "pitches": [
+  {
+   "pitch": "Curveball",
+   "pitches": 1393,
+   "rv100": 0.7971,
+   "mlb_rv100": 0.3335,
+   "runs_vs_mlb": 6.4579,
+   "whiff": 28.4553,
+   "mlb_whiff": 29.0874
+  },
+  {
+   "pitch": "Cutter",
+   "pitches": 1997,
+   "rv100": 0.2978,
+   "mlb_rv100": 0.0495,
+   "runs_vs_mlb": 4.9587,
+   "whiff": 20.8768,
+   "mlb_whiff": 20.5509
+  },
+  {
+   "pitch": "Sweeper",
+   "pitches": 395,
+   "rv100": 0.6233,
+   "mlb_rv100": 0.0116,
+   "runs_vs_mlb": 2.416,
+   "whiff": 32.3171,
+   "mlb_whiff": 29.5657
+  },
+  {
+   "pitch": "Splitter",
+   "pitches": 722,
+   "rv100": -0.2551,
+   "mlb_rv100": -0.1295,
+   "runs_vs_mlb": -0.9072,
+   "whiff": 25.8883,
+   "mlb_whiff": 32.6589
+  },
+  {
+   "pitch": "Changeup",
+   "pitches": 2849,
+   "rv100": -0.1906,
+   "mlb_rv100": 0.055,
+   "runs_vs_mlb": -6.9961,
+   "whiff": 31.3961,
+   "mlb_whiff": 29.6851
+  },
+  {
+   "pitch": "Slider",
+   "pitches": 4891,
+   "rv100": -0.2374,
+   "mlb_rv100": -0.0205,
+   "runs_vs_mlb": -10.6074,
+   "whiff": 34.7199,
+   "mlb_whiff": 31.685
+  },
+  {
+   "pitch": "Sinker",
+   "pitches": 3785,
+   "rv100": -0.552,
+   "mlb_rv100": -0.2706,
+   "runs_vs_mlb": -10.6511,
+   "whiff": 11.4557,
+   "mlb_whiff": 11.6711
+  },
+  {
+   "pitch": "Four-seam",
+   "pitches": 7189,
+   "rv100": -0.4347,
+   "mlb_rv100": 0.0169,
+   "runs_vs_mlb": -32.4602,
+   "whiff": 18.7946,
+   "mlb_whiff": 18.6567
+  }
+ ],
+ "tto": [
+  {
+   "pitcher": "Chris Sale",
+   "bf": 646,
+   "first": 0.2661,
+   "second": 0.2603,
+   "third": 0.2732
+  },
+  {
+   "pitcher": "Bryce Elder",
+   "bf": 628,
+   "first": 0.3077,
+   "second": 0.3003,
+   "third": 0.3314
+  },
+  {
+   "pitcher": "Grant Holmes",
+   "bf": 609,
+   "first": 0.3233,
+   "second": 0.3686,
+   "third": 0.324
+  },
+  {
+   "pitcher": "Mart\u00edn P\u00e9rez",
+   "bf": 560,
+   "first": 0.3332,
+   "second": 0.2969,
+   "third": 0.3843
+  },
+  {
+   "pitcher": "Reynaldo L\u00f3pez",
+   "bf": 250,
+   "first": 0.3818,
+   "second": 0.2902,
+   "third": 0.3475
+  },
+  {
+   "pitcher": "JR Ritchie",
+   "bf": 248,
+   "first": 0.2965,
+   "second": 0.3753,
+   "third": 0.4018
+  },
+  {
+   "pitcher": "Tyler Mahle",
+   "bf": 210,
+   "first": 0.3069,
+   "second": 0.3139,
+   "third": 0.2338
+  }
+ ]
+}
